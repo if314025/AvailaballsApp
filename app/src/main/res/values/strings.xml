@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Availaballs</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="font_roboto">roboto</string>
+    <string name="font_stoke">stoke</string>
+    <string name="font_icon">icomoons</string>
+</resources>

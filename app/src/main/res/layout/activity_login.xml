@@ -41,7 +41,7 @@
         tools:layout_constraintRight_creator="1"
         tools:layout_constraintTop_creator="1">
 
-        <bolalob.develops.stud11314025.availaballs.CustomFontTextView
+        <bolalob.develops.stud11314025.availaballs.CustomFontEditTextView
             android:id="@+id/eTPassword"
             android:layout_width="240dp"
             android:layout_height="wrap_content"
@@ -92,7 +92,7 @@
         tools:layout_constraintRight_creator="1">
 
 
-        <bolalob.develops.stud11314025.availaballs.CustomFontTextView
+        <bolalob.develops.stud11314025.availaballs.CustomFontEditTextView
             android:id="@+id/eTEmail"
             android:layout_width="match_parent"
             android:layout_height="@dimen/size44"
@@ -106,7 +106,7 @@
 
     </android.support.design.widget.TextInputLayout>
 
-    <bolalob.develops.stud11314025.availaballs.CustomFontTView
+    <bolalob.develops.stud11314025.availaballs.CustomFontTextView
         android:id="@+id/customFontTView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -124,26 +124,27 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toLeftOf="@+id/textInputEmail" />
 
-    <bolalob.develops.stud11314025.availaballs.CustomFontTView
+    <bolalob.develops.stud11314025.availaballs.CustomFontTextView
         android:id="@+id/customFontTView"
-        android:layout_width="19dp"
-        android:layout_height="23dp"
+        android:layout_width="21dp"
+        android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
         android:layout_marginEnd="8dp"
         android:layout_marginLeft="16dp"
         android:layout_marginRight="8dp"
+        android:textStyle="bold"
         android:layout_marginStart="16dp"
         android:layout_marginTop="8dp"
         android:text="@string/pass_icon"
         android:textColor="@color/pressed"
-        android:textSize="25sp"
+        android:textSize="23sp"
         app:font="@string/font_icon"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toLeftOf="@+id/textInputPassword"
         app:layout_constraintTop_toBottomOf="@+id/customFontTView2"
-        app:layout_constraintVertical_bias="0.12" />
+        app:layout_constraintVertical_bias="0.14" />
 
 
 </android.support.constraint.ConstraintLayout>

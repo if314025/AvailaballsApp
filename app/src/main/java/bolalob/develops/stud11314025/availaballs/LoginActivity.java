@@ -1,9 +1,6 @@
 package bolalob.develops.stud11314025.availaballs;
 
 import android.content.Intent;
-import android.graphics.Color;
-import android.graphics.Typeface;
-import android.opengl.EGLExt;
 import android.os.Build;
 //import android.support.design.R;
 import android.support.design.widget.Snackbar;
@@ -16,6 +13,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
+import bolalob.develops.stud11314025.availaballs.Activity.MainActivity;
 import butterknife.Bind;
 import butterknife.ButterKnife;
 

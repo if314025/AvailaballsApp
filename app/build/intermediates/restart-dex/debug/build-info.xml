@@ -5,30 +5,30 @@
     density="hdpi"
     format="8"
     plugin-version="2.2.3"
-    timestamp="94986891631937"
+    timestamp="96393680358555"
     token="-5170679783613780038"
-    verifier="FULL_BUILD_REQUESTED" >
+    verifier="MANIFEST_FILE_CHANGE" >
 
     <task
         name="javac"
-        duration="7937" />
+        duration="1927" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="886" />
+        duration="183" />
     <task
         name="verifier"
-        duration="117" />
+        duration="74" />
 
     <artifact
         location="D:\Intern GVM\Backup\Availaballs\AvailaballsApp\app\build\outputs\apk\app-debug.apk"
         type="MAIN" />
 
     <build
-        timestamp="94986891631937"
-        verifier="FULL_BUILD_REQUESTED" >
+        timestamp="96393680358555"
+        verifier="MANIFEST_FILE_CHANGE" >
         <artifact
             location="D:\Intern GVM\Backup\Availaballs\AvailaballsApp\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />

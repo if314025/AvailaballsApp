@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Tue Jun 20 21:36:44 ICT 2017
+#Tue Jun 20 21:59:28 ICT 2017
 210.set=ANDROID_RESOURCE
 282.file=D\:\\Intern GVM\\Backup\\Availaballs\\AvailaballsApp\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-v21\\design_bottom_navigation_item_background.xml
 14.set=ANDROID_RESOURCE

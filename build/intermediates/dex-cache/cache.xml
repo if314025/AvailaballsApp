@@ -12,75 +12,21 @@
     </item>
     <item
         is-multidex="true"
-        jar="D:\Intern GVM\Backup\Availaballs\AvailaballsApp\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.3.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
-        <dex dex="D:\Intern GVM\Backup\Availaballs\AvailaballsApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.3.1_5af0851cef70569412f527065f4743c958dcf4ce\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\Intern GVM\Backup\Availaballs\AvailaballsApp\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.3.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
-        <dex dex="D:\Intern GVM\Backup\Availaballs\AvailaballsApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-25.3.1_3fc2f5ca863d8e603c0e32cf9bc58bfd3ac36e33\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Okta\AppData\Local\Android\sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
-        <dex dex="D:\Intern GVM\Backup\Availaballs\AvailaballsApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\constraint-layout-solver-1.0.2_1582c0fd27ebf63212b87c883ac250dc856c708b\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\Intern GVM\Backup\Availaballs\AvailaballsApp\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="c35b2439fda147b26cfbb0636bb2075965c3ba36">
-        <dex dex="D:\Intern GVM\Backup\Availaballs\AvailaballsApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_e87d25a9415d6ba42aaa68638b594741778e3b6c\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\Intern GVM\Backup\Availaballs\AvailaballsApp\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.3.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="D:\Intern GVM\Backup\Availaballs\AvailaballsApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.3.1_4e06a5be8695fc367b8f13d1b2e472d99e8c56d9\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\Intern GVM\Backup\Availaballs\AvailaballsApp\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.3.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
-        <dex dex="D:\Intern GVM\Backup\Availaballs\AvailaballsApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.3.1_d4e2f311701fbe19836a56368f8b97a5d8440679\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\Intern GVM\Backup\Availaballs\AvailaballsApp\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.3.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
-        <dex dex="D:\Intern GVM\Backup\Availaballs\AvailaballsApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.3.1_1f9f0ec90337ac82185946f4d8ae8cd5da5948b4\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="D:\Intern GVM\Backup\Availaballs\AvailaballsApp\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="f69ff4790a7aec3b7ad127a127bac1cbe0de2fa6">
         <dex dex="D:\Intern GVM\Backup\Availaballs\AvailaballsApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_69015f238a921a87e0839f68fdc18065e2a59f4f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Intern GVM\Backup\Availaballs\AvailaballsApp\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.3.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="D:\Intern GVM\Backup\Availaballs\AvailaballsApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.3.1_5af0851cef70569412f527065f4743c958dcf4ce\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -111,6 +57,15 @@
     </item>
     <item
         is-multidex="true"
+        jar="D:\Intern GVM\Backup\Availaballs\AvailaballsApp\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.3.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="D:\Intern GVM\Backup\Availaballs\AvailaballsApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-25.3.1_3fc2f5ca863d8e603c0e32cf9bc58bfd3ac36e33\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\Users\Okta\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.3.1\support-annotations-25.3.1.jar"
         jumboMode="true"
         optimize="true"
@@ -135,6 +90,24 @@
         revision="25.0.2"
         sha1="150252b33b00274cc868578ade018fda0d43a3eb">
         <dex dex="D:\Intern GVM\Backup\Availaballs\AvailaballsApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-25.3.1_ebb95890300ffbba25cfe6b18d565fad1d79d9e5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Okta\AppData\Local\Android\sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="D:\Intern GVM\Backup\Availaballs\AvailaballsApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\constraint-layout-solver-1.0.2_1582c0fd27ebf63212b87c883ac250dc856c708b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Intern GVM\Backup\Availaballs\AvailaballsApp\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="27b7c7fd1349a66d91e96eb40a8fd3ffa1230538">
+        <dex dex="D:\Intern GVM\Backup\Availaballs\AvailaballsApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_e87d25a9415d6ba42aaa68638b594741778e3b6c\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -165,12 +138,39 @@
     </item>
     <item
         is-multidex="true"
+        jar="D:\Intern GVM\Backup\Availaballs\AvailaballsApp\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.3.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="D:\Intern GVM\Backup\Availaballs\AvailaballsApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.3.1_4e06a5be8695fc367b8f13d1b2e472d99e8c56d9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="D:\Intern GVM\Backup\Availaballs\AvailaballsApp\app\build\intermediates\exploded-aar\com.nispok\snackbar\2.6.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="8417abbb0af2ddca74456c10fe4eef35f821ad08">
         <dex dex="D:\Intern GVM\Backup\Availaballs\AvailaballsApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.nispok-snackbar-2.6.1_e9da64ff6acbae6e49bf61803d9857e7e888d7ae\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Intern GVM\Backup\Availaballs\AvailaballsApp\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.3.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="D:\Intern GVM\Backup\Availaballs\AvailaballsApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.3.1_d4e2f311701fbe19836a56368f8b97a5d8440679\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Intern GVM\Backup\Availaballs\AvailaballsApp\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.3.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="D:\Intern GVM\Backup\Availaballs\AvailaballsApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.3.1_1f9f0ec90337ac82185946f4d8ae8cd5da5948b4\classes.dex" />
     </item>
 
 </items>

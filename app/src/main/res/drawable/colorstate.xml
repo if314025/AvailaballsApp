@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<selector xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:drawable="@color/pressed" android:state_pressed="true"/>
-    <!--berubah menjadi merah ketika tombol ditekan -->
-    <item android:color="#d7d0d0"/>
-    <!--warna default-->
-</selector>

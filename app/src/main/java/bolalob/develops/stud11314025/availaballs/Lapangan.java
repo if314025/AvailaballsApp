@@ -1,5 +1,7 @@
 package bolalob.develops.stud11314025.availaballs;
 
+import java.util.ArrayList;
+
 /**
  * Created by Okta on 19/06/2017.
  */
@@ -38,4 +40,5 @@ public class Lapangan {
     public void setLokasi(String lokasi) {
         Lokasi = lokasi;
     }
+
 }

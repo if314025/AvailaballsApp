@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "D:\\Intern GVM\\Backup\\Availaballs\\AvailaballsApp\\app\\build\\intermediates\\res\\merged\\debug\\interpolator\\sb__accelerate_cubic.xml",
+        "source": "D:\\Intern GVM\\Backup\\Availaballs\\AvailaballsApp\\app\\build\\intermediates\\exploded-aar\\com.nispok\\snackbar\\2.6.1\\res\\interpolator\\sb__accelerate_cubic.xml"
+    },
+    {
+        "merged": "D:\\Intern GVM\\Backup\\Availaballs\\AvailaballsApp\\app\\build\\intermediates\\res\\merged\\debug\\interpolator\\sb__decelerate_cubic.xml",
+        "source": "D:\\Intern GVM\\Backup\\Availaballs\\AvailaballsApp\\app\\build\\intermediates\\exploded-aar\\com.nispok\\snackbar\\2.6.1\\res\\interpolator\\sb__decelerate_cubic.xml"
+    }
+]

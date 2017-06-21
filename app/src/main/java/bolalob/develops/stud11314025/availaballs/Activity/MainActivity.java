@@ -81,11 +81,11 @@ public class MainActivity extends AppCompatActivity {
 
     }
     private void initDataset(){
-        dataSet.add(new Lapangan(1,"Futsal","Slipi"));
-        dataSet.add(new Lapangan(2,"Futsal1","Palmerah"));
-        dataSet.add(new Lapangan(3,"JokoFutsal","H Rausin"));
-        dataSet.add(new Lapangan(4,"OktaFutsal","H RAusin2"));
-        dataSet.add(new Lapangan(5,"OFutsal","H ra"));
+
+        for (int i=1;i<21;i++){
+            dataSet.add(new Lapangan(i,"Futsal Bolalob","Wisma77Tower2"));
+        }
+
 
     }
 }

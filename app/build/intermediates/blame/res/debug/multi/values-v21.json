@@ -1879,29 +1879,8 @@
                     "startLine": 269,
                     "startColumn": 4,
                     "startOffset": 19566,
-                    "endLine": 274,
-                    "endColumn": 12,
-                    "endOffset": 19875
-                },
-                "from": {
-                    "file": "D:\\Intern GVM\\Backup\\Availaballs\\AvailaballsApp\\app\\build\\intermediates\\exploded-aar\\com.nispok\\snackbar\\2.6.1\\res\\values-v21\\values.xml",
-                    "position": {
-                        "startLine": 4,
-                        "startColumn": 4,
-                        "startOffset": 166,
-                        "endLine": 9,
-                        "endColumn": 12,
-                        "endOffset": 475
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 275,
-                    "startColumn": 4,
-                    "startOffset": 19880,
                     "endColumn": 118,
-                    "endOffset": 19994
+                    "endOffset": 19680
                 },
                 "from": {
                     "file": "D:\\Intern GVM\\Backup\\Availaballs\\AvailaballsApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\values-v21\\values-v21.xml",
@@ -1916,11 +1895,11 @@
             },
             {
                 "to": {
-                    "startLine": 276,
+                    "startLine": 270,
                     "startColumn": 4,
-                    "startOffset": 19999,
+                    "startOffset": 19685,
                     "endColumn": 128,
-                    "endOffset": 20123
+                    "endOffset": 19809
                 },
                 "from": {
                     "file": "D:\\Intern GVM\\Backup\\Availaballs\\AvailaballsApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\values-v21\\values-v21.xml",
@@ -1935,12 +1914,12 @@
             },
             {
                 "to": {
-                    "startLine": 277,
+                    "startLine": 271,
                     "startColumn": 4,
-                    "startOffset": 20128,
-                    "endLine": 279,
+                    "startOffset": 19814,
+                    "endLine": 273,
                     "endColumn": 12,
-                    "endOffset": 20294
+                    "endOffset": 19980
                 },
                 "from": {
                     "file": "D:\\Intern GVM\\Backup\\Availaballs\\AvailaballsApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\values-v21\\values-v21.xml",
@@ -1956,12 +1935,12 @@
             },
             {
                 "to": {
-                    "startLine": 280,
+                    "startLine": 274,
                     "startColumn": 4,
-                    "startOffset": 20299,
-                    "endLine": 282,
+                    "startOffset": 19985,
+                    "endLine": 276,
                     "endColumn": 12,
-                    "endOffset": 20460
+                    "endOffset": 20146
                 },
                 "from": {
                     "file": "D:\\Intern GVM\\Backup\\Availaballs\\AvailaballsApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\values-v21\\values-v21.xml",
@@ -1977,11 +1956,11 @@
             },
             {
                 "to": {
-                    "startLine": 283,
+                    "startLine": 277,
                     "startColumn": 4,
-                    "startOffset": 20465,
+                    "startOffset": 20151,
                     "endColumn": 128,
-                    "endOffset": 20589
+                    "endOffset": 20275
                 },
                 "from": {
                     "file": "D:\\Intern GVM\\Backup\\Availaballs\\AvailaballsApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\values-v21\\values-v21.xml",
@@ -1996,12 +1975,12 @@
             },
             {
                 "to": {
-                    "startLine": 284,
+                    "startLine": 278,
                     "startColumn": 4,
-                    "startOffset": 20594,
-                    "endLine": 286,
+                    "startOffset": 20280,
+                    "endLine": 280,
                     "endColumn": 12,
-                    "endOffset": 20760
+                    "endOffset": 20446
                 },
                 "from": {
                     "file": "D:\\Intern GVM\\Backup\\Availaballs\\AvailaballsApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\values-v21\\values-v21.xml",
@@ -2017,11 +1996,11 @@
             },
             {
                 "to": {
-                    "startLine": 287,
+                    "startLine": 281,
                     "startColumn": 4,
-                    "startOffset": 20765,
+                    "startOffset": 20451,
                     "endColumn": 130,
-                    "endOffset": 20891
+                    "endOffset": 20577
                 },
                 "from": {
                     "file": "D:\\Intern GVM\\Backup\\Availaballs\\AvailaballsApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\values-v21\\values-v21.xml",
@@ -2036,12 +2015,12 @@
             },
             {
                 "to": {
-                    "startLine": 288,
+                    "startLine": 282,
                     "startColumn": 4,
-                    "startOffset": 20896,
-                    "endLine": 290,
+                    "startOffset": 20582,
+                    "endLine": 284,
                     "endColumn": 12,
-                    "endOffset": 21061
+                    "endOffset": 20747
                 },
                 "from": {
                     "file": "D:\\Intern GVM\\Backup\\Availaballs\\AvailaballsApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\values-v21\\values-v21.xml",
@@ -2057,12 +2036,12 @@
             },
             {
                 "to": {
-                    "startLine": 291,
+                    "startLine": 285,
                     "startColumn": 4,
-                    "startOffset": 21066,
-                    "endLine": 293,
+                    "startOffset": 20752,
+                    "endLine": 287,
                     "endColumn": 12,
-                    "endOffset": 21236
+                    "endOffset": 20922
                 },
                 "from": {
                     "file": "D:\\Intern GVM\\Backup\\Availaballs\\AvailaballsApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\values-v21\\values-v21.xml",
@@ -2078,12 +2057,12 @@
             },
             {
                 "to": {
-                    "startLine": 294,
+                    "startLine": 288,
                     "startColumn": 4,
-                    "startOffset": 21241,
-                    "endLine": 298,
+                    "startOffset": 20927,
+                    "endLine": 292,
                     "endColumn": 12,
-                    "endOffset": 21577
+                    "endOffset": 21263
                 },
                 "from": {
                     "file": "D:\\Intern GVM\\Backup\\Availaballs\\AvailaballsApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\values-v21\\values-v21.xml",
@@ -2099,22 +2078,22 @@
             },
             {
                 "to": {
-                    "startLine": 299,
+                    "startLine": 293,
                     "startColumn": 4,
-                    "startOffset": 21582,
-                    "endLine": 301,
+                    "startOffset": 21268,
+                    "endLine": 295,
                     "endColumn": 12,
-                    "endOffset": 21771
+                    "endOffset": 21461
                 },
                 "from": {
-                    "file": "D:\\Intern GVM\\Backup\\Availaballs\\AvailaballsApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.0.1\\res\\values-v21\\values-v21.xml",
+                    "file": "D:\\Intern GVM\\Backup\\Availaballs\\AvailaballsApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.3.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
                         "startOffset": 55,
                         "endLine": 4,
                         "endColumn": 12,
-                        "endOffset": 244
+                        "endOffset": 248
                     }
                 }
             }

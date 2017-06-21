@@ -6,5 +6,9 @@
     {
         "merged": "D:\\Intern GVM\\Backup\\Availaballs\\AvailaballsApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\logoavailaball.png",
         "source": "D:\\Intern GVM\\Backup\\Availaballs\\AvailaballsApp\\app\\src\\main\\res\\drawable-xxhdpi\\logoavailaball.png"
+    },
+    {
+        "merged": "D:\\Intern GVM\\Backup\\Availaballs\\AvailaballsApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\emptydata.png",
+        "source": "D:\\Intern GVM\\Backup\\Availaballs\\AvailaballsApp\\app\\src\\main\\res\\drawable-xxhdpi\\emptydata.png"
     }
 ]

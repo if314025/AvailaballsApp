@@ -267,12 +267,6 @@
         <item name="android:buttonBarStyle">?attr/buttonBarStyle</item>
         <item name="android:buttonBarButtonStyle">?attr/buttonBarButtonStyle</item>
     </style>
-    <style name="Snackbar.Text.Action">
-        <item name="android:textAllCaps">true</item>
-        <item name="android:fontFamily">sans-serif-medium</item>
-        <item name="android:textColor">@color/sb__action_text_color</item>
-        <item name="android:background">@drawable/sb__btn_bg</item>
-    </style>
     <style name="TextAppearance.AppCompat.Notification" parent="@android:style/TextAppearance.Material.Notification"/>
     <style name="TextAppearance.AppCompat.Notification.Info" parent="@android:style/TextAppearance.Material.Notification.Info"/>
     <style name="TextAppearance.AppCompat.Notification.Info.Media">
@@ -298,6 +292,6 @@
         <item name="android:textSize">@dimen/notification_action_text_size</item>
     </style>
     <style name="Widget.Design.AppBarLayout" parent="Base.Widget.Design.AppBarLayout">
-        <item name="android:stateListAnimator">@anim/design_appbar_state_list_animator</item>
+        <item name="android:stateListAnimator">@animator/design_appbar_state_list_animator</item>
     </style>
 </resources>

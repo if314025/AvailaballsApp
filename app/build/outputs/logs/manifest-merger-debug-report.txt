@@ -15,9 +15,8 @@ ADDED from D:\Intern GVM\Backup\Availaballs\AvailaballsApp\app\src\main\AndroidM
 		INJECTED from D:\Intern GVM\Backup\Availaballs\AvailaballsApp\app\src\main\AndroidManifest.xml
 application
 ADDED from D:\Intern GVM\Backup\Availaballs\AvailaballsApp\app\src\main\AndroidManifest.xml:5:5-26:19
-MERGED from [com.nispok:snackbar:2.6.1] D:\Intern GVM\Backup\Availaballs\AvailaballsApp\app\build\intermediates\exploded-aar\com.nispok\snackbar\2.6.1\AndroidManifest.xml:10:5-20
-MERGED from [com.android.support:design:25.0.1] D:\Intern GVM\Backup\Availaballs\AvailaballsApp\app\build\intermediates\exploded-aar\com.android.support\design\25.0.1\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:transition:25.0.1] D:\Intern GVM\Backup\Availaballs\AvailaballsApp\app\build\intermediates\exploded-aar\com.android.support\transition\25.0.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:25.3.1] D:\Intern GVM\Backup\Availaballs\AvailaballsApp\app\build\intermediates\exploded-aar\com.android.support\design\25.3.1\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:transition:25.3.1] D:\Intern GVM\Backup\Availaballs\AvailaballsApp\app\build\intermediates\exploded-aar\com.android.support\transition\25.3.1\AndroidManifest.xml:26:5-20
 MERGED from [com.android.support:appcompat-v7:25.3.1] D:\Intern GVM\Backup\Availaballs\AvailaballsApp\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.3.1\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:animated-vector-drawable:25.3.1] D:\Intern GVM\Backup\Availaballs\AvailaballsApp\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.3.1\AndroidManifest.xml:26:5-20
 MERGED from [com.android.support:support-vector-drawable:25.3.1] D:\Intern GVM\Backup\Availaballs\AvailaballsApp\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.3.1\AndroidManifest.xml:26:5-20
@@ -68,9 +67,9 @@ ADDED from D:\Intern GVM\Backup\Availaballs\AvailaballsApp\app\src\main\AndroidM
 		ADDED from D:\Intern GVM\Backup\Availaballs\AvailaballsApp\app\src\main\AndroidManifest.xml:22:13-50
 uses-sdk
 INJECTED from D:\Intern GVM\Backup\Availaballs\AvailaballsApp\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-MERGED from [com.nispok:snackbar:2.6.1] D:\Intern GVM\Backup\Availaballs\AvailaballsApp\app\build\intermediates\exploded-aar\com.nispok\snackbar\2.6.1\AndroidManifest.xml:6:5-8:41
-MERGED from [com.android.support:design:25.0.1] D:\Intern GVM\Backup\Availaballs\AvailaballsApp\app\build\intermediates\exploded-aar\com.android.support\design\25.0.1\AndroidManifest.xml:21:5-23:62
-MERGED from [com.android.support:transition:25.0.1] D:\Intern GVM\Backup\Availaballs\AvailaballsApp\app\build\intermediates\exploded-aar\com.android.support\transition\25.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.roughike:bottom-bar:2.3.1] D:\Intern GVM\Backup\Availaballs\AvailaballsApp\app\build\intermediates\exploded-aar\com.roughike\bottom-bar\2.3.1\AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:design:25.3.1] D:\Intern GVM\Backup\Availaballs\AvailaballsApp\app\build\intermediates\exploded-aar\com.android.support\design\25.3.1\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:transition:25.3.1] D:\Intern GVM\Backup\Availaballs\AvailaballsApp\app\build\intermediates\exploded-aar\com.android.support\transition\25.3.1\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:appcompat-v7:25.3.1] D:\Intern GVM\Backup\Availaballs\AvailaballsApp\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.3.1\AndroidManifest.xml:21:5-23:78
 MERGED from [com.android.support:animated-vector-drawable:25.3.1] D:\Intern GVM\Backup\Availaballs\AvailaballsApp\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.3.1\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-vector-drawable:25.3.1] D:\Intern GVM\Backup\Availaballs\AvailaballsApp\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.3.1\AndroidManifest.xml:20:5-43
@@ -83,7 +82,7 @@ MERGED from [com.android.support:recyclerview-v7:25.3.1] D:\Intern GVM\Backup\Av
 MERGED from [com.android.support:support-core-ui:25.3.1] D:\Intern GVM\Backup\Availaballs\AvailaballsApp\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.3.1\AndroidManifest.xml:21:5-23:58
 MERGED from [com.android.support:support-compat:25.3.1] D:\Intern GVM\Backup\Availaballs\AvailaballsApp\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.3.1\AndroidManifest.xml:21:5-23:58
 	tools:overrideLibrary
-		ADDED from [com.android.support:design:25.0.1] D:\Intern GVM\Backup\Availaballs\AvailaballsApp\app\build\intermediates\exploded-aar\com.android.support\design\25.0.1\AndroidManifest.xml:23:9-59
+		ADDED from [com.android.support:design:25.3.1] D:\Intern GVM\Backup\Availaballs\AvailaballsApp\app\build\intermediates\exploded-aar\com.android.support\design\25.3.1\AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
 		INJECTED from D:\Intern GVM\Backup\Availaballs\AvailaballsApp\app\src\main\AndroidManifest.xml
 		INJECTED from D:\Intern GVM\Backup\Availaballs\AvailaballsApp\app\src\main\AndroidManifest.xml
@@ -91,7 +90,9 @@ MERGED from [com.android.support:support-compat:25.3.1] D:\Intern GVM\Backup\Ava
 		INJECTED from D:\Intern GVM\Backup\Availaballs\AvailaballsApp\app\src\main\AndroidManifest.xml
 		INJECTED from D:\Intern GVM\Backup\Availaballs\AvailaballsApp\app\src\main\AndroidManifest.xml
 meta-data#android.support.VERSION
-ADDED from [com.android.support:appcompat-v7:25.3.1] D:\Intern GVM\Backup\Availaballs\AvailaballsApp\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.3.1\AndroidManifest.xml:25:5-27:34
+ADDED from [com.android.support:design:25.3.1] D:\Intern GVM\Backup\Availaballs\AvailaballsApp\app\build\intermediates\exploded-aar\com.android.support\design\25.3.1\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:transition:25.3.1] D:\Intern GVM\Backup\Availaballs\AvailaballsApp\app\build\intermediates\exploded-aar\com.android.support\transition\25.3.1\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:appcompat-v7:25.3.1] D:\Intern GVM\Backup\Availaballs\AvailaballsApp\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.3.1\AndroidManifest.xml:25:5-27:34
 MERGED from [com.android.support:animated-vector-drawable:25.3.1] D:\Intern GVM\Backup\Availaballs\AvailaballsApp\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.3.1\AndroidManifest.xml:22:5-24:34
 MERGED from [com.android.support:support-vector-drawable:25.3.1] D:\Intern GVM\Backup\Availaballs\AvailaballsApp\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.3.1\AndroidManifest.xml:22:5-24:34
 MERGED from [com.android.support:support-v4:25.3.1] D:\Intern GVM\Backup\Availaballs\AvailaballsApp\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.3.1\AndroidManifest.xml:25:5-27:34
@@ -102,6 +103,6 @@ MERGED from [com.android.support:recyclerview-v7:25.3.1] D:\Intern GVM\Backup\Av
 MERGED from [com.android.support:support-core-ui:25.3.1] D:\Intern GVM\Backup\Availaballs\AvailaballsApp\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.3.1\AndroidManifest.xml:25:5-27:34
 MERGED from [com.android.support:support-compat:25.3.1] D:\Intern GVM\Backup\Availaballs\AvailaballsApp\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.3.1\AndroidManifest.xml:25:5-27:34
 	android:value
-		ADDED from [com.android.support:appcompat-v7:25.3.1] D:\Intern GVM\Backup\Availaballs\AvailaballsApp\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.3.1\AndroidManifest.xml:27:9-31
+		ADDED from [com.android.support:design:25.3.1] D:\Intern GVM\Backup\Availaballs\AvailaballsApp\app\build\intermediates\exploded-aar\com.android.support\design\25.3.1\AndroidManifest.xml:27:9-31
 	android:name
-		ADDED from [com.android.support:appcompat-v7:25.3.1] D:\Intern GVM\Backup\Availaballs\AvailaballsApp\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.3.1\AndroidManifest.xml:26:9-47
+		ADDED from [com.android.support:design:25.3.1] D:\Intern GVM\Backup\Availaballs\AvailaballsApp\app\build\intermediates\exploded-aar\com.android.support\design\25.3.1\AndroidManifest.xml:26:9-47

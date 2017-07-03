@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="D:\Intern GVM\Backup\Availaballs\AvailaballsApp\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="D:\Intern GVM\Backup\Availaballs\AvailaballsApp\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_69015f238a921a87e0839f68fdc18065e2a59f4f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Intern GVM\Backup\Availaballs\AvailaballsApp\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="408d3d1de673a2a6bf1f053da93875cddb554dfa">
+        <dex dex="D:\Intern GVM\Backup\Availaballs\AvailaballsApp\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_e87d25a9415d6ba42aaa68638b594741778e3b6c\classes.dex" />
+    </item>
+
+</items>

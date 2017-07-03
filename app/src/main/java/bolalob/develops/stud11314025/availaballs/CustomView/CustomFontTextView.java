@@ -12,7 +12,7 @@ import bolalob.develops.stud11314025.availaballs.R;
  * Created by Okta on 15/06/2017.
  */
 
-public class CustomFontTextView extends TextView {
+public class CustomFontTextView extends android.support.v7.widget.AppCompatTextView {
     public static final String ANDROID_SCHEMA = "http://schemas.android.com/apk/res/android";
 
     public CustomFontTextView(Context context, AttributeSet attrs) {

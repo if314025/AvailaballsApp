@@ -1,7 +1,0 @@
-#Mon Jul 03 13:20:31 ICT 2017
-base.0=D\:\\Kuliah\\Magang_GVM\\entah_apa_2\\AvailaballsApp\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_f0b787c90d69e6eea4c06320196ec9bf2dbdbb8a
-renamed.1=classes2.dex
-renamed.0=classes.dex
-file.1=D\:\\Kuliah\\Magang_GVM\\entah_apa_2\\AvailaballsApp\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_a66a89dbb70967f3142aef34dfc2b97cf0b07155\\classes.dex
-base.1=D\:\\Kuliah\\Magang_GVM\\entah_apa_2\\AvailaballsApp\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_a66a89dbb70967f3142aef34dfc2b97cf0b07155
-file.0=D\:\\Kuliah\\Magang_GVM\\entah_apa_2\\AvailaballsApp\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_f0b787c90d69e6eea4c06320196ec9bf2dbdbb8a\\classes.dex

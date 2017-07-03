@@ -48,14 +48,13 @@
             android:layout_height="40dp"
             android:layout_above="@+id/btnLogin"
             android:layout_below="@+id/eTEmail"
-
             android:ems="10"
             android:textSize="14sp"
             android:hint="password"
             android:inputType="textPassword"
             android:textColor="?attr/colorBackgroundFloating"
             android:textStyle="normal"
-            app:font="@string/font_stoke" />
+            app:font="@string/font_roboto" />
     </android.support.design.widget.TextInputLayout>
 
     <Button
@@ -142,7 +141,6 @@
             android:textSize="14sp"
             android:hint="email"
             android:inputType="textEmailAddress"
-
             android:textColor="?attr/colorBackgroundFloating"
             android:textStyle="normal"
             app:font="@string/font_roboto"

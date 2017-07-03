@@ -41,13 +41,13 @@
         app:itemTextColor="@color/clrpressed"
         app:paddingStart="@dimen/activity_horizontal_margin"
         android:background="@color/clrAddLpng"
-        android:layout_width="fill_parent"
-        android:gravity="center_vertical|center"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="60dp"
         android:layout_alignParentBottom="true"
         app:menu="@menu/my_navigation_items"
         android:textAlignment="center"
-         />
+        android:paddingBottom="19dp" />
 
     <bolalob.develops.stud11314025.availaballs.CustomView.CustomFontTextView
         android:layout_width="wrap_content"
@@ -110,7 +110,6 @@
         android:id="@+id/button4"
         android:layout_marginLeft="10dp"
         android:layout_marginStart="10dp"
-
         android:layout_alignTop="@+id/button3"
         android:layout_toRightOf="@+id/button3"
         android:layout_toEndOf="@+id/button3" />
@@ -129,7 +128,6 @@
         android:layout_marginBottom="@dimen/size80"
         android:textSize="@dimen/font12" android:layout_marginLeft="10dp"
         android:layout_marginStart="10dp"
-
         android:layout_alignBottom="@id/rv_main"
         />
 
@@ -160,7 +158,6 @@
         android:layout_alignBottom="@+id/button4"
         android:layout_above="@id/navigation"
         android:layout_toLeftOf="@+id/button2"
-
         android:layout_toStartOf="@+id/button2"
         />
 
@@ -178,6 +175,7 @@
         android:layout_toEndOf="@+id/button4"
         android:layout_marginLeft="10dp"
         android:layout_marginStart="10dp" />
+
 
 
 </RelativeLayout>

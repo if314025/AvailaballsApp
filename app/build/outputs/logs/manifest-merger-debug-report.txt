@@ -15,18 +15,18 @@ ADDED from D:\Intern GVM\Backup\Availaballs\AvailaballsApp\app\src\main\AndroidM
 		INJECTED from D:\Intern GVM\Backup\Availaballs\AvailaballsApp\app\src\main\AndroidManifest.xml
 application
 ADDED from D:\Intern GVM\Backup\Availaballs\AvailaballsApp\app\src\main\AndroidManifest.xml:5:5-26:19
-MERGED from [com.android.support:design:25.3.1] D:\Intern GVM\Backup\Availaballs\AvailaballsApp\app\build\intermediates\exploded-aar\com.android.support\design\25.3.1\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:transition:25.3.1] D:\Intern GVM\Backup\Availaballs\AvailaballsApp\app\build\intermediates\exploded-aar\com.android.support\transition\25.3.1\AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:appcompat-v7:25.3.1] D:\Intern GVM\Backup\Availaballs\AvailaballsApp\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.3.1\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] D:\Intern GVM\Backup\Availaballs\AvailaballsApp\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.3.1\AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-vector-drawable:25.3.1] D:\Intern GVM\Backup\Availaballs\AvailaballsApp\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.3.1\AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-v4:25.3.1] D:\Intern GVM\Backup\Availaballs\AvailaballsApp\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.3.1\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-fragment:25.3.1] D:\Intern GVM\Backup\Availaballs\AvailaballsApp\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.3.1\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-media-compat:25.3.1] D:\Intern GVM\Backup\Availaballs\AvailaballsApp\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.3.1\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-utils:25.3.1] D:\Intern GVM\Backup\Availaballs\AvailaballsApp\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.3.1\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] D:\Intern GVM\Backup\Availaballs\AvailaballsApp\app\build\intermediates\exploded-aar\com.android.support.constraint\constraint-layout\1.0.2\AndroidManifest.xml:9:5-20
-MERGED from [com.android.support:support-core-ui:25.3.1] D:\Intern GVM\Backup\Availaballs\AvailaballsApp\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.3.1\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-compat:25.3.1] D:\Intern GVM\Backup\Availaballs\AvailaballsApp\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.3.1\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:design:25.3.1] C:\Users\Okta\.android\build-cache\0636a0cf5804a3f8bf106ee7e092c8a7d016a2bd\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:transition:25.3.1] C:\Users\Okta\.android\build-cache\6746ae230113f1534a5c81e58b5471fcc756f2ec\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Okta\.android\build-cache\23eeae67d6a26c5b4698847ab9efcec400027273\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Okta\.android\build-cache\3bad58682f896c9024faae7c614d488a20052205\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Okta\.android\build-cache\9839425d8a79f9036cc00891e3a60625a1e7c48f\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Okta\.android\build-cache\8387a3b62b541c62fdb2e8838a4155bdf0eb8b24\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Okta\.android\build-cache\47b91ddedbae9fbfb7bb5dcc8ee27b7e3f49e657\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Okta\.android\build-cache\aafe68befa9258b9b4c9db4bfb40af5989c030c5\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Okta\.android\build-cache\90d3cdafa2f5a70626672e8f521e0392761e1ca2\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Okta\.android\build-cache\211b7a1ee412c1f7b57b241e8f4e132e0cd1d389\output\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Okta\.android\build-cache\2a96d4d3f254019128008ebf9a5b63b82cc7432c\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Okta\.android\build-cache\ec7a3c8cc29046aaf2f75baeb742c608e2c9e539\output\AndroidManifest.xml:29:5-20
 	android:label
 		ADDED from D:\Intern GVM\Backup\Availaballs\AvailaballsApp\app\src\main\AndroidManifest.xml:8:9-41
 	android:supportsRtl
@@ -67,22 +67,22 @@ ADDED from D:\Intern GVM\Backup\Availaballs\AvailaballsApp\app\src\main\AndroidM
 		ADDED from D:\Intern GVM\Backup\Availaballs\AvailaballsApp\app\src\main\AndroidManifest.xml:22:13-50
 uses-sdk
 INJECTED from D:\Intern GVM\Backup\Availaballs\AvailaballsApp\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-MERGED from [com.roughike:bottom-bar:2.3.1] D:\Intern GVM\Backup\Availaballs\AvailaballsApp\app\build\intermediates\exploded-aar\com.roughike\bottom-bar\2.3.1\AndroidManifest.xml:8:5-10:41
-MERGED from [com.android.support:design:25.3.1] D:\Intern GVM\Backup\Availaballs\AvailaballsApp\app\build\intermediates\exploded-aar\com.android.support\design\25.3.1\AndroidManifest.xml:21:5-23:62
-MERGED from [com.android.support:transition:25.3.1] D:\Intern GVM\Backup\Availaballs\AvailaballsApp\app\build\intermediates\exploded-aar\com.android.support\transition\25.3.1\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:25.3.1] D:\Intern GVM\Backup\Availaballs\AvailaballsApp\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.3.1\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] D:\Intern GVM\Backup\Availaballs\AvailaballsApp\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.3.1\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:25.3.1] D:\Intern GVM\Backup\Availaballs\AvailaballsApp\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.3.1\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:25.3.1] D:\Intern GVM\Backup\Availaballs\AvailaballsApp\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.3.1\AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-fragment:25.3.1] D:\Intern GVM\Backup\Availaballs\AvailaballsApp\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.3.1\AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-media-compat:25.3.1] D:\Intern GVM\Backup\Availaballs\AvailaballsApp\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.3.1\AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-core-utils:25.3.1] D:\Intern GVM\Backup\Availaballs\AvailaballsApp\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.3.1\AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] D:\Intern GVM\Backup\Availaballs\AvailaballsApp\app\build\intermediates\exploded-aar\com.android.support.constraint\constraint-layout\1.0.2\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:recyclerview-v7:25.3.1] D:\Intern GVM\Backup\Availaballs\AvailaballsApp\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.3.1\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-core-ui:25.3.1] D:\Intern GVM\Backup\Availaballs\AvailaballsApp\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.3.1\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-compat:25.3.1] D:\Intern GVM\Backup\Availaballs\AvailaballsApp\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.3.1\AndroidManifest.xml:21:5-23:58
+MERGED from [com.roughike:bottom-bar:2.3.1] C:\Users\Okta\.android\build-cache\56d00e5e9aae85204ecfcac647638e22af0dc64d\output\AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:design:25.3.1] C:\Users\Okta\.android\build-cache\0636a0cf5804a3f8bf106ee7e092c8a7d016a2bd\output\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:transition:25.3.1] C:\Users\Okta\.android\build-cache\6746ae230113f1534a5c81e58b5471fcc756f2ec\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Okta\.android\build-cache\23eeae67d6a26c5b4698847ab9efcec400027273\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Okta\.android\build-cache\3bad58682f896c9024faae7c614d488a20052205\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Okta\.android\build-cache\9839425d8a79f9036cc00891e3a60625a1e7c48f\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Okta\.android\build-cache\8387a3b62b541c62fdb2e8838a4155bdf0eb8b24\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Okta\.android\build-cache\47b91ddedbae9fbfb7bb5dcc8ee27b7e3f49e657\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Okta\.android\build-cache\aafe68befa9258b9b4c9db4bfb40af5989c030c5\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Okta\.android\build-cache\90d3cdafa2f5a70626672e8f521e0392761e1ca2\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Okta\.android\build-cache\211b7a1ee412c1f7b57b241e8f4e132e0cd1d389\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\Okta\.android\build-cache\affcf3718a9b6903dc28d1e76cf699a874bed6ab\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Okta\.android\build-cache\2a96d4d3f254019128008ebf9a5b63b82cc7432c\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Okta\.android\build-cache\ec7a3c8cc29046aaf2f75baeb742c608e2c9e539\output\AndroidManifest.xml:21:5-23:58
 	tools:overrideLibrary
-		ADDED from [com.android.support:design:25.3.1] D:\Intern GVM\Backup\Availaballs\AvailaballsApp\app\build\intermediates\exploded-aar\com.android.support\design\25.3.1\AndroidManifest.xml:23:9-59
+		ADDED from [com.android.support:design:25.3.1] C:\Users\Okta\.android\build-cache\0636a0cf5804a3f8bf106ee7e092c8a7d016a2bd\output\AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
 		INJECTED from D:\Intern GVM\Backup\Availaballs\AvailaballsApp\app\src\main\AndroidManifest.xml
 		INJECTED from D:\Intern GVM\Backup\Availaballs\AvailaballsApp\app\src\main\AndroidManifest.xml
@@ -90,19 +90,19 @@ MERGED from [com.android.support:support-compat:25.3.1] D:\Intern GVM\Backup\Ava
 		INJECTED from D:\Intern GVM\Backup\Availaballs\AvailaballsApp\app\src\main\AndroidManifest.xml
 		INJECTED from D:\Intern GVM\Backup\Availaballs\AvailaballsApp\app\src\main\AndroidManifest.xml
 meta-data#android.support.VERSION
-ADDED from [com.android.support:design:25.3.1] D:\Intern GVM\Backup\Availaballs\AvailaballsApp\app\build\intermediates\exploded-aar\com.android.support\design\25.3.1\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:transition:25.3.1] D:\Intern GVM\Backup\Availaballs\AvailaballsApp\app\build\intermediates\exploded-aar\com.android.support\transition\25.3.1\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:appcompat-v7:25.3.1] D:\Intern GVM\Backup\Availaballs\AvailaballsApp\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.3.1\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] D:\Intern GVM\Backup\Availaballs\AvailaballsApp\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.3.1\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-vector-drawable:25.3.1] D:\Intern GVM\Backup\Availaballs\AvailaballsApp\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.3.1\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-v4:25.3.1] D:\Intern GVM\Backup\Availaballs\AvailaballsApp\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.3.1\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-fragment:25.3.1] D:\Intern GVM\Backup\Availaballs\AvailaballsApp\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.3.1\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-media-compat:25.3.1] D:\Intern GVM\Backup\Availaballs\AvailaballsApp\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.3.1\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-utils:25.3.1] D:\Intern GVM\Backup\Availaballs\AvailaballsApp\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.3.1\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:recyclerview-v7:25.3.1] D:\Intern GVM\Backup\Availaballs\AvailaballsApp\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.3.1\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-core-ui:25.3.1] D:\Intern GVM\Backup\Availaballs\AvailaballsApp\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.3.1\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-compat:25.3.1] D:\Intern GVM\Backup\Availaballs\AvailaballsApp\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.3.1\AndroidManifest.xml:25:5-27:34
+ADDED from [com.android.support:design:25.3.1] C:\Users\Okta\.android\build-cache\0636a0cf5804a3f8bf106ee7e092c8a7d016a2bd\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:transition:25.3.1] C:\Users\Okta\.android\build-cache\6746ae230113f1534a5c81e58b5471fcc756f2ec\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Okta\.android\build-cache\23eeae67d6a26c5b4698847ab9efcec400027273\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Okta\.android\build-cache\3bad58682f896c9024faae7c614d488a20052205\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Okta\.android\build-cache\9839425d8a79f9036cc00891e3a60625a1e7c48f\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Okta\.android\build-cache\8387a3b62b541c62fdb2e8838a4155bdf0eb8b24\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Okta\.android\build-cache\47b91ddedbae9fbfb7bb5dcc8ee27b7e3f49e657\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Okta\.android\build-cache\aafe68befa9258b9b4c9db4bfb40af5989c030c5\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Okta\.android\build-cache\90d3cdafa2f5a70626672e8f521e0392761e1ca2\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\Okta\.android\build-cache\affcf3718a9b6903dc28d1e76cf699a874bed6ab\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Okta\.android\build-cache\2a96d4d3f254019128008ebf9a5b63b82cc7432c\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Okta\.android\build-cache\ec7a3c8cc29046aaf2f75baeb742c608e2c9e539\output\AndroidManifest.xml:25:5-27:34
 	android:value
-		ADDED from [com.android.support:design:25.3.1] D:\Intern GVM\Backup\Availaballs\AvailaballsApp\app\build\intermediates\exploded-aar\com.android.support\design\25.3.1\AndroidManifest.xml:27:9-31
+		ADDED from [com.android.support:design:25.3.1] C:\Users\Okta\.android\build-cache\0636a0cf5804a3f8bf106ee7e092c8a7d016a2bd\output\AndroidManifest.xml:27:9-31
 	android:name
-		ADDED from [com.android.support:design:25.3.1] D:\Intern GVM\Backup\Availaballs\AvailaballsApp\app\build\intermediates\exploded-aar\com.android.support\design\25.3.1\AndroidManifest.xml:26:9-47
+		ADDED from [com.android.support:design:25.3.1] C:\Users\Okta\.android\build-cache\0636a0cf5804a3f8bf106ee7e092c8a7d016a2bd\output\AndroidManifest.xml:26:9-47

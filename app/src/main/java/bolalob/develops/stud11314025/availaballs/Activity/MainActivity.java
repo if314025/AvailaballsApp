@@ -11,6 +11,7 @@ import android.support.v7.widget.RecyclerView;
 import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -19,26 +20,42 @@ import java.util.ArrayList;
 import bolalob.develops.stud11314025.availaballs.CustomView.RecyclerViewAdapter;
 import bolalob.develops.stud11314025.availaballs.R;
 import bolalob.develops.stud11314025.availaballs.model.Lapangan;
+import butterknife.Bind;
+import butterknife.ButterKnife;
+
+import static android.nfc.tech.MifareUltralight.PAGE_SIZE;
 
 public class MainActivity extends AppCompatActivity {
-    private RecyclerView rvView;
     private RecyclerView.Adapter adapter;
     private RecyclerView.LayoutManager layoutManager;
     private ArrayList<Lapangan> dataSet;
-    private TextView emptyview;
-    private ImageView imageView;
+    @Bind(R.id.rv_main)
+     RecyclerView rvView;
+    @Bind(R.id.emptyText)
+     TextView emptyview;
+    @Bind(R.id.imageView)
+     ImageView imageView;
+    @Bind(R.id.button1)
+     Button btn1;
+    @Bind(R.id.button2)
+     Button btn2;
+    @Bind(R.id.button3)
+     Button btn3;
+    @Bind(R.id.button4)
+     Button btn4;
+    @Bind(R.id.button5)
+     Button btn5;
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        ButterKnife.bind(this);
         ActionBar mActionBar =getSupportActionBar();
         mActionBar.setDisplayShowHomeEnabled(false);
         mActionBar.setDisplayShowTitleEnabled(false);
         LayoutInflater mInflater = LayoutInflater.from(this);
-        emptyview =(TextView)findViewById(R.id.emptyText);
-        imageView = (ImageView)findViewById(R.id.imageView);
 
 
         View mCustomView = mInflater.inflate(R.layout.custom_actionbar, null);
@@ -70,6 +87,11 @@ public class MainActivity extends AppCompatActivity {
             rvView.setVisibility(View.GONE);
             imageView.setVisibility(View.VISIBLE);
             emptyview.setVisibility(View.VISIBLE);
+            btn1.setVisibility(View.GONE);
+            btn2.setVisibility(View.GONE);
+            btn3.setVisibility(View.GONE);
+            btn4.setVisibility(View.GONE);
+            btn5.setVisibility(View.GONE);
 
         }else{
             imageView.setVisibility(View.GONE);
@@ -88,4 +110,11 @@ public class MainActivity extends AppCompatActivity {
 
 
     }
+    private RecyclerView.OnScrollListener recyclerViewOnScrollListener = new RecyclerView.OnScrollListener() {
+        @Override
+        public void onScrollStateChanged(RecyclerView recyclerView, int newState) {
+            super.onScrollStateChanged(recyclerView, newState);
+        }
+
+    };
 }

@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/backgroundlogin"
-    tools:context="bolalob.develops.stud11314025.availaballs.LoginActivity">
+    tools:context="bolalob.develops.stud11314025.availaballs.Activity.LoginActivity">
 
     <ImageView
         android:id="@+id/imageView"

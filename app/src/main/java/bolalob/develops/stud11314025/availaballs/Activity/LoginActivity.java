@@ -1,4 +1,4 @@
-package bolalob.develops.stud11314025.availaballs;
+package bolalob.develops.stud11314025.availaballs.Activity;
 
 import android.content.Intent;
 import android.os.Build;
@@ -13,6 +13,7 @@ import android.widget.EditText;
 import android.widget.TextView;
 
 import bolalob.develops.stud11314025.availaballs.Activity.MainActivity;
+import bolalob.develops.stud11314025.availaballs.R;
 import butterknife.Bind;
 import butterknife.ButterKnife;
 

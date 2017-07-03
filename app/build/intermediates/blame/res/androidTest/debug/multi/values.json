@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "D:\\Intern GVM\\Backup\\Availaballs\\AvailaballsApp\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
+        "outputFile": "D:\\Kuliah\\Magang_GVM\\entah_apa_2\\AvailaballsApp\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 96
                 },
                 "from": {
-                    "file": "C:\\Users\\Okta\\.android\\build-cache\\0558fa37f035ec18a673c53129204419bc9d6938\\output\\res\\values\\values.xml",
+                    "file": "C:\\Users\\Voldarex\\.android\\build-cache\\f11ae8fdab2d52ffd3b499c353daaf5a51fa86cf\\output\\res\\values\\values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,

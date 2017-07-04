@@ -41,7 +41,6 @@ public class MainActivity extends AppCompatActivity {
     @Bind(R.id.button5)
      Button btn5;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -52,11 +51,9 @@ public class MainActivity extends AppCompatActivity {
         mActionBar.setDisplayShowTitleEnabled(false);
         LayoutInflater mInflater = LayoutInflater.from(this);
 
-
         View mCustomView = mInflater.inflate(R.layout.custom_actionbar, null);
         TextView mTitleTextView = (TextView) mCustomView.findViewById(R.id.title_text);
         mTitleTextView.setText("List Lapangan");
-
 
         mActionBar.setBackgroundDrawable(new ColorDrawable(getResources().getColor(R.color.clrNavigation)));
         mActionBar.setCustomView(mCustomView);
@@ -94,15 +91,12 @@ public class MainActivity extends AppCompatActivity {
             emptyview.setVisibility(View.GONE);
         }
 
-
-
     }
     private void initDataset(){
 
         for (int i=1;i<21;i++){
             dataSet.add(new Lapangan(i,"Futsal Bolalob","Wisma77Tower2"));
         }
-
 
     }
     private RecyclerView.OnScrollListener recyclerViewOnScrollListener = new RecyclerView.OnScrollListener() {

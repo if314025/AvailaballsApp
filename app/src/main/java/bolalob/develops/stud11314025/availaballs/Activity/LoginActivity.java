@@ -12,7 +12,6 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
-import bolalob.develops.stud11314025.availaballs.Activity.MainActivity;
 import bolalob.develops.stud11314025.availaballs.R;
 import butterknife.Bind;
 import butterknife.ButterKnife;
@@ -28,18 +27,11 @@ public class LoginActivity extends AppCompatActivity {
     @Bind(R.id.btnLogin)
     Button btnLgn;
 
-
-
-
-
-
     @Override
     protected void onCreate(final Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
         ButterKnife.bind(this);
-
-
 
         btnLgn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -77,7 +69,6 @@ public class LoginActivity extends AppCompatActivity {
                         tv.setGravity(Gravity.CENTER_HORIZONTAL);
                     snackbar.show();
                 }
-
             }
         });
     }

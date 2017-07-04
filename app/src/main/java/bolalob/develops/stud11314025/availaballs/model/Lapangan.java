@@ -1,7 +1,5 @@
 package bolalob.develops.stud11314025.availaballs.model;
 
-import java.util.ArrayList;
-
 /**
  * Created by Okta on 19/06/2017.
  */

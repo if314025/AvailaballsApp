@@ -5,5 +5,5 @@ package bolalob.develops.stud11314025.availaballs;
  */
 
 public interface LoginPresenter {
-    void Login(String username, String password);
+    void login(String username, String password);
 }

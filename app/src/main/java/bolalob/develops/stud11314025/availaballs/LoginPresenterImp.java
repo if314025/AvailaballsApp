@@ -16,7 +16,7 @@ public class LoginPresenterImp implements LoginPresenter {
     }
 
     @Override
-    public void Login(String username, String password) {
+    public void login(String username, String password) {
         if (TextUtils.isEmpty(username)||TextUtils.isEmpty(password)){
             loginView.showValidationError();
         }else{

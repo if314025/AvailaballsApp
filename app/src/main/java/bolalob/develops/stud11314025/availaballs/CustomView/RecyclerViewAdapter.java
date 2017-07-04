@@ -8,7 +8,7 @@ import android.widget.TextView;
 import java.util.ArrayList;
 
 import bolalob.develops.stud11314025.availaballs.R;
-import bolalob.develops.stud11314025.availaballs.model.Lapangan;
+import bolalob.develops.stud11314025.availaballs.Model.Lapangan;
 
 /**
  * Created by Okta on 19/06/2017.

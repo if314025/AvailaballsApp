@@ -16,7 +16,7 @@ import java.util.ArrayList;
 
 import bolalob.develops.stud11314025.availaballs.CustomView.RecyclerViewAdapter;
 import bolalob.develops.stud11314025.availaballs.R;
-import bolalob.develops.stud11314025.availaballs.model.Lapangan;
+import bolalob.develops.stud11314025.availaballs.Model.Lapangan;
 import butterknife.Bind;
 import butterknife.ButterKnife;
 

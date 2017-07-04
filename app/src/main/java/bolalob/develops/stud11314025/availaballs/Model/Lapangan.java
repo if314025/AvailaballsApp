@@ -1,4 +1,4 @@
-package bolalob.develops.stud11314025.availaballs.model;
+package bolalob.develops.stud11314025.availaballs.Model;
 
 /**
  * Created by Okta on 19/06/2017.

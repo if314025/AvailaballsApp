@@ -8,7 +8,19 @@
         "source": "D:\\Kuliah\\Magang_GVM\\entah_apa_2\\AvailaballsApp\\app\\src\\main\\res\\drawable-mdpi\\emptydata.png"
     },
     {
+        "merged": "D:\\Intern GVM\\Backup\\Availaballs\\AvailaballsApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\backgroundlogin.png",
+        "source": "D:\\Intern GVM\\Backup\\Availaballs\\AvailaballsApp\\app\\src\\main\\res\\drawable-mdpi\\backgroundlogin.png"
+    },
+    {
         "merged": "D:\\Kuliah\\Magang_GVM\\entah_apa_2\\AvailaballsApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\backgroundlogin.png",
         "source": "D:\\Kuliah\\Magang_GVM\\entah_apa_2\\AvailaballsApp\\app\\src\\main\\res\\drawable-mdpi\\backgroundlogin.png"
+    },
+    {
+        "merged": "D:\\Intern GVM\\Backup\\Availaballs\\AvailaballsApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\logoavailaball.png",
+        "source": "D:\\Intern GVM\\Backup\\Availaballs\\AvailaballsApp\\app\\src\\main\\res\\drawable-mdpi\\logoavailaball.png"
+    },
+    {
+        "merged": "D:\\Intern GVM\\Backup\\Availaballs\\AvailaballsApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\emptydata.png",
+        "source": "D:\\Intern GVM\\Backup\\Availaballs\\AvailaballsApp\\app\\src\\main\\res\\drawable-mdpi\\emptydata.png"
     }
 ]

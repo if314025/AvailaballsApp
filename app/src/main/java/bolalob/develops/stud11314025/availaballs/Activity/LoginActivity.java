@@ -13,13 +13,15 @@ import android.widget.EditText;
 import android.widget.TextView;
 
 import bolalob.develops.stud11314025.availaballs.Activity.MainActivity;
+import bolalob.develops.stud11314025.availaballs.LoginPresenter;
+import bolalob.develops.stud11314025.availaballs.LoginView;
 import bolalob.develops.stud11314025.availaballs.R;
 import butterknife.Bind;
 import butterknife.ButterKnife;
 
 //import android.support.design.R;
 
-public class LoginActivity extends AppCompatActivity {
+public class LoginActivity extends AppCompatActivity implements LoginView {
 
     @Bind(R.id.eTEmail)
     EditText etEmail;
@@ -27,10 +29,7 @@ public class LoginActivity extends AppCompatActivity {
     EditText etPassword;
     @Bind(R.id.btnLogin)
     Button btnLgn;
-
-
-
-
+    private LoginPresenter presenter;
 
 
     @Override
@@ -40,31 +39,72 @@ public class LoginActivity extends AppCompatActivity {
         ButterKnife.bind(this);
 
 
-
         btnLgn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                final String tempUsername = etEmail.getText().toString();
-                final String tempPassword = etPassword.getText().toString();
-                if(tempUsername.equals("test@gmail.com")&&tempPassword.equals("test")){
-                    Intent mainIntent =new Intent(getApplicationContext(),MainActivity.class);
-                    startActivity(mainIntent);
-                }
-                else if (tempPassword.isEmpty()||tempUsername.isEmpty()){
-                    Snackbar snackbar = Snackbar.make(view, "Email atau Password Kosong", Snackbar.LENGTH_LONG)
-                            .setAction("Action", null);
-                    View sbView = snackbar.getView();
-                    sbView.setBackgroundColor(ContextCompat.getColor(getApplicationContext(), R.color.colorSnackbar));
+                presenter.Login(etEmail.getText().toString(), etPassword.getText().toString());
+//                final String tempUsername = etEmail.getText().toString();
+//                final String tempPassword = etPassword.getText().toString();
+//                if(tempUsername.equals("test@gmail.com")&&tempPassword.equals("test")){
+//                    Intent mainIntent =new Intent(getApplicationContext(),MainActivity.class);
+//                    startActivity(mainIntent);
+//                }
+//                else if (tempPassword.isEmpty()||tempUsername.isEmpty()){
+//                    Snackbar snackbar = Snackbar.make(view, "Email atau Password Kosong", Snackbar.LENGTH_LONG)
+//                            .setAction("Action", null);
+//                    View sbView = snackbar.getView();
+//                    sbView.setBackgroundColor(ContextCompat.getColor(getApplicationContext(), R.color.colorSnackbar));
+//
+//                    TextView tv =(TextView) sbView.findViewById(android.support.design.R.id.snackbar_text);
+//                    if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN_MR1)
+//                        tv.setTextAlignment(View.TEXT_ALIGNMENT_CENTER);
+//                    else
+//                        tv.setGravity(Gravity.CENTER_HORIZONTAL);
+//                    snackbar.show();
+//                }
+//                else {
+//                    Snackbar snackbar = Snackbar
+//                            .make(findViewById(R.id.activity_login), "Akun Tidak Terdaftar", Snackbar.LENGTH_SHORT)
+//                            .setAction("Action", null);
+//                    View sbView = snackbar.getView();
+//                    sbView.setBackgroundColor(ContextCompat.getColor(getApplicationContext(), R.color.colorSnackbar));
+//
+//                    TextView tv =(TextView) sbView.findViewById(android.support.design.R.id.snackbar_text);
+//                    if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN_MR1)
+//                        tv.setTextAlignment(View.TEXT_ALIGNMENT_CENTER);
+//                    else
+//                        tv.setGravity(Gravity.CENTER_HORIZONTAL);
+//                    snackbar.show();
+//                }
 
-                    TextView tv =(TextView) sbView.findViewById(android.support.design.R.id.snackbar_text);
-                    if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN_MR1)
-                        tv.setTextAlignment(View.TEXT_ALIGNMENT_CENTER);
-                    else
-                        tv.setGravity(Gravity.CENTER_HORIZONTAL);
-                    snackbar.show();
-                }
-                else {
-                    Snackbar snackbar = Snackbar
+            }
+        });
+    }
+
+    @Override
+    public void showValidationError() {
+        Snackbar snackbar = Snackbar.make(findViewById(R.id.activity_login), "Email atau Password Kosong", Snackbar.LENGTH_LONG)
+                .setAction("Action", null);
+        View sbView = snackbar.getView();
+        sbView.setBackgroundColor(ContextCompat.getColor(getApplicationContext(), R.color.colorSnackbar));
+
+        TextView tv = (TextView) sbView.findViewById(android.support.design.R.id.snackbar_text);
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN_MR1)
+            tv.setTextAlignment(View.TEXT_ALIGNMENT_CENTER);
+        else
+            tv.setGravity(Gravity.CENTER_HORIZONTAL);
+        snackbar.show();
+    }
+
+    @Override
+    public void loginSucess() {
+        Intent mainIntent =new Intent(getApplicationContext(),MainActivity.class);
+        startActivity(mainIntent);
+    }
+
+    @Override
+    public void loginError() {
+        Snackbar snackbar = Snackbar
                             .make(findViewById(R.id.activity_login), "Akun Tidak Terdaftar", Snackbar.LENGTH_SHORT)
                             .setAction("Action", null);
                     View sbView = snackbar.getView();
@@ -76,9 +116,6 @@ public class LoginActivity extends AppCompatActivity {
                     else
                         tv.setGravity(Gravity.CENTER_HORIZONTAL);
                     snackbar.show();
-                }
 
-            }
-        });
     }
 }

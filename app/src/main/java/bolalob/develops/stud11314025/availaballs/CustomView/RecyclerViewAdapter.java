@@ -5,6 +5,7 @@ import android.view.LayoutInflater;
 import android.view.ViewGroup;
 import android.view.View;
 import android.widget.TextView;
+
 import java.util.ArrayList;
 
 import bolalob.develops.stud11314025.availaballs.R;
@@ -15,20 +16,21 @@ import bolalob.develops.stud11314025.availaballs.Model.Lapangan;
  */
 
 public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapter.ViewHolder> {
-    private ArrayList<Lapangan>lapangans;
+    private ArrayList<Lapangan> lapangans;
 
-    public RecyclerViewAdapter(ArrayList<Lapangan> inputdata){
+    public RecyclerViewAdapter(ArrayList<Lapangan> inputdata) {
         lapangans = inputdata;
     }
-    public class ViewHolder extends RecyclerView.ViewHolder{
-        public  TextView tvNo;
+
+    public class ViewHolder extends RecyclerView.ViewHolder {
+        public TextView tvNo;
         public TextView tvNamaLapangan;
         public TextView tvLokasi;
 
-        public ViewHolder(View v){
+        public ViewHolder(View v) {
             super(v);
-            tvNo = (TextView)v.findViewById(R.id.tvNo);
-            tvNamaLapangan = (TextView)v.findViewById(R.id.tvNamaLapangan);
+            tvNo = (TextView) v.findViewById(R.id.tvNo);
+            tvNamaLapangan = (TextView) v.findViewById(R.id.tvNamaLapangan);
             tvLokasi = (TextView) v.findViewById(R.id.tvLokasi);
         }
 
@@ -53,8 +55,6 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
         //holder.tvNamaLapangan.setText(lapangans.get(position).toString());
         //holder.tvLokasi.setText(lapangans.get(position).toString());
     }
-
-
 
 
     @Override

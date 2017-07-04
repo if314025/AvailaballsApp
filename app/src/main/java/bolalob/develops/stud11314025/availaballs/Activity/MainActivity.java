@@ -25,28 +25,28 @@ public class MainActivity extends AppCompatActivity {
     private RecyclerView.LayoutManager layoutManager;
     private ArrayList<Lapangan> dataSet;
     @Bind(R.id.rv_main)
-     RecyclerView rvView;
+    RecyclerView rvView;
     @Bind(R.id.emptyText)
-     TextView emptyview;
+    TextView emptyview;
     @Bind(R.id.imageView)
-     ImageView imageView;
+    ImageView imageView;
     @Bind(R.id.button1)
-     Button btn1;
+    Button btn1;
     @Bind(R.id.button2)
-     Button btn2;
+    Button btn2;
     @Bind(R.id.button3)
-     Button btn3;
+    Button btn3;
     @Bind(R.id.button4)
-     Button btn4;
+    Button btn4;
     @Bind(R.id.button5)
-     Button btn5;
+    Button btn5;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         ButterKnife.bind(this);
-        ActionBar mActionBar =getSupportActionBar();
+        ActionBar mActionBar = getSupportActionBar();
         mActionBar.setDisplayShowHomeEnabled(false);
         mActionBar.setDisplayShowTitleEnabled(false);
         LayoutInflater mInflater = LayoutInflater.from(this);
@@ -75,7 +75,7 @@ public class MainActivity extends AppCompatActivity {
         adapter = new RecyclerViewAdapter(dataSet);
         rvView.setAdapter(adapter);
 
-        if (dataSet.isEmpty()){
+        if (dataSet.isEmpty()) {
             rvView.setVisibility(View.GONE);
             imageView.setVisibility(View.VISIBLE);
             emptyview.setVisibility(View.VISIBLE);
@@ -85,20 +85,22 @@ public class MainActivity extends AppCompatActivity {
             btn4.setVisibility(View.GONE);
             btn5.setVisibility(View.GONE);
 
-        }else{
+        } else {
             imageView.setVisibility(View.GONE);
             rvView.setVisibility(View.VISIBLE);
             emptyview.setVisibility(View.GONE);
         }
 
     }
-    private void initDataset(){
 
-        for (int i=1;i<21;i++){
-            dataSet.add(new Lapangan(i,"Futsal Bolalob","Wisma77Tower2"));
+    private void initDataset() {
+
+        for (int i = 1; i < 21; i++) {
+            dataSet.add(new Lapangan(i, "Futsal Bolalob", "Wisma77Tower2"));
         }
 
     }
+
     private RecyclerView.OnScrollListener recyclerViewOnScrollListener = new RecyclerView.OnScrollListener() {
         @Override
         public void onScrollStateChanged(RecyclerView recyclerView, int newState) {

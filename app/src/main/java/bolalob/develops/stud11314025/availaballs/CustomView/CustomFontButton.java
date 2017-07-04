@@ -12,7 +12,7 @@ import bolalob.develops.stud11314025.availaballs.R;
  * Created by Okta on 21/06/2017.
  */
 
-public class CustomFontButton extends Button{
+public class CustomFontButton extends Button {
     public static final String ANDROID_SCHEMA = "http://schemas.android.com/apk/res/android";
 
     public CustomFontButton(Context context, AttributeSet attrs) {

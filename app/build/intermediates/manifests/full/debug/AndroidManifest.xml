@@ -25,7 +25,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="bolalob.develops.stud11314025.availaballs.LoginActivity"
+            android:name="bolalob.develops.stud11314025.availaballs.Activity.LoginActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" >
             <intent-filter>

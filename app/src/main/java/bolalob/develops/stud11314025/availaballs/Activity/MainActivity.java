@@ -3,13 +3,18 @@ package bolalob.develops.stud11314025.availaballs.Activity;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 
+import java.util.List;
+
 import javax.inject.Inject;
 
 import bolalob.develops.stud11314025.availaballs.Application.LapanganApplication;
+import bolalob.develops.stud11314025.availaballs.Base.LapanganPresenter;
+import bolalob.develops.stud11314025.availaballs.Model.LapanganResponse;
 import bolalob.develops.stud11314025.availaballs.R;
 import bolalob.develops.stud11314025.availaballs.Service.LapanganService;
+import bolalob.develops.stud11314025.availaballs.Service.LapanganViewInterface;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements LapanganViewInterface {
     //    private RecyclerView.Adapter adapter;
 //    private RecyclerView.LayoutManager layoutManager;
 //    private ArrayList<Lapangan> dataSet;
@@ -32,6 +37,8 @@ public class MainActivity extends AppCompatActivity {
     @Inject
     LapanganService service;
 
+    private LapanganPresenter mPresenter;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -40,6 +47,31 @@ public class MainActivity extends AppCompatActivity {
         ((LapanganApplication) getApplication())
                 .getApiComponent()
                 .inject(MainActivity.this);
+
+        mPresenter = new LapanganPresenter(MainActivity.this);
+        mPresenter.onCreate();
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        mPresenter.onResume();
+        mPresenter.fetchLapangan();
+    }
+
+    @Override
+    public void completed() {
+
+    }
+
+    @Override
+    public void onError(String message) {
+
+    }
+
+    @Override
+    public void onLapangan(List<LapanganResponse> lapanganResponseList) {
+
     }
 //        ButterKnife.bind(this);
 //        ActionBar mActionBar =getSupportActionBar();

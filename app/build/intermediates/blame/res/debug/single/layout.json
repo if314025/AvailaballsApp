@@ -8,12 +8,12 @@
         "source": "C:\\Users\\Voldarex\\.android\\build-cache\\0dbf4fad8d940e16993989a004e5040278bae467\\output\\res\\layout\\bb_bottom_bar_item_fixed.xml"
     },
     {
-        "merged": "D:\\Kuliah\\Magang_GVM\\entah_apa_2\\AvailaballsApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
-        "source": "C:\\Users\\Voldarex\\.android\\build-cache\\c2157dc35693f8f71233f248720d5b7782d489f6\\output\\res\\layout\\abc_action_menu_layout.xml"
-    },
-    {
         "merged": "D:\\Kuliah\\Magang_GVM\\entah_apa_2\\AvailaballsApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu_item.xml",
         "source": "C:\\Users\\Voldarex\\.android\\build-cache\\354e7540d6d33628be2e9c473b81e981c2595f29\\output\\res\\layout\\design_navigation_menu_item.xml"
+    },
+    {
+        "merged": "D:\\Kuliah\\Magang_GVM\\entah_apa_2\\AvailaballsApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
+        "source": "C:\\Users\\Voldarex\\.android\\build-cache\\c2157dc35693f8f71233f248720d5b7782d489f6\\output\\res\\layout\\abc_action_menu_layout.xml"
     },
     {
         "merged": "D:\\Kuliah\\Magang_GVM\\entah_apa_2\\AvailaballsApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
@@ -28,12 +28,12 @@
         "source": "C:\\Users\\Voldarex\\.android\\build-cache\\354e7540d6d33628be2e9c473b81e981c2595f29\\output\\res\\layout\\design_layout_snackbar.xml"
     },
     {
-        "merged": "D:\\Kuliah\\Magang_GVM\\entah_apa_2\\AvailaballsApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media_custom.xml",
-        "source": "C:\\Users\\Voldarex\\.android\\build-cache\\c2157dc35693f8f71233f248720d5b7782d489f6\\output\\res\\layout\\notification_template_media_custom.xml"
-    },
-    {
         "merged": "D:\\Kuliah\\Magang_GVM\\entah_apa_2\\AvailaballsApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_header.xml",
         "source": "C:\\Users\\Voldarex\\.android\\build-cache\\354e7540d6d33628be2e9c473b81e981c2595f29\\output\\res\\layout\\design_navigation_item_header.xml"
+    },
+    {
+        "merged": "D:\\Kuliah\\Magang_GVM\\entah_apa_2\\AvailaballsApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media_custom.xml",
+        "source": "C:\\Users\\Voldarex\\.android\\build-cache\\c2157dc35693f8f71233f248720d5b7782d489f6\\output\\res\\layout\\notification_template_media_custom.xml"
     },
     {
         "merged": "D:\\Kuliah\\Magang_GVM\\entah_apa_2\\AvailaballsApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
@@ -50,6 +50,10 @@
     {
         "merged": "D:\\Kuliah\\Magang_GVM\\entah_apa_2\\AvailaballsApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
         "source": "C:\\Users\\Voldarex\\.android\\build-cache\\c2157dc35693f8f71233f248720d5b7782d489f6\\output\\res\\layout\\abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "D:\\Kuliah\\Magang_GVM\\entah_apa_2\\AvailaballsApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\lapangan_item.xml",
+        "source": "D:\\Kuliah\\Magang_GVM\\entah_apa_2\\AvailaballsApp\\app\\src\\main\\res\\layout\\lapangan_item.xml"
     },
     {
         "merged": "D:\\Kuliah\\Magang_GVM\\entah_apa_2\\AvailaballsApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\bb_bottom_bar_item_fixed_tablet.xml",
@@ -206,6 +210,10 @@
     {
         "merged": "D:\\Kuliah\\Magang_GVM\\entah_apa_2\\AvailaballsApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
         "source": "C:\\Users\\Voldarex\\.android\\build-cache\\c2157dc35693f8f71233f248720d5b7782d489f6\\output\\res\\layout\\select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "D:\\Kuliah\\Magang_GVM\\entah_apa_2\\AvailaballsApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main_test.xml",
+        "source": "D:\\Kuliah\\Magang_GVM\\entah_apa_2\\AvailaballsApp\\app\\src\\main\\res\\layout\\activity_main_test.xml"
     },
     {
         "merged": "D:\\Kuliah\\Magang_GVM\\entah_apa_2\\AvailaballsApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",

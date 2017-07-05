@@ -6,5 +6,5 @@ package bolalob.develops.stud11314025.availaballs.Model;
 
 public class Constant {
 
-    public static final String BASE_URL = "https://api.myjson.com/bins/";
+    public static final String BASE_URL = "https://api.myjson.com/";
 }

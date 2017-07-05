@@ -34,5 +34,7 @@ public class LapanganPresenter extends BasePresenter implements rx.Observer<List
     }
 
     public void fetchLapangan() {
+        unScubscribeAll();
+        subscribe(mViewInterface.getLapangan(), LapanganPresenter.this);
     }
 }

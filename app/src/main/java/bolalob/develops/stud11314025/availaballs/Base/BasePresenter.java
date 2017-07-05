@@ -39,10 +39,10 @@ public abstract class BasePresenter implements Presenter {
 
     @Override
     public void onDestroy() {
-        unScubscibeAll();
+        unScubscribeAll();
     }
 
-    private void unScubscibeAll() {
+    protected void unScubscribeAll() {
         if (mCompositeSubscription != null) {
             mCompositeSubscription.unsubscribe();
             mCompositeSubscription.clear();

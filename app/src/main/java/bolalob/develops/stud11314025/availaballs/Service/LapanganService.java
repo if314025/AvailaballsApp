@@ -11,7 +11,7 @@ import retrofit2.http.GET;
 
 public interface LapanganService {
 
-    @GET("https://api.myjson.com/bins/17wd0n")
+    @GET("bins/17wd0n/")
     rx.Observable<List<LapanganResponse>> getLapangan();
 
 }

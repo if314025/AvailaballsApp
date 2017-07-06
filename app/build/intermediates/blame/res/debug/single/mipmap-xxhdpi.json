@@ -1,5 +1,9 @@
 [
     {
+        "merged": "D:\\Kuliah\\Magang_GVM\\testUI\\AvailaballsApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_launcher.png",
+        "source": "D:\\Kuliah\\Magang_GVM\\testUI\\AvailaballsApp\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
         "merged": "D:\\Intern GVM\\AvailaballsAndroid\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_launcher.png",
         "source": "D:\\Intern GVM\\AvailaballsAndroid\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
     },

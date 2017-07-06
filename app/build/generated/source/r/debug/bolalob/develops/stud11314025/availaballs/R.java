@@ -3221,13 +3221,13 @@ containing a value of this type.
         public static final int abc_textfield_search_material=0x7f020051;
         public static final int abc_vector_test=0x7f020052;
         public static final int avd_hide_password=0x7f020053;
-        public static final int avd_hide_password_1=0x7f02006e;
-        public static final int avd_hide_password_2=0x7f02006f;
-        public static final int avd_hide_password_3=0x7f020070;
+        public static final int avd_hide_password_1=0x7f02006f;
+        public static final int avd_hide_password_2=0x7f020070;
+        public static final int avd_hide_password_3=0x7f020071;
         public static final int avd_show_password=0x7f020054;
-        public static final int avd_show_password_1=0x7f020071;
-        public static final int avd_show_password_2=0x7f020072;
-        public static final int avd_show_password_3=0x7f020073;
+        public static final int avd_show_password_1=0x7f020072;
+        public static final int avd_show_password_2=0x7f020073;
+        public static final int avd_show_password_3=0x7f020074;
         public static final int backgroundlogin=0x7f020055;
         public static final int bb_bottom_bar_top_shadow=0x7f020056;
         public static final int design_bottom_navigation_item_background=0x7f020057;
@@ -3247,12 +3247,13 @@ containing a value of this type.
         public static final int notification_bg_normal=0x7f020065;
         public static final int notification_bg_normal_pressed=0x7f020066;
         public static final int notification_icon_background=0x7f020067;
-        public static final int notification_template_icon_bg=0x7f02006c;
-        public static final int notification_template_icon_low_bg=0x7f02006d;
+        public static final int notification_template_icon_bg=0x7f02006d;
+        public static final int notification_template_icon_low_bg=0x7f02006e;
         public static final int notification_tile_bg=0x7f020068;
         public static final int notify_panel_notification_icon_bg=0x7f020069;
         public static final int rectanglebutton=0x7f02006a;
-        public static final int roundedbutton=0x7f02006b;
+        public static final int rectanglebuttonbottom=0x7f02006b;
+        public static final int roundedbutton=0x7f02006c;
     }
     public static final class id {
         public static final int TextNamaLapangan=0x7f0d008d;
@@ -3297,11 +3298,12 @@ containing a value of this type.
         public static final int beginning=0x7f0d0045;
         public static final int bottom=0x7f0d0034;
         public static final int btnLogin=0x7f0d0084;
-        public static final int button1=0x7f0d0093;
-        public static final int button2=0x7f0d0092;
-        public static final int button3=0x7f0d0091;
-        public static final int button4=0x7f0d0090;
-        public static final int button5=0x7f0d0094;
+        public static final int button1=0x7f0d0092;
+        public static final int button2=0x7f0d0091;
+        public static final int button3=0x7f0d0090;
+        public static final int button4=0x7f0d008f;
+        public static final int button5=0x7f0d0093;
+        public static final int buttonBottom=0x7f0d0094;
         public static final int buttonPanel=0x7f0d0058;
         public static final int cancel_action=0x7f0d00b0;
         public static final int center=0x7f0d0035;
@@ -3330,7 +3332,7 @@ containing a value of this type.
         public static final int eTEmail=0x7f0d0086;
         public static final int eTPassword=0x7f0d0085;
         public static final int edit_query=0x7f0d0073;
-        public static final int emptyText=0x7f0d008f;
+        public static final int emptyText=0x7f0d008e;
         public static final int end=0x7f0d0038;
         public static final int end_padder=0x7f0d00c2;
         public static final int enterAlways=0x7f0d0023;
@@ -3364,7 +3366,6 @@ containing a value of this type.
         public static final int middle=0x7f0d0046;
         public static final int mini=0x7f0d0044;
         public static final int multiply=0x7f0d0029;
-        public static final int navigation=0x7f0d008e;
         public static final int navigation_header_container=0x7f0d00a3;
         public static final int never=0x7f0d004a;
         public static final int none=0x7f0d0019;

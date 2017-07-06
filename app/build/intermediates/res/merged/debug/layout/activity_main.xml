@@ -36,18 +36,18 @@
         android:layout_toEndOf="@+id/TextNamaLapangan" />
 
 
-    <android.support.design.widget.BottomNavigationView
-        android:id="@+id/navigation"
-        app:itemTextColor="@color/clrpressed"
-        app:paddingStart="@dimen/activity_horizontal_margin"
-        android:background="@color/clrAddLpng"
-        android:layout_width="match_parent"
-        android:gravity="center"
-        android:layout_height="60dp"
-        android:layout_alignParentBottom="true"
-        app:menu="@menu/my_navigation_items"
-        android:textAlignment="center"
-        android:paddingBottom="19dp" />
+    <!--<android.support.design.widget.BottomNavigationView-->
+        <!--android:id="@+id/navigation"-->
+        <!--app:itemTextColor="@color/clrpressed"-->
+        <!--app:paddingStart="@dimen/activity_horizontal_margin"-->
+        <!--android:background="@color/clrAddLpng"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:gravity="center_vertical"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--app:menu="@menu/my_navigation_items"-->
+        <!--android:textAlignment="center"-->
+        <!--android:paddingBottom="15dp" />-->
 
     <bolalob.develops.stud11314025.availaballs.CustomView.CustomFontTextView
         android:layout_width="wrap_content"
@@ -101,7 +101,7 @@
 
     <bolalob.develops.stud11314025.availaballs.CustomView.CustomFontButton
         android:layout_width="@dimen/size30"
-        android:layout_height="@dimen/size40"
+        android:layout_height="@dimen/size30"
         android:text="..."
         android:background="@drawable/rectanglebutton"
         android:textColor="@color/colorstate"
@@ -116,12 +116,11 @@
 
     <bolalob.develops.stud11314025.availaballs.CustomView.CustomFontButton
         android:layout_width="@dimen/size30"
-        android:layout_height="@dimen/size40"
+        android:layout_height="@dimen/size30"
         android:text="3"
         android:id="@+id/button3"
         android:layout_centerInParent="true"
         app:font="@string/font_stoke"
-        android:layout_above="@id/navigation"
         android:layout_alignParentBottom="true"
         android:background="@drawable/rectanglebutton"
         android:textColor="@color/colorstate"
@@ -133,7 +132,7 @@
 
     <bolalob.develops.stud11314025.availaballs.CustomView.CustomFontButton
         android:layout_width="@dimen/size30"
-        android:layout_height="@dimen/size40"
+        android:layout_height="@dimen/size30"
         android:text="2"
         app:font="@string/font_stoke"
         android:textSize="@dimen/font12"
@@ -148,7 +147,7 @@
 
     <bolalob.develops.stud11314025.availaballs.CustomView.CustomFontButton
         android:text="1"
-        android:layout_height="@dimen/size40"
+        android:layout_height="@dimen/size30"
         android:id="@+id/button1"
         app:font="@string/font_stoke"
         android:background="@drawable/rectanglebutton"
@@ -156,14 +155,14 @@
         android:textSize="@dimen/font10"
         android:layout_width="@dimen/size30"
         android:layout_alignBottom="@+id/button4"
-        android:layout_above="@id/navigation"
+
         android:layout_toLeftOf="@+id/button2"
         android:layout_toStartOf="@+id/button2"
         />
 
     <bolalob.develops.stud11314025.availaballs.CustomView.CustomFontButton
         android:layout_width="30dp"
-        android:layout_height="@dimen/size40"
+        android:layout_height="@dimen/size30"
         android:text="10"
         app:font="@string/font_stoke"
         android:textSize="@dimen/font12"
@@ -176,6 +175,20 @@
         android:layout_marginLeft="10dp"
         android:layout_marginStart="10dp" />
 
+    <Button
+        android:id="@+id/buttonBottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="+ Lapangan"
+        android:textColor="@color/colorAccent"
+        android:height="@dimen/size40"
+        android:fontFamily="@string/font_roboto"
+        android:background="@drawable/rectanglebuttonbottom"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
 
 
 </RelativeLayout>

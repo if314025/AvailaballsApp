@@ -32,16 +32,16 @@
         "source": "C:\\Users\\Voldarex\\.android\\build-cache\\c2157dc35693f8f71233f248720d5b7782d489f6\\output\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
     },
     {
-        "merged": "D:\\Intern GVM\\AvailaballsAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
-        "source": "C:\\Users\\Okta\\.android\\build-cache\\23eeae67d6a26c5b4698847ab9efcec400027273\\output\\res\\drawable\\abc_tab_indicator_material.xml"
+        "merged": "D:\\Kuliah\\Magang_GVM\\entah_apa_2\\AvailaballsApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
+        "source": "C:\\Users\\Voldarex\\.android\\build-cache\\c2157dc35693f8f71233f248720d5b7782d489f6\\output\\res\\drawable\\abc_item_background_holo_dark.xml"
     },
     {
         "merged": "D:\\Intern GVM\\AvailaballsAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
         "source": "C:\\Users\\Okta\\.android\\build-cache\\23eeae67d6a26c5b4698847ab9efcec400027273\\output\\res\\drawable\\abc_switch_thumb_material.xml"
     },
     {
-        "merged": "D:\\Kuliah\\Magang_GVM\\entah_apa_2\\AvailaballsApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
-        "source": "C:\\Users\\Voldarex\\.android\\build-cache\\c2157dc35693f8f71233f248720d5b7782d489f6\\output\\res\\drawable\\abc_item_background_holo_dark.xml"
+        "merged": "D:\\Intern GVM\\AvailaballsAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
+        "source": "C:\\Users\\Okta\\.android\\build-cache\\23eeae67d6a26c5b4698847ab9efcec400027273\\output\\res\\drawable\\abc_tab_indicator_material.xml"
     },
     {
         "merged": "D:\\Intern GVM\\AvailaballsAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
@@ -104,6 +104,10 @@
         "source": "C:\\Users\\Okta\\.android\\build-cache\\23eeae67d6a26c5b4698847ab9efcec400027273\\output\\res\\drawable\\abc_btn_radio_material.xml"
     },
     {
+        "merged": "D:\\Kuliah\\Magang_GVM\\testUI\\AvailaballsApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\email.png",
+        "source": "D:\\Kuliah\\Magang_GVM\\testUI\\AvailaballsApp\\app\\src\\main\\res\\drawable\\email.png"
+    },
+    {
         "merged": "D:\\Intern GVM\\AvailaballsAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
         "source": "C:\\Users\\Okta\\.android\\build-cache\\23eeae67d6a26c5b4698847ab9efcec400027273\\output\\res\\drawable\\abc_seekbar_track_material.xml"
     },
@@ -158,6 +162,10 @@
     {
         "merged": "D:\\Intern GVM\\AvailaballsAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
         "source": "C:\\Users\\Okta\\.android\\build-cache\\23eeae67d6a26c5b4698847ab9efcec400027273\\output\\res\\drawable\\abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "D:\\Kuliah\\Magang_GVM\\testUI\\AvailaballsApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\man.png",
+        "source": "D:\\Kuliah\\Magang_GVM\\testUI\\AvailaballsApp\\app\\src\\main\\res\\drawable\\man.png"
     },
     {
         "merged": "D:\\Kuliah\\Magang_GVM\\entah_apa_2\\AvailaballsApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
@@ -230,6 +238,10 @@
     {
         "merged": "D:\\Intern GVM\\AvailaballsAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
         "source": "C:\\Users\\Okta\\.android\\build-cache\\23eeae67d6a26c5b4698847ab9efcec400027273\\output\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "D:\\Kuliah\\Magang_GVM\\testUI\\AvailaballsApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\password.png",
+        "source": "D:\\Kuliah\\Magang_GVM\\testUI\\AvailaballsApp\\app\\src\\main\\res\\drawable\\password.png"
     },
     {
         "merged": "D:\\Kuliah\\Magang_GVM\\entah_apa_2\\AvailaballsApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",

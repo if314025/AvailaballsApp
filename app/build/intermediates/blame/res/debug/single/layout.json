@@ -16,6 +16,10 @@
         "source": "C:\\Users\\Okta\\.android\\build-cache\\56d00e5e9aae85204ecfcac647638e22af0dc64d\\output\\res\\layout\\bb_bottom_bar_item_container_tablet.xml"
     },
     {
+        "merged": "D:\\Kuliah\\Magang_GVM\\testUI\\AvailaballsApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_tambah_lapangan.xml",
+        "source": "D:\\Kuliah\\Magang_GVM\\testUI\\AvailaballsApp\\app\\src\\main\\res\\layout\\activity_tambah_lapangan.xml"
+    },
+    {
         "merged": "D:\\Intern GVM\\AvailaballsAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media_custom.xml",
         "source": "C:\\Users\\Okta\\.android\\build-cache\\23eeae67d6a26c5b4698847ab9efcec400027273\\output\\res\\layout\\notification_template_media_custom.xml"
     },

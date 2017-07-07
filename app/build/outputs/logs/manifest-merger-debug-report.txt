@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\Kuliah\Magang_GVM\testUI\AvailaballsApp\app\src\main\AndroidManifest.xml:2:1-28:12
+ADDED from D:\Kuliah\Magang_GVM\testUI\AvailaballsApp\app\src\main\AndroidManifest.xml:2:1-29:12
 	package
 		ADDED from D:\Kuliah\Magang_GVM\testUI\AvailaballsApp\app\src\main\AndroidManifest.xml:3:5-56
 		INJECTED from D:\Kuliah\Magang_GVM\testUI\AvailaballsApp\app\src\main\AndroidManifest.xml
@@ -14,7 +14,7 @@ ADDED from D:\Kuliah\Magang_GVM\testUI\AvailaballsApp\app\src\main\AndroidManife
 		INJECTED from D:\Kuliah\Magang_GVM\testUI\AvailaballsApp\app\src\main\AndroidManifest.xml
 		INJECTED from D:\Kuliah\Magang_GVM\testUI\AvailaballsApp\app\src\main\AndroidManifest.xml
 application
-ADDED from D:\Kuliah\Magang_GVM\testUI\AvailaballsApp\app\src\main\AndroidManifest.xml:5:5-26:19
+ADDED from D:\Kuliah\Magang_GVM\testUI\AvailaballsApp\app\src\main\AndroidManifest.xml:5:5-27:19
 MERGED from [com.android.support:design:25.3.1] C:\Users\Voldarex\.android\build-cache\354e7540d6d33628be2e9c473b81e981c2595f29\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:transition:25.3.1] C:\Users\Voldarex\.android\build-cache\5069980b41639167e0ddd4435ddc78ae8aeb0156\output\AndroidManifest.xml:26:5-20
 MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Voldarex\.android\build-cache\c2157dc35693f8f71233f248720d5b7782d489f6\output\AndroidManifest.xml:29:5-20
@@ -58,15 +58,19 @@ ADDED from D:\Kuliah\Magang_GVM\testUI\AvailaballsApp\app\src\main\AndroidManife
 	android:name
 		ADDED from D:\Kuliah\Magang_GVM\testUI\AvailaballsApp\app\src\main\AndroidManifest.xml:18:27-74
 activity#bolalob.develops.stud11314025.availaballs.Activity.MainActivity
-ADDED from D:\Kuliah\Magang_GVM\testUI\AvailaballsApp\app\src\main\AndroidManifest.xml:21:9-25:54
+ADDED from D:\Kuliah\Magang_GVM\testUI\AvailaballsApp\app\src\main\AndroidManifest.xml:21:9-25:63
 	android:screenOrientation
-		ADDED from D:\Kuliah\Magang_GVM\testUI\AvailaballsApp\app\src\main\AndroidManifest.xml:23:13-49
+		ADDED from D:\Kuliah\Magang_GVM\testUI\AvailaballsApp\app\src\main\AndroidManifest.xml:24:13-49
 	android:label
-		ADDED from D:\Kuliah\Magang_GVM\testUI\AvailaballsApp\app\src\main\AndroidManifest.xml:25:13-42
+		ADDED from D:\Kuliah\Magang_GVM\testUI\AvailaballsApp\app\src\main\AndroidManifest.xml:23:13-42
 	android:windowSoftInputMode
-		ADDED from D:\Kuliah\Magang_GVM\testUI\AvailaballsApp\app\src\main\AndroidManifest.xml:24:13-60
+		ADDED from D:\Kuliah\Magang_GVM\testUI\AvailaballsApp\app\src\main\AndroidManifest.xml:25:13-60
 	android:name
 		ADDED from D:\Kuliah\Magang_GVM\testUI\AvailaballsApp\app\src\main\AndroidManifest.xml:22:13-50
+activity#bolalob.develops.stud11314025.availaballs.TambahLapanganActivity
+ADDED from D:\Kuliah\Magang_GVM\testUI\AvailaballsApp\app\src\main\AndroidManifest.xml:26:9-69
+	android:name
+		ADDED from D:\Kuliah\Magang_GVM\testUI\AvailaballsApp\app\src\main\AndroidManifest.xml:26:19-57
 uses-sdk
 INJECTED from D:\Kuliah\Magang_GVM\testUI\AvailaballsApp\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.roughike:bottom-bar:2.3.1] C:\Users\Voldarex\.android\build-cache\0dbf4fad8d940e16993989a004e5040278bae467\output\AndroidManifest.xml:8:5-10:41
@@ -119,8 +123,8 @@ ADDED from [com.android.support:support-media-compat:25.3.1] C:\Users\Voldarex\.
 	android:name
 		ADDED from [com.android.support:support-media-compat:25.3.1] C:\Users\Voldarex\.android\build-cache\160258d303cda61c27e313ac3b5d8f6b2d617286\output\AndroidManifest.xml:15:13-41
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-IMPLIED from D:\Kuliah\Magang_GVM\testUI\AvailaballsApp\app\src\main\AndroidManifest.xml:2:1-28:12 reason: com.example.voldarex.infobola_11414028 has a targetSdkVersion < 4
+IMPLIED from D:\Kuliah\Magang_GVM\testUI\AvailaballsApp\app\src\main\AndroidManifest.xml:2:1-29:12 reason: com.example.voldarex.infobola_11414028 has a targetSdkVersion < 4
 uses-permission#android.permission.READ_PHONE_STATE
-IMPLIED from D:\Kuliah\Magang_GVM\testUI\AvailaballsApp\app\src\main\AndroidManifest.xml:2:1-28:12 reason: com.example.voldarex.infobola_11414028 has a targetSdkVersion < 4
+IMPLIED from D:\Kuliah\Magang_GVM\testUI\AvailaballsApp\app\src\main\AndroidManifest.xml:2:1-29:12 reason: com.example.voldarex.infobola_11414028 has a targetSdkVersion < 4
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-IMPLIED from D:\Kuliah\Magang_GVM\testUI\AvailaballsApp\app\src\main\AndroidManifest.xml:2:1-28:12 reason: com.example.voldarex.infobola_11414028 requested WRITE_EXTERNAL_STORAGE
+IMPLIED from D:\Kuliah\Magang_GVM\testUI\AvailaballsApp\app\src\main\AndroidManifest.xml:2:1-29:12 reason: com.example.voldarex.infobola_11414028 requested WRITE_EXTERNAL_STORAGE

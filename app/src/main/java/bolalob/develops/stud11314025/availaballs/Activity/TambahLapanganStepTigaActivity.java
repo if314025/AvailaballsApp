@@ -1,6 +1,5 @@
 package bolalob.develops.stud11314025.availaballs.Activity;
 
-import android.content.Intent;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.support.v7.app.ActionBar;
@@ -10,6 +9,8 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.RadioButton;
+import android.widget.RadioGroup;
 import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -19,12 +20,17 @@ import java.util.List;
 
 import bolalob.develops.stud11314025.availaballs.R;
 
-public class TambahLapanganStepDuaActivity extends AppCompatActivity implements AdapterView.OnItemSelectedListener {
+public class TambahLapanganStepTigaActivity extends AppCompatActivity implements AdapterView.OnItemSelectedListener {
+    private RadioGroup radioGroupHari;
+    private RadioButton radioButtonNb;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_tambah__lapangan__step__dua);
+        setContentView(R.layout.activity_tambah_lapangan_step_tiga);
+
+        radioGroupHari = (RadioGroup) findViewById(R.id.radioGroupHari);
+
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
@@ -42,23 +48,44 @@ public class TambahLapanganStepDuaActivity extends AppCompatActivity implements 
         mActionBar.setCustomView(mCustomView);
         mActionBar.setDisplayShowCustomEnabled(true);
 
-        Spinner spinner = (Spinner) findViewById(R.id.spinnerJumlahLapangan);
+        Spinner spinnerJamBuka = (Spinner) findViewById(R.id.spinnerJamBuka);
+        Spinner spinnerJamTutup = (Spinner) findViewById(R.id.spinnerJamTutup);
 
-        spinner.setOnItemSelectedListener(this);
+        spinnerJamBuka.setOnItemSelectedListener(this);
+        spinnerJamTutup.setOnItemSelectedListener(this);
 
         List<String> categories = new ArrayList<String>();
-        categories.add("1");
-        categories.add("2");
-        categories.add("3");
-        categories.add("4");
-        categories.add("5");
-        categories.add("6");
+        categories.add("08:00");
+        categories.add("00:00");
+        categories.add("01:00");
+        categories.add("02:00");
+        categories.add("03:00");
+        categories.add("04:00");
+        categories.add("05:00");
+        categories.add("06:00");
+        categories.add("07:00");
+        categories.add("09:00");
+        categories.add("10:00");
+        categories.add("11:00");
+        categories.add("12:00");
+        categories.add("13:00");
+        categories.add("14:00");
+        categories.add("15:00");
+        categories.add("16:00");
+        categories.add("17:00");
+        categories.add("18:00");
+        categories.add("19:00");
+        categories.add("20:00");
+        categories.add("21:00");
+        categories.add("22:00");
+        categories.add("23:00");
 
         ArrayAdapter<String> dataAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, categories);
 
         dataAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
 
-        spinner.setAdapter(dataAdapter);
+        spinnerJamBuka.setAdapter(dataAdapter);
+        spinnerJamTutup.setAdapter(dataAdapter);
     }
 
 
@@ -85,15 +112,5 @@ public class TambahLapanganStepDuaActivity extends AppCompatActivity implements 
     @Override
     public void onNothingSelected(AdapterView<?> parent) {
 
-    }
-
-    public void nextStep(View view) {
-        Intent intent = new Intent(TambahLapanganStepDuaActivity.this, TambahLapanganStepTigaActivity.class);
-        startActivity(intent);
-    }
-
-    public void openMap(View view) {
-        Intent intent = new Intent(TambahLapanganStepDuaActivity.this, MapsActivity.class);
-        startActivity(intent);
     }
 }

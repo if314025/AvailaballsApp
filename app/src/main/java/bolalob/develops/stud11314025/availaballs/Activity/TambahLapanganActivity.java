@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.view.LayoutInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.TextView;
 
@@ -18,6 +19,7 @@ public class TambahLapanganActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tambah_lapangan);
 
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         ActionBar mActionBar = getSupportActionBar();
@@ -35,9 +37,20 @@ public class TambahLapanganActivity extends AppCompatActivity {
 
     }
 
-    public void nextStep(View view){
+    public void nextStep(View view) {
         Intent intent = new Intent(TambahLapanganActivity.this, TambahLapanganStepDuaActivity.class);
         startActivity(intent);
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        int id = item.getItemId();
+
+        if (id == android.R.id.home) {
+            this.finish();
+        }
+
+        return super.onOptionsItemSelected(item);
     }
 
 

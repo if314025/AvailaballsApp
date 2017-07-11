@@ -1,23 +1,23 @@
 [
     {
-        "merged": "D:\\Kuliah\\Magang_GVM\\testUI\\AvailaballsApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_vector_test.xml",
-        "source": "C:\\Users\\Voldarex\\.android\\build-cache\\c2157dc35693f8f71233f248720d5b7782d489f6\\output\\res\\drawable\\abc_vector_test.xml"
+        "merged": "D:\\Kuliah\\Magang_GVM\\testUI\\AvailaballsApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg_low.xml",
+        "source": "C:\\Users\\Voldarex\\.android\\build-cache\\c2157dc35693f8f71233f248720d5b7782d489f6\\output\\res\\drawable\\notification_bg_low.xml"
     },
     {
         "merged": "D:\\Kuliah\\Magang_GVM\\testUI\\AvailaballsApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_small_material.xml",
         "source": "C:\\Users\\Voldarex\\.android\\build-cache\\c2157dc35693f8f71233f248720d5b7782d489f6\\output\\res\\drawable\\abc_ratingbar_small_material.xml"
     },
     {
-        "merged": "D:\\Kuliah\\Magang_GVM\\testUI\\AvailaballsApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg_low.xml",
-        "source": "C:\\Users\\Voldarex\\.android\\build-cache\\c2157dc35693f8f71233f248720d5b7782d489f6\\output\\res\\drawable\\notification_bg_low.xml"
-    },
-    {
-        "merged": "D:\\Kuliah\\Magang_GVM\\testUI\\AvailaballsApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
-        "source": "C:\\Users\\Voldarex\\.android\\build-cache\\c2157dc35693f8f71233f248720d5b7782d489f6\\output\\res\\drawable\\abc_seekbar_thumb_material.xml"
+        "merged": "D:\\Kuliah\\Magang_GVM\\testUI\\AvailaballsApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_vector_test.xml",
+        "source": "C:\\Users\\Voldarex\\.android\\build-cache\\c2157dc35693f8f71233f248720d5b7782d489f6\\output\\res\\drawable\\abc_vector_test.xml"
     },
     {
         "merged": "D:\\Kuliah\\Magang_GVM\\testUI\\AvailaballsApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_dark.xml",
         "source": "C:\\Users\\Voldarex\\.android\\build-cache\\375b984a95e34c1b0985600e5108cc843129d41e\\output\\res\\drawable\\common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "D:\\Kuliah\\Magang_GVM\\testUI\\AvailaballsApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
+        "source": "C:\\Users\\Voldarex\\.android\\build-cache\\c2157dc35693f8f71233f248720d5b7782d489f6\\output\\res\\drawable\\abc_seekbar_thumb_material.xml"
     },
     {
         "merged": "D:\\Kuliah\\Magang_GVM\\testUI\\AvailaballsApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
@@ -60,12 +60,12 @@
         "source": "D:\\Kuliah\\Magang_GVM\\testUI\\AvailaballsApp\\app\\src\\main\\res\\drawable\\uploadfotobutton.xml"
     },
     {
-        "merged": "D:\\Kuliah\\Magang_GVM\\testUI\\AvailaballsApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\rectanglebutton.xml",
-        "source": "D:\\Kuliah\\Magang_GVM\\testUI\\AvailaballsApp\\app\\src\\main\\res\\drawable\\rectanglebutton.xml"
-    },
-    {
         "merged": "D:\\Kuliah\\Magang_GVM\\testUI\\AvailaballsApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_light_focused.xml",
         "source": "C:\\Users\\Voldarex\\.android\\build-cache\\375b984a95e34c1b0985600e5108cc843129d41e\\output\\res\\drawable\\common_google_signin_btn_icon_light_focused.xml"
+    },
+    {
+        "merged": "D:\\Kuliah\\Magang_GVM\\testUI\\AvailaballsApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\rectanglebutton.xml",
+        "source": "D:\\Kuliah\\Magang_GVM\\testUI\\AvailaballsApp\\app\\src\\main\\res\\drawable\\rectanglebutton.xml"
     },
     {
         "merged": "D:\\Kuliah\\Magang_GVM\\testUI\\AvailaballsApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
@@ -84,12 +84,12 @@
         "source": "C:\\Users\\Voldarex\\.android\\build-cache\\c2157dc35693f8f71233f248720d5b7782d489f6\\output\\res\\drawable\\abc_spinner_textfield_background_material.xml"
     },
     {
-        "merged": "D:\\Kuliah\\Magang_GVM\\testUI\\AvailaballsApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_voice_search_api_material.xml",
-        "source": "C:\\Users\\Voldarex\\.android\\build-cache\\c2157dc35693f8f71233f248720d5b7782d489f6\\output\\res\\drawable\\abc_ic_voice_search_api_material.xml"
-    },
-    {
         "merged": "D:\\Kuliah\\Magang_GVM\\testUI\\AvailaballsApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_light.xml",
         "source": "C:\\Users\\Voldarex\\.android\\build-cache\\375b984a95e34c1b0985600e5108cc843129d41e\\output\\res\\drawable\\common_google_signin_btn_icon_light.xml"
+    },
+    {
+        "merged": "D:\\Kuliah\\Magang_GVM\\testUI\\AvailaballsApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_voice_search_api_material.xml",
+        "source": "C:\\Users\\Voldarex\\.android\\build-cache\\c2157dc35693f8f71233f248720d5b7782d489f6\\output\\res\\drawable\\abc_ic_voice_search_api_material.xml"
     },
     {
         "merged": "D:\\Kuliah\\Magang_GVM\\testUI\\AvailaballsApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_dark_normal.xml",
@@ -104,12 +104,12 @@
         "source": "C:\\Users\\Voldarex\\.android\\build-cache\\c2157dc35693f8f71233f248720d5b7782d489f6\\output\\res\\drawable\\abc_ic_clear_material.xml"
     },
     {
-        "merged": "D:\\Kuliah\\Magang_GVM\\testUI\\AvailaballsApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_tick_mark_material.xml",
-        "source": "C:\\Users\\Voldarex\\.android\\build-cache\\c2157dc35693f8f71233f248720d5b7782d489f6\\output\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
-    },
-    {
         "merged": "D:\\Kuliah\\Magang_GVM\\testUI\\AvailaballsApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_dark_normal.xml",
         "source": "C:\\Users\\Voldarex\\.android\\build-cache\\375b984a95e34c1b0985600e5108cc843129d41e\\output\\res\\drawable\\common_google_signin_btn_text_dark_normal.xml"
+    },
+    {
+        "merged": "D:\\Kuliah\\Magang_GVM\\testUI\\AvailaballsApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_tick_mark_material.xml",
+        "source": "C:\\Users\\Voldarex\\.android\\build-cache\\c2157dc35693f8f71233f248720d5b7782d489f6\\output\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
     },
     {
         "merged": "D:\\Kuliah\\Magang_GVM\\testUI\\AvailaballsApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_disabled.xml",
@@ -140,12 +140,12 @@
         "source": "C:\\Users\\Voldarex\\.android\\build-cache\\c2157dc35693f8f71233f248720d5b7782d489f6\\output\\res\\drawable\\abc_textfield_search_material.xml"
     },
     {
-        "merged": "D:\\Kuliah\\Magang_GVM\\testUI\\AvailaballsApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
-        "source": "C:\\Users\\Voldarex\\.android\\build-cache\\c2157dc35693f8f71233f248720d5b7782d489f6\\output\\res\\drawable\\abc_cab_background_internal_bg.xml"
-    },
-    {
         "merged": "D:\\Kuliah\\Magang_GVM\\testUI\\AvailaballsApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\texteditdark.xml",
         "source": "D:\\Kuliah\\Magang_GVM\\testUI\\AvailaballsApp\\app\\src\\main\\res\\drawable\\texteditdark.xml"
+    },
+    {
+        "merged": "D:\\Kuliah\\Magang_GVM\\testUI\\AvailaballsApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
+        "source": "C:\\Users\\Voldarex\\.android\\build-cache\\c2157dc35693f8f71233f248720d5b7782d489f6\\output\\res\\drawable\\abc_cab_background_internal_bg.xml"
     },
     {
         "merged": "D:\\Kuliah\\Magang_GVM\\testUI\\AvailaballsApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
@@ -180,12 +180,12 @@
         "source": "C:\\Users\\Voldarex\\.android\\build-cache\\c2157dc35693f8f71233f248720d5b7782d489f6\\output\\res\\drawable\\abc_dialog_material_background.xml"
     },
     {
-        "merged": "D:\\Kuliah\\Magang_GVM\\testUI\\AvailaballsApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
-        "source": "C:\\Users\\Voldarex\\.android\\build-cache\\c2157dc35693f8f71233f248720d5b7782d489f6\\output\\res\\drawable\\abc_btn_radio_material.xml"
-    },
-    {
         "merged": "D:\\Kuliah\\Magang_GVM\\testUI\\AvailaballsApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_dark_focused.xml",
         "source": "C:\\Users\\Voldarex\\.android\\build-cache\\375b984a95e34c1b0985600e5108cc843129d41e\\output\\res\\drawable\\common_google_signin_btn_icon_dark_focused.xml"
+    },
+    {
+        "merged": "D:\\Kuliah\\Magang_GVM\\testUI\\AvailaballsApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
+        "source": "C:\\Users\\Voldarex\\.android\\build-cache\\c2157dc35693f8f71233f248720d5b7782d489f6\\output\\res\\drawable\\abc_btn_radio_material.xml"
     },
     {
         "merged": "D:\\Kuliah\\Magang_GVM\\testUI\\AvailaballsApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg.xml",
@@ -216,12 +216,12 @@
         "source": "C:\\Users\\Voldarex\\.android\\build-cache\\375b984a95e34c1b0985600e5108cc843129d41e\\output\\res\\drawable\\common_google_signin_btn_text_light_normal.xml"
     },
     {
-        "merged": "D:\\Kuliah\\Magang_GVM\\testUI\\AvailaballsApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
-        "source": "C:\\Users\\Voldarex\\.android\\build-cache\\c2157dc35693f8f71233f248720d5b7782d489f6\\output\\res\\drawable\\abc_item_background_holo_light.xml"
-    },
-    {
         "merged": "D:\\Kuliah\\Magang_GVM\\testUI\\AvailaballsApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_dark_focused.xml",
         "source": "C:\\Users\\Voldarex\\.android\\build-cache\\375b984a95e34c1b0985600e5108cc843129d41e\\output\\res\\drawable\\common_google_signin_btn_text_dark_focused.xml"
+    },
+    {
+        "merged": "D:\\Kuliah\\Magang_GVM\\testUI\\AvailaballsApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
+        "source": "C:\\Users\\Voldarex\\.android\\build-cache\\c2157dc35693f8f71233f248720d5b7782d489f6\\output\\res\\drawable\\abc_item_background_holo_light.xml"
     },
     {
         "merged": "D:\\Kuliah\\Magang_GVM\\testUI\\AvailaballsApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",

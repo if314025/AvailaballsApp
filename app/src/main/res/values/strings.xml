@@ -5,4 +5,12 @@
     <string name="font_stoke">stoke</string>
     <string name="font_icon">icomoons</string>
     <string name="title_activity_maps">Map</string>
+
+    <string name="senin">Senin</string>
+    <string name="selasa">Selasa</string>
+    <string name="rabu">Rabu</string>
+    <string name="kamis">Kamis</string>
+    <string name="jumat">Jumat</string>
+    <string name="sabtu">Sabtu</string>
+    <string name="minggu">Minggu</string>
 </resources>

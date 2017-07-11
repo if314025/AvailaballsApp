@@ -66,7 +66,6 @@ public class MainActivity extends AppCompatActivity {
         rvView.setHasFixedSize(true);
 
 
-
         /**
          * Kita menggunakan LinearLayoutManager untuk list standar
          * yang hanya berisi daftar item
@@ -95,7 +94,6 @@ public class MainActivity extends AppCompatActivity {
         }
 
 
-
     }
 
     private void initDataset() {
@@ -106,8 +104,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    public void tambahLapangan(View view)
-    {
+    public void tambahLapangan(View view) {
         Intent intent = new Intent(MainActivity.this, TambahLapanganActivity.class);
         startActivity(intent);
     }

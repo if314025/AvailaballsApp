@@ -89,7 +89,7 @@ public class LoginActivity extends AppCompatActivity implements LoginView {
 
     }
 
-    public void setAlpha(){
+    public void setAlpha() {
         LinearLayout layout = (LinearLayout) findViewById(R.id.backgroud);
         layout.setAlpha(1);
     }

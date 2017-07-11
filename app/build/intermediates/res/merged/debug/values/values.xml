@@ -126,8 +126,8 @@
     <color name="clrline">#b3b3b3</color>
     <color name="clrpressed">#ffffff</color>
     <color name="clrtxt1">#999999</color>
-    <color name="colorAccent">#ffffff</color>
-    <color name="colorPrimary">#ffffff</color>
+    <color name="colorAccent">#4df559</color>
+    <color name="colorPrimary">#6c6868</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorSnackbar">#f43b3e</color>
     <color name="design_bottom_navigation_shadow_color">#14000000</color>

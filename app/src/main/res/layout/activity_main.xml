@@ -21,19 +21,20 @@
         android:layout_marginBottom="@dimen/size140"
         ></android.support.v7.widget.RecyclerView>
 
-    <bolalob.develops.stud11314025.availaballs.CustomView.CustomFontTextView
+    <bolalob.develops.stud11314025.availaballs.Widget.CustomFontTextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="12sp"
         android:text="Lokasi"
+        android:visibility="gone"
         android:textColor="@color/clrtxt1"
         app:font="@string/font_roboto"
         android:id="@+id/customFontTextView"
         android:layout_marginLeft="100dp"
         android:layout_marginStart="50dp"
         android:layout_alignParentTop="true"
-        android:layout_toRightOf="@+id/TextNamaLapangan"
-        android:layout_toEndOf="@+id/TextNamaLapangan" />
+        android:layout_toRightOf="@+id/TvNamaLapangan"
+        android:layout_toEndOf="@+id/TvNamaLapangan" />
 
 
     <android.support.design.widget.BottomNavigationView
@@ -49,28 +50,30 @@
         android:textAlignment="center"
         android:paddingBottom="19dp" />
 
-    <bolalob.develops.stud11314025.availaballs.CustomView.CustomFontTextView
+    <bolalob.develops.stud11314025.availaballs.Widget.CustomFontTextView
+        android:id="@+id/TextNo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:font="@string/font_roboto"
-        android:textSize="12sp"
-        android:textColor="@color/clrtxt1"
-        android:text="No"
-        android:id="@+id/TextNo"
-        android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
         android:layout_marginLeft="15dp"
-        android:layout_marginStart="15dp" />
+        android:layout_marginStart="15dp"
+        android:text="No"
+        android:textColor="@color/clrtxt1"
+        android:textSize="12sp"
+        android:visibility="gone"
+        app:font="@string/font_roboto" />
 
-    <bolalob.develops.stud11314025.availaballs.CustomView.CustomFontTextView
+    <bolalob.develops.stud11314025.availaballs.Widget.CustomFontTextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="12sp"
-        android:id="@+id/TextNamaLapangan"
+        android:id="@+id/TvNamaLapangan"
         app:font="@string/font_roboto"
         android:textColor="@color/clrtxt1"
         android:text="Nama Lapangan"
+        android:visibility="gone"
         android:layout_marginLeft="17dp"
         android:layout_marginStart="17dp"
         android:layout_alignParentTop="true"
@@ -99,83 +102,95 @@
         android:visibility="gone"
         android:layout_centerHorizontal="true" />
 
-    <bolalob.develops.stud11314025.availaballs.CustomView.CustomFontButton
-        android:layout_width="@dimen/size30"
-        android:layout_height="@dimen/size40"
-        android:text="..."
-        android:background="@drawable/rectanglebutton"
-        android:textColor="@color/colorstate"
-        app:font="@string/font_stoke"
-        android:textSize="6sp"
+    <bolalob.develops.stud11314025.availaballs.Widget.CustomFontButton
         android:id="@+id/button4"
-        android:layout_marginLeft="10dp"
-        android:layout_marginStart="10dp"
+        android:layout_width="@dimen/size30"
+        android:layout_height="@dimen/size40"
         android:layout_alignTop="@+id/button3"
-        android:layout_toRightOf="@+id/button3"
-        android:layout_toEndOf="@+id/button3" />
-
-    <bolalob.develops.stud11314025.availaballs.CustomView.CustomFontButton
-        android:layout_width="@dimen/size30"
-        android:layout_height="@dimen/size40"
-        android:text="3"
-        android:id="@+id/button3"
-        android:layout_centerInParent="true"
-        app:font="@string/font_stoke"
-        android:layout_above="@id/navigation"
-        android:layout_alignParentBottom="true"
-        android:background="@drawable/rectanglebutton"
-        android:textColor="@color/colorstate"
-        android:layout_marginBottom="@dimen/size80"
-        android:textSize="@dimen/font12" android:layout_marginLeft="10dp"
-        android:layout_marginStart="10dp"
-        android:layout_alignBottom="@id/rv_main"
-        />
-
-    <bolalob.develops.stud11314025.availaballs.CustomView.CustomFontButton
-        android:layout_width="@dimen/size30"
-        android:layout_height="@dimen/size40"
-        android:text="2"
-        app:font="@string/font_stoke"
-        android:textSize="@dimen/font12"
-        android:id="@+id/button2"
-        android:background="@drawable/rectanglebutton"
-        android:textColor="@color/colorstate"
-        android:layout_alignBottom="@+id/button3"
-        android:layout_toLeftOf="@+id/button3"
         android:layout_marginLeft="10dp"
         android:layout_marginStart="10dp"
-        android:layout_toStartOf="@+id/button3" />
-
-    <bolalob.develops.stud11314025.availaballs.CustomView.CustomFontButton
-        android:text="1"
-        android:layout_height="@dimen/size40"
-        android:id="@+id/button1"
-        app:font="@string/font_stoke"
+        android:layout_toEndOf="@+id/button3"
+        android:layout_toRightOf="@+id/button3"
         android:background="@drawable/rectanglebutton"
+        android:text="..."
         android:textColor="@color/colorstate"
-        android:textSize="@dimen/font10"
+        android:textSize="6sp"
+        android:visibility="gone"
+        app:font="@string/font_stoke" />
+
+    <bolalob.develops.stud11314025.availaballs.Widget.CustomFontButton
+        android:id="@+id/button3"
         android:layout_width="@dimen/size30"
-        android:layout_alignBottom="@+id/button4"
+        android:layout_height="@dimen/size40"
         android:layout_above="@id/navigation"
+        android:layout_alignBottom="@id/rv_main"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="@dimen/size80"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:background="@drawable/rectanglebutton"
+        android:text="3"
+        android:textColor="@color/colorstate"
+        android:textSize="@dimen/font12"
+        android:visibility="gone"
+        app:font="@string/font_stoke" />
+
+    <bolalob.develops.stud11314025.availaballs.Widget.CustomFontButton
+        android:id="@+id/button2"
+        android:layout_width="@dimen/size30"
+        android:layout_height="@dimen/size40"
+        android:layout_alignBottom="@+id/button3"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_toLeftOf="@+id/button3"
+        android:layout_toStartOf="@+id/button3"
+        android:background="@drawable/rectanglebutton"
+        android:text="2"
+        android:textColor="@color/colorstate"
+        android:textSize="@dimen/font12"
+        android:visibility="gone"
+        app:font="@string/font_stoke" />
+
+    <bolalob.develops.stud11314025.availaballs.Widget.CustomFontButton
+        android:id="@+id/button1"
+        android:layout_width="@dimen/size30"
+        android:layout_height="@dimen/size40"
+        android:layout_above="@id/navigation"
+        android:layout_alignBottom="@+id/button4"
         android:layout_toLeftOf="@+id/button2"
         android:layout_toStartOf="@+id/button2"
-        />
+        android:background="@drawable/rectanglebutton"
+        android:text="1"
+        android:textColor="@color/colorstate"
+        android:textSize="@dimen/font10"
+        android:visibility="gone"
+        app:font="@string/font_stoke" />
 
-    <bolalob.develops.stud11314025.availaballs.CustomView.CustomFontButton
+    <bolalob.develops.stud11314025.availaballs.Widget.CustomFontButton
+        android:id="@+id/button5"
         android:layout_width="30dp"
         android:layout_height="@dimen/size40"
-        android:text="10"
-        app:font="@string/font_stoke"
-        android:textSize="@dimen/font12"
-        android:id="@+id/button5"
-        android:background="@drawable/rectanglebutton"
-        android:textColor="@color/colorstate"
         android:layout_alignTop="@+id/button4"
-        android:layout_toRightOf="@+id/button4"
-        android:layout_toEndOf="@+id/button4"
         android:layout_marginLeft="10dp"
-        android:layout_marginStart="10dp" />
+        android:layout_marginStart="10dp"
+        android:layout_toEndOf="@+id/button4"
+        android:layout_toRightOf="@+id/button4"
+        android:background="@drawable/rectanglebutton"
+        android:text="10"
+        android:textColor="@color/colorstate"
+        android:textSize="@dimen/font12"
+        android:visibility="gone"
+        app:font="@string/font_stoke" />
 
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:visibility="gone" />
 
 
 </RelativeLayout>

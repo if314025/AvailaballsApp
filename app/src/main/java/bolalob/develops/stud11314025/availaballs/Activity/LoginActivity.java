@@ -10,6 +10,7 @@ import android.view.Gravity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import bolalob.develops.stud11314025.availaballs.LoginMVP.LoginPresenter;
@@ -29,6 +30,7 @@ public class LoginActivity extends AppCompatActivity implements LoginView {
     EditText etPassword;
     @Bind(R.id.btnLogin)
     Button btnLgn;
+
     private LoginPresenter presenter;
 
 
@@ -46,6 +48,7 @@ public class LoginActivity extends AppCompatActivity implements LoginView {
                 presenter.login(etEmail.getText().toString(), etPassword.getText().toString());
             }
         });
+
     }
 
     @Override
@@ -85,4 +88,10 @@ public class LoginActivity extends AppCompatActivity implements LoginView {
         snackbar.show();
 
     }
+
+    public void setAlpha(){
+        LinearLayout layout = (LinearLayout) findViewById(R.id.backgroud);
+        layout.setAlpha(1);
+    }
+
 }

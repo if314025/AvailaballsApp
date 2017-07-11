@@ -4,35 +4,23 @@
         "source": "D:\\Kuliah\\Magang_GVM\\testUI\\AvailaballsApp\\app\\src\\main\\res\\drawable-hdpi\\backgroundlogin.png"
     },
     {
-        "merged": "D:\\Intern GVM\\AvailaballsAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\backgroundlogin.png",
-        "source": "D:\\Intern GVM\\AvailaballsAndroid\\app\\src\\main\\res\\drawable-hdpi\\backgroundlogin.png"
+        "merged": "D:\\Kuliah\\Magang_GVM\\testUI\\AvailaballsApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icon_camera.png",
+        "source": "D:\\Kuliah\\Magang_GVM\\testUI\\AvailaballsApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\icon_camera.png"
     },
     {
-        "merged": "D:\\Intern GVM\\AvailaballsAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\emptydata.png",
-        "source": "D:\\Intern GVM\\AvailaballsAndroid\\app\\src\\main\\res\\drawable-hdpi\\emptydata.png"
+        "merged": "D:\\Kuliah\\Magang_GVM\\testUI\\AvailaballsApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\email.png",
+        "source": "D:\\Kuliah\\Magang_GVM\\testUI\\AvailaballsApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\email.png"
     },
     {
         "merged": "D:\\Kuliah\\Magang_GVM\\testUI\\AvailaballsApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\logoavailaball.png",
         "source": "D:\\Kuliah\\Magang_GVM\\testUI\\AvailaballsApp\\app\\src\\main\\res\\drawable-hdpi\\logoavailaball.png"
     },
     {
-        "merged": "D:\\Kuliah\\Magang_GVM\\entah_apa_2\\AvailaballsApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\emptydata.png",
-        "source": "D:\\Kuliah\\Magang_GVM\\entah_apa_2\\AvailaballsApp\\app\\src\\main\\res\\drawable-hdpi\\emptydata.png"
-    },
-    {
-        "merged": "D:\\Kuliah\\Magang_GVM\\entah_apa_2\\AvailaballsApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\logoavailaball.png",
-        "source": "D:\\Kuliah\\Magang_GVM\\entah_apa_2\\AvailaballsApp\\app\\src\\main\\res\\drawable-hdpi\\logoavailaball.png"
-    },
-    {
-        "merged": "D:\\Intern GVM\\AvailaballsAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\logoavailaball.png",
-        "source": "D:\\Intern GVM\\AvailaballsAndroid\\app\\src\\main\\res\\drawable-hdpi\\logoavailaball.png"
-    },
-    {
         "merged": "D:\\Kuliah\\Magang_GVM\\testUI\\AvailaballsApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\emptydata.png",
         "source": "D:\\Kuliah\\Magang_GVM\\testUI\\AvailaballsApp\\app\\src\\main\\res\\drawable-hdpi\\emptydata.png"
     },
     {
-        "merged": "D:\\Kuliah\\Magang_GVM\\entah_apa_2\\AvailaballsApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\backgroundlogin.png",
-        "source": "D:\\Kuliah\\Magang_GVM\\entah_apa_2\\AvailaballsApp\\app\\src\\main\\res\\drawable-hdpi\\backgroundlogin.png"
+        "merged": "D:\\Kuliah\\Magang_GVM\\testUI\\AvailaballsApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icon_lapangan.png",
+        "source": "D:\\Kuliah\\Magang_GVM\\testUI\\AvailaballsApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\icon_lapangan.png"
     }
 ]

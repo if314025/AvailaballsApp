@@ -1,9 +1,10 @@
 package bolalob.develops.stud11314025.availaballs.Activity;
 
+import android.content.Intent;
 import android.graphics.drawable.ColorDrawable;
+import android.os.Bundle;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -15,8 +16,8 @@ import android.widget.TextView;
 import java.util.ArrayList;
 
 import bolalob.develops.stud11314025.availaballs.CustomView.RecyclerViewAdapter;
-import bolalob.develops.stud11314025.availaballs.R;
 import bolalob.develops.stud11314025.availaballs.Model.Lapangan;
+import bolalob.develops.stud11314025.availaballs.R;
 import butterknife.Bind;
 import butterknife.ButterKnife;
 
@@ -52,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
         LayoutInflater mInflater = LayoutInflater.from(this);
 
         View mCustomView = mInflater.inflate(R.layout.custom_actionbar, null);
-        TextView mTitleTextView = (TextView) mCustomView.findViewById(R.id.title_text);
+        TextView mTitleTextView = (TextView) mCustomView.findViewById(R.id.title_text_centered);
         mTitleTextView.setText("List Lapangan");
 
         mActionBar.setBackgroundDrawable(new ColorDrawable(getResources().getColor(R.color.clrNavigation)));
@@ -63,6 +64,8 @@ public class MainActivity extends AppCompatActivity {
 
         rvView = (RecyclerView) findViewById(R.id.rv_main);
         rvView.setHasFixedSize(true);
+
+
 
         /**
          * Kita menggunakan LinearLayoutManager untuk list standar
@@ -91,6 +94,8 @@ public class MainActivity extends AppCompatActivity {
             emptyview.setVisibility(View.GONE);
         }
 
+
+
     }
 
     private void initDataset() {
@@ -99,6 +104,12 @@ public class MainActivity extends AppCompatActivity {
             dataSet.add(new Lapangan(i, "Futsal Bolalob", "Wisma77Tower2"));
         }
 
+    }
+
+    public void tambahLapangan(View view)
+    {
+        Intent intent = new Intent(MainActivity.this, TambahLapanganActivity.class);
+        startActivity(intent);
     }
 
     private RecyclerView.OnScrollListener recyclerViewOnScrollListener = new RecyclerView.OnScrollListener() {

@@ -8,14 +8,22 @@
         android:id="@+id/title_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
         app:font="@string/font_roboto"
         android:textSize="20sp"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:textColor="#ffffff"
         android:textStyle="bold" />
 
-
+    <bolalob.develops.stud11314025.availaballs.CustomView.CustomFontTextView
+        android:id="@+id/title_text_centered"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        app:font="@string/font_roboto"
+        android:textSize="20sp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
 
     <ImageButton
         android:id="@+id/imageButton"

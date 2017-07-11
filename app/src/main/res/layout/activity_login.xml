@@ -1,115 +1,131 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_login"
+    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/backgroundlogin"
-    tools:context="bolalob.develops.stud11314025.availaballs.Activity.LoginActivity">
+    android:gravity="center_horizontal">
 
     <ImageView
-        android:id="@+id/imageView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="140px"
         android:src="@drawable/logoavailaball"
-        app:layout_constraintBottom_toTopOf="@+id/textInputEmail"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:layout_constraintBottom_creator="1"
-        tools:layout_constraintLeft_creator="1"
-        tools:layout_constraintRight_creator="1" />
+        android:layout_marginTop="20dp"/>
+
+    <LinearLayout
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:background="@drawable/textedit">
+
+        <bolalob.develops.stud11314025.availaballs.CustomView.CustomFontTextView
+            android:id="@+id/iconEmailTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:layout_marginTop="18dp"
+            android:text="@string/account_icon"
+            app:font="@string/font_icon"
+            android:textColor="@color/clrline">
+
+        </bolalob.develops.stud11314025.availaballs.CustomView.CustomFontTextView>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/textInputEmail"
+            android:layout_width="240dp"
+            android:layout_height="48dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:theme="@style/TextLabelLogin">
+
+            <bolalob.develops.stud11314025.availaballs.CustomView.CustomFontEditTextView
+                android:id="@+id/eTEmail"
+                android:layout_width="240dp"
+                android:layout_height="40dp"
+                android:drawablePadding="15dp"
+                android:drawableTint="@color/clrline"
+                android:textColor="@color/clrpressed"
+                android:textColorHighlight="#FFFFFF"
+                android:ems="10"
+                android:hint="Nama Lapangan"
+                android:inputType="text"
+                android:textSize="12dp"
+                android:textStyle="normal"
+                android:background="@android:color/transparent"
+                app:font="@string/font_roboto" />
+
+        </android.support.design.widget.TextInputLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/backgroud"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:background="@drawable/textedit">
+
+        <bolalob.develops.stud11314025.availaballs.CustomView.CustomFontTextView
+            android:id="@+id/iconPasswordTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:layout_marginTop="18dp"
+            android:text="@string/pass_icon"
+            app:font="@string/font_icon"
+            android:textColor="@color/clrline">
+
+        </bolalob.develops.stud11314025.availaballs.CustomView.CustomFontTextView>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/textInputPassword"
+            android:layout_width="240dp"
+            android:layout_height="48dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:theme="@style/TextLabelLogin">
+
+            <bolalob.develops.stud11314025.availaballs.CustomView.CustomFontEditTextView
+                android:id="@+id/eTPassword"
+                android:layout_width="240dp"
+                android:layout_height="40dp"
+                android:drawablePadding="15dp"
+                android:drawableTint="@color/clrline"
+                android:ems="10"
+                android:textColor="@color/clrpressed"
+                android:hint="Nama Lapangan"
+                android:inputType="text"
+                android:textSize="12dp"
+                android:textStyle="normal"
+                android:background="@android:color/transparent"
+                app:font="@string/font_roboto" />
+
+        </android.support.design.widget.TextInputLayout>
+
+    </LinearLayout>
 
     <Button
         android:id="@+id/btnLogin"
         android:layout_width="240dp"
         android:layout_height="48dp"
-        android:layout_marginBottom="80dp"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="50dp"
         android:background="@drawable/roundedbutton"
         android:text="Login"
+        android:textAllCaps="false"
         android:textColor="@android:color/background_light"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        tools:layout_constraintBottom_creator="1"
-        tools:layout_constraintLeft_creator="1"
-        tools:layout_constraintRight_creator="1" />
+        android:layout_gravity="center"/>
 
-    <android.support.design.widget.TextInputLayout
-        android:id="@+id/textInputPassword"
-        android:layout_width="240dp"
-        android:layout_height="48dp"
-        android:layout_marginBottom="32dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginRight="8dp"
-        android:layout_marginStart="8dp"
-        android:textColorHighlight="@android:color/background_light"
-        android:textColorHint="@android:color/darker_gray"
-        android:textColorLink="@android:color/white"
-        app:layout_constraintBottom_toTopOf="@+id/btnLogin"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        tools:layout_constraintBottom_creator="1"
-        tools:layout_constraintLeft_creator="1"
-        tools:layout_constraintRight_creator="1">
 
-        <bolalob.develops.stud11314025.availaballs.CustomView.CustomFontEditTextView
-            android:id="@+id/eTPassword"
-            android:layout_width="240dp"
-            android:layout_height="40dp"
-            android:layout_above="@+id/btnLogin"
-            android:layout_below="@+id/eTEmail"
-            android:drawableLeft="@drawable/password"
-            android:drawablePadding="15dp"
-            android:drawableTint="@color/clrline"
-            android:ems="10"
-            android:hint="password"
-            android:inputType="textPassword"
-            android:textColor="?attr/colorBackgroundFloating"
-            android:textSize="14sp"
-            android:textStyle="normal"
-            app:font="@string/font_roboto" />
-    </android.support.design.widget.TextInputLayout>
 
-    <android.support.design.widget.TextInputLayout
-        android:id="@+id/textInputEmail"
-        android:layout_width="240dp"
-        android:layout_height="48dp"
-        android:layout_marginBottom="18dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginRight="8dp"
-        android:layout_marginStart="8dp"
-        android:textColor="@android:color/white"
-        android:textColorHighlight="@android:color/darker_gray"
-        android:textColorHint="@android:color/darker_gray"
-        android:textColorLink="@android:color/white"
-        app:layout_constraintBottom_toTopOf="@+id/textInputPassword"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        tools:layout_constraintLeft_creator="1"
-        tools:layout_constraintRight_creator="1">
-
-        <bolalob.develops.stud11314025.availaballs.CustomView.CustomFontEditTextView
-            android:id="@+id/eTEmail"
-            android:layout_width="240dp"
-            android:layout_height="40dp"
-            android:layout_above="@+id/eTPassword"
-            android:layout_marginBottom="80dp"
-            android:drawableLeft="@drawable/email"
-            android:drawablePadding="15dp"
-            android:drawableTint="@color/clrline"
-            android:ems="10"
-            android:hint="email"
-            android:inputType="textEmailAddress"
-            android:textColor="?attr/colorBackgroundFloating"
-            android:textSize="14sp"
-            android:textStyle="normal"
-            app:font="@string/font_roboto" />
-
-    </android.support.design.widget.TextInputLayout>
-
-</android.support.constraint.ConstraintLayout>
+</LinearLayout>

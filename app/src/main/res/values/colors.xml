@@ -9,5 +9,6 @@
     <color name="clrpressed">#ffffff</color>
     <color name="clrtxt1">#999999</color>
     <color name="clrline">#b3b3b3</color>
+    <color name="clrlinedark">#333333</color>
     <color name="clrAddLpng">#13B879</color>
 </resources>

@@ -4,4 +4,5 @@
     <string name="font_roboto">roboto</string>
     <string name="font_stoke">stoke</string>
     <string name="font_icon">icomoons</string>
+    <string name="title_activity_maps">Map</string>
 </resources>

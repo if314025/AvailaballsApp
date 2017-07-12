@@ -6,14 +6,11 @@ import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.ViewGroup;
 import android.view.View;
-import android.widget.AdapterView;
 import android.widget.TextView;
 
-import java.util.ArrayList;
 import java.util.List;
 
-import bolalob.develops.stud11314025.availaballs.Activity.MainActivity;
-import bolalob.develops.stud11314025.availaballs.DetailLapanganActivity;
+import bolalob.develops.stud11314025.availaballs.Activity.DetailLapanganActivity;
 import bolalob.develops.stud11314025.availaballs.R;
 import bolalob.develops.stud11314025.availaballs.Model.Lapangan;
 

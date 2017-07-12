@@ -36,7 +36,7 @@
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateAlwaysHidden" />
         <activity
-            android:name="bolalob.develops.stud11314025.availaballs.DetailLapanganActivity"
+            android:name="bolalob.develops.stud11314025.availaballs.Activity.DetailLapanganActivity"
             android:theme="@style/AppTheme.NoActionBar" />
     </application>
 

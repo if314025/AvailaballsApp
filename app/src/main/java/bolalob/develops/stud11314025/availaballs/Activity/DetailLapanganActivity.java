@@ -1,4 +1,4 @@
-package bolalob.develops.stud11314025.availaballs;
+package bolalob.develops.stud11314025.availaballs.Activity;
 
 import android.content.Intent;
 import android.os.Build;
@@ -22,6 +22,7 @@ import com.bumptech.glide.request.target.Target;
 import bolalob.develops.stud11314025.availaballs.Activity.MainActivity;
 import bolalob.develops.stud11314025.availaballs.Adapter.RecyclerViewAdapter;
 import bolalob.develops.stud11314025.availaballs.Model.Lapangan;
+import bolalob.develops.stud11314025.availaballs.R;
 import butterknife.Bind;
 import butterknife.ButterKnife;
 

@@ -14,6 +14,6 @@ import retrofit2.http.Path;
  */
 
 public interface API {
-    @GET("bins/162lqf")
+    @GET("bins/83m3z")
     Call<List<Lapangan>> getAllLapangan();
 }

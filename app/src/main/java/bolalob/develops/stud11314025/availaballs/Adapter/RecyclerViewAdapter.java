@@ -90,7 +90,7 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
                 i.putExtra("PHONENUM_KEY", PhoneNum);
                 i.putExtra("JUMLAHLAP_KEY", Number);
                 i.putExtra("OPENHOUR_KEY", OpeningHour);
-                i.putExtra("CLOSEHOUR", ClosingHour);
+                i.putExtra("CLOSEHOUR_KEY", ClosingHour);
                 i.putExtra("PRICE_KEY", Price);
                 c.startActivity(i);
             }

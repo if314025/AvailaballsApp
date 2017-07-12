@@ -77,8 +77,8 @@ public class MainActivity extends AppCompatActivity {
         mActionBar.setBackgroundDrawable(new ColorDrawable(getResources().getColor(R.color.clrNavigation)));
         mActionBar.setCustomView(mCustomView);
         mActionBar.setDisplayShowCustomEnabled(true);
-
         progressBar.setVisibility(View.VISIBLE);
+
 //        dataSet = new ArrayList<>();
 //        initDataset();
 
@@ -100,7 +100,7 @@ public class MainActivity extends AppCompatActivity {
 //                String Harga = repos.get(7).getPrice();
 //
 //                Toast.makeText(getApplicationContext(),repos.get(0).getFieldName(),Toast.LENGTH_LONG).show();
-                adapter = new RecyclerViewAdapter(MainActivity.this,repos);
+                adapter = new RecyclerViewAdapter(MainActivity.this, repos);
                 layoutManager = new LinearLayoutManager(MainActivity.this);
                 rvView.setLayoutManager(layoutManager);
                 rvView.setAdapter(adapter);
@@ -135,6 +135,7 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void onFailure(Call<List<Lapangan>> call, Throwable t) {
+                progressBar.setVisibility(View.GONE);
                 Toast.makeText(getApplicationContext(), t.getMessage(), Toast.LENGTH_LONG).show();
             }
         });

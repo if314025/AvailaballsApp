@@ -148,13 +148,12 @@
         android:text="1"
         android:layout_height="@dimen/size30"
         android:id="@+id/button1"
-        app:font="@string/font_stoke"
+        app:font="@string/font_roboto"
         android:background="@drawable/rectanglebutton"
         android:textColor="@color/colorstate"
         android:textSize="@dimen/font10"
         android:layout_width="@dimen/size30"
         android:layout_alignBottom="@+id/button4"
-
         android:layout_toLeftOf="@+id/button2"
         android:layout_toStartOf="@+id/button2"
         />
@@ -180,7 +179,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:text="+ Lapangan"
-        android:textColor="@color/colorAccent"
+        android:textColor="@color/clrpressed"
         android:height="@dimen/size40"
         android:fontFamily="@string/font_roboto"
         android:background="@drawable/rectanglebuttonbottom"

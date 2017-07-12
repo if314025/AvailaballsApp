@@ -180,7 +180,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:text="+ Lapangan"
-        android:textColor="@color/colorAccent"
+        android:textColor="@color/clrpressed"
         android:height="@dimen/size40"
         android:fontFamily="@string/font_roboto"
         android:background="@drawable/rectanglebuttonbottom"

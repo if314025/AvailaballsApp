@@ -1,5 +1,6 @@
 package bolalob.develops.stud11314025.availaballs.Activity;
 
+import android.content.Intent;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.support.v7.app.ActionBar;
@@ -9,8 +10,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
-import android.widget.RadioButton;
-import android.widget.RadioGroup;
+import android.widget.CheckBox;
 import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -21,16 +21,21 @@ import java.util.List;
 import bolalob.develops.stud11314025.availaballs.R;
 
 public class TambahLapanganStepTigaActivity extends AppCompatActivity implements AdapterView.OnItemSelectedListener {
-    private RadioGroup radioGroupHari;
-    private RadioButton radioButtonNb;
+
+    CheckBox chSenin,chSelasa, chRabu, chKamis, chJumat, chSabtu, chMinggu;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tambah_lapangan_step_tiga);
 
-        radioGroupHari = (RadioGroup) findViewById(R.id.radioGroupHari);
-
+        chSenin=(CheckBox)findViewById(R.id.checkBoxSenin);
+        chSelasa=(CheckBox)findViewById(R.id.checkBoxSelasa);
+        chRabu=(CheckBox)findViewById(R.id.checkBoxRabu);
+        chKamis=(CheckBox)findViewById(R.id.checkBoxKamis);
+        chJumat=(CheckBox)findViewById(R.id.checkBoxJumat);
+        chSabtu=(CheckBox)findViewById(R.id.checkBoxSabtu);
+        chMinggu=(CheckBox)findViewById(R.id.checkBoxMinggu);
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
@@ -112,5 +117,10 @@ public class TambahLapanganStepTigaActivity extends AppCompatActivity implements
     @Override
     public void onNothingSelected(AdapterView<?> parent) {
 
+    }
+
+    public void finishStep(View view) {
+        Intent intent = new Intent(TambahLapanganStepTigaActivity.this, MainActivity.class);
+        startActivity(intent);
     }
 }

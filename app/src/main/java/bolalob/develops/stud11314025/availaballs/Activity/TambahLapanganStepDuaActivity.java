@@ -93,7 +93,7 @@ public class TambahLapanganStepDuaActivity extends AppCompatActivity implements 
     }
 
     public void openMap(View view) {
-        Intent intent = new Intent(TambahLapanganStepDuaActivity.this, MapsActivity.class);
-        startActivity(intent);
+        Intent intentMap = new Intent(TambahLapanganStepDuaActivity.this, MapsActivity.class);
+        startActivity(intentMap);
     }
 }

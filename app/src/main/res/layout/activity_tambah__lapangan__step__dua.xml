@@ -8,6 +8,8 @@
         xmlns:app="http://schemas.android.com/apk/res-auto"
         android:orientation="vertical"
         android:gravity="center_horizontal"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
         xmlns:android="http://schemas.android.com/apk/res/android">
 
         <LinearLayout
@@ -121,7 +123,8 @@
             android:id="@+id/spinnerJumlahLapangan"
             android:layout_width="100dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="30dp"/>
+            android:layout_marginTop="30dp"
+            style="@style/SpinnerTheme"/>
 
         <Button
             android:id="@+id/btnLogin"
@@ -131,6 +134,7 @@
             android:layout_marginTop="80dp"
             android:background="@drawable/circlebutton"
             android:text="Selanjutnya"
+            style="@style/SpinnerTheme"
             android:textAllCaps="false"
             android:textColor="@android:color/background_light"
             android:layout_gravity="center"

@@ -162,7 +162,6 @@
                 android:layout_marginTop="30dp"
                 style="@style/SpinnerTheme"/>
 
-
         </LinearLayout>
 
         <TextView

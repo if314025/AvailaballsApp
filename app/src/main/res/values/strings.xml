@@ -16,7 +16,7 @@
     
     <string name="hintTextJamLapangan">*Jika kamu punya jadwal berdeda di hari tertentu,&#10; bisa ditambahkan di langkah selanjutnya</string>
     <string name="hintTextHargaLapangan">*Jika kamu punya harga special di hari atau jam tertentu,&#10; bisa ditambahkan di langkah selanjutnya</string>
-    <string name="judulHargaLapangan">Jam berapa Lapangan ini beroperasi?</string>
+    <string name="judulHargaLapangan">Berapa Harga Normal lapanganmu per jam?</string>
     <string name="judulHariBukaLapangan">Hari apa saja Lapangan ini beroperasi?</string>
     <string name="judulJamBukaLapangan">Jam berapa Lapangan ini beroperasi?</string>
 </resources>

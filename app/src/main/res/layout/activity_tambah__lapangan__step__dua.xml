@@ -18,6 +18,8 @@
             android:layout_marginTop="90dp"
             android:layout_gravity="center"
             android:orientation="horizontal"
+            android:id="@+id/layoutLokasi"
+            android:alpha="0.5"
             android:background="@drawable/texteditdark">
 
             <bolalob.develops.stud11314025.availaballs.CustomView.CustomFontTextView
@@ -68,6 +70,8 @@
             android:layout_marginTop="30dp"
             android:layout_gravity="center"
             android:orientation="horizontal"
+            android:id="@+id/layoutTelepon"
+            android:alpha="0.5"
             android:background="@drawable/texteditdark">
 
             <bolalob.develops.stud11314025.availaballs.CustomView.CustomFontTextView

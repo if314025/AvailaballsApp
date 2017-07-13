@@ -26,6 +26,8 @@
             android:layout_marginTop="90dp"
             android:layout_gravity="center"
             android:orientation="horizontal"
+            android:alpha="0.5"
+            android:id="@+id/layoutUsername"
             android:background="@drawable/textedit">
 
             <bolalob.develops.stud11314025.availaballs.CustomView.CustomFontTextView
@@ -36,7 +38,7 @@
                 android:layout_marginTop="18dp"
                 android:text="@string/account_icon"
                 app:font="@string/font_icon"
-                android:textColor="@color/clrline">
+                android:textColor="@color/clrpressed">
 
             </bolalob.develops.stud11314025.availaballs.CustomView.CustomFontTextView>
 
@@ -71,12 +73,13 @@
         </LinearLayout>
 
         <LinearLayout
-            android:id="@+id/backgroud"
+            android:id="@+id/layoutPassword"
             android:layout_width="240dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
             android:layout_gravity="center"
             android:orientation="horizontal"
+            android:alpha="0.5"
             android:background="@drawable/textedit">
 
             <bolalob.develops.stud11314025.availaballs.CustomView.CustomFontTextView
@@ -87,7 +90,7 @@
                 android:layout_marginTop="18dp"
                 android:text="@string/pass_icon"
                 app:font="@string/font_icon"
-                android:textColor="@color/clrline">
+                android:textColor="@color/clrpressed">
 
             </bolalob.develops.stud11314025.availaballs.CustomView.CustomFontTextView>
 

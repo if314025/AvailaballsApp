@@ -76,12 +76,12 @@
         "source": "C:\\Users\\Voldarex\\.android\\build-cache\\c2157dc35693f8f71233f248720d5b7782d489f6\\output\\res\\layout\\notification_action_tombstone.xml"
     },
     {
-        "merged": "D:\\Kuliah\\Magang_GVM\\testUI\\AvailaballsApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item.xml",
-        "source": "C:\\Users\\Voldarex\\.android\\build-cache\\354e7540d6d33628be2e9c473b81e981c2595f29\\output\\res\\layout\\design_navigation_item.xml"
-    },
-    {
         "merged": "D:\\Kuliah\\Magang_GVM\\testUI\\AvailaballsApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines_media.xml",
         "source": "C:\\Users\\Voldarex\\.android\\build-cache\\c2157dc35693f8f71233f248720d5b7782d489f6\\output\\res\\layout\\notification_template_lines_media.xml"
+    },
+    {
+        "merged": "D:\\Kuliah\\Magang_GVM\\testUI\\AvailaballsApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item.xml",
+        "source": "C:\\Users\\Voldarex\\.android\\build-cache\\354e7540d6d33628be2e9c473b81e981c2595f29\\output\\res\\layout\\design_navigation_item.xml"
     },
     {
         "merged": "D:\\Kuliah\\Magang_GVM\\AvailaballsApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_maps.xml",
@@ -96,12 +96,12 @@
         "source": "C:\\Users\\Voldarex\\.android\\build-cache\\c2157dc35693f8f71233f248720d5b7782d489f6\\output\\res\\layout\\abc_screen_simple.xml"
     },
     {
-        "merged": "D:\\Kuliah\\Magang_GVM\\testUI\\AvailaballsApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
-        "source": "C:\\Users\\Voldarex\\.android\\build-cache\\c2157dc35693f8f71233f248720d5b7782d489f6\\output\\res\\layout\\abc_popup_menu_item_layout.xml"
-    },
-    {
         "merged": "D:\\Kuliah\\Magang_GVM\\testUI\\AvailaballsApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\bb_bottom_bar_item_container.xml",
         "source": "C:\\Users\\Voldarex\\.android\\build-cache\\0dbf4fad8d940e16993989a004e5040278bae467\\output\\res\\layout\\bb_bottom_bar_item_container.xml"
+    },
+    {
+        "merged": "D:\\Kuliah\\Magang_GVM\\testUI\\AvailaballsApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
+        "source": "C:\\Users\\Voldarex\\.android\\build-cache\\c2157dc35693f8f71233f248720d5b7782d489f6\\output\\res\\layout\\abc_popup_menu_item_layout.xml"
     },
     {
         "merged": "D:\\Kuliah\\Magang_GVM\\AvailaballsApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\bb_bottom_bar_item_fixed_tablet.xml",

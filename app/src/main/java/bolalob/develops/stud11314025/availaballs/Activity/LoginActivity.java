@@ -6,6 +6,8 @@ import android.os.Bundle;
 import android.support.design.widget.Snackbar;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
+import android.text.Editable;
+import android.text.TextWatcher;
 import android.view.Gravity;
 import android.view.View;
 import android.widget.Button;
@@ -49,6 +51,42 @@ public class LoginActivity extends AppCompatActivity implements LoginView {
             }
         });
 
+        final View lluname= findViewById(R.id.layoutUsername);
+        final View llpass= findViewById(R.id.layoutPassword);
+
+        TextWatcher emailWatcher = new TextWatcher() {
+            public void beforeTextChanged(CharSequence s, int start, int count, int after) {
+                lluname.setAlpha(0.5f);
+            }
+
+            public void onTextChanged(CharSequence s, int start, int before, int count) {
+                lluname.setAlpha(1.0f);
+            }
+
+            public void afterTextChanged(Editable s) {
+                lluname.setAlpha(1.0f);
+            }
+        };
+        etEmail.addTextChangedListener(emailWatcher);
+
+        TextWatcher passWatcher = new TextWatcher() {
+            public void beforeTextChanged(CharSequence s, int start, int count, int after) {
+                llpass.setAlpha(0.5f);
+            }
+
+            public void onTextChanged(CharSequence s, int start, int before, int count) {
+                llpass.setAlpha(1.0f);
+            }
+
+            public void afterTextChanged(Editable s) {
+                llpass.setAlpha(1.0f);
+            }
+        };
+        etPassword.addTextChangedListener(passWatcher);
+
+
+
+
     }
 
     @Override
@@ -89,9 +127,14 @@ public class LoginActivity extends AppCompatActivity implements LoginView {
 
     }
 
-    public void setAlpha() {
-        LinearLayout layout = (LinearLayout) findViewById(R.id.backgroud);
+    public void setAlpha(View view) {
+        LinearLayout layout = (LinearLayout) findViewById(R.id.layoutUsername);
         layout.setAlpha(1);
     }
+
+
+
+
+
 
 }

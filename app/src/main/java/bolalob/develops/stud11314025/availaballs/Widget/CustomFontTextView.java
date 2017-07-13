@@ -1,30 +1,27 @@
-package bolalob.develops.stud11314025.availaballs.CustomView;
+package bolalob.develops.stud11314025.availaballs.Widget;
 
 import android.content.Context;
 import android.content.res.TypedArray;
 import android.graphics.Typeface;
 import android.util.AttributeSet;
-import android.view.View;
-import android.widget.EditText;
+import android.widget.TextView;
 
 import bolalob.develops.stud11314025.availaballs.R;
 
 /**
- * Created by Okta on 14/06/2017.
+ * Created by Okta on 15/06/2017.
  */
 
-public class CustomFontEditTextView extends EditText implements View.OnFocusChangeListener {
-
+public class CustomFontTextView extends TextView {
     public static final String ANDROID_SCHEMA = "http://schemas.android.com/apk/res/android";
 
-    public CustomFontEditTextView(Context context, AttributeSet attrs) {
+    public CustomFontTextView(Context context, AttributeSet attrs) {
         super(context, attrs);
-        super.setOnFocusChangeListener(this);
 
         applyCustomFont(context, attrs);
     }
 
-    public CustomFontEditTextView(Context context, AttributeSet attrs, int defStyle) {
+    public CustomFontTextView(Context context, AttributeSet attrs, int defStyle) {
         super(context, attrs, defStyle);
 
         applyCustomFont(context, attrs);
@@ -44,6 +41,7 @@ public class CustomFontEditTextView extends EditText implements View.OnFocusChan
     }
 
     private Typeface selectTypeface(Context context, String fontName, int textStyle) {
+
         if (fontName.contentEquals(context.getString(R.string.font_icon))) {
             return FontCache.getTypeface(context, "icomoon.ttf");
         /*
@@ -75,14 +73,5 @@ public class CustomFontEditTextView extends EditText implements View.OnFocusChan
         }
 
     }
-
-    @Override
-    public void onFocusChange(View v, boolean hasFocus) {
-        if (hasFocus) {
-            setAlpha(1);
-        } else {
-            setAlpha((float) 0.5);
-        }
-
-    }
 }
+

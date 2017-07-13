@@ -84,9 +84,6 @@ public class LoginActivity extends AppCompatActivity implements LoginView {
         };
         etPassword.addTextChangedListener(passWatcher);
 
-
-
-
     }
 
     @Override

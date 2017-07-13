@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "D:\\Kuliah\\Magang_GVM\\testUI\\AvailaballsApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-land\\values-land.xml",
+        "outputFile": "D:\\Intern GVM\\master\\AvailaballsApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-land\\values-land.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 111
                 },
                 "from": {
-                    "file": "C:\\Users\\Voldarex\\.android\\build-cache\\0dbf4fad8d940e16993989a004e5040278bae467\\output\\res\\values-land\\values-land.xml",
+                    "file": "C:\\Users\\Okta\\.android\\build-cache\\56d00e5e9aae85204ecfcac647638e22af0dc64d\\output\\res\\values-land\\values-land.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -30,7 +30,7 @@
                     "endOffset": 181
                 },
                 "from": {
-                    "file": "C:\\Users\\Voldarex\\.android\\build-cache\\c2157dc35693f8f71233f248720d5b7782d489f6\\output\\res\\values-land\\values-land.xml",
+                    "file": "C:\\Users\\Okta\\.android\\build-cache\\23eeae67d6a26c5b4698847ab9efcec400027273\\output\\res\\values-land\\values-land.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -49,7 +49,7 @@
                     "endOffset": 245
                 },
                 "from": {
-                    "file": "C:\\Users\\Voldarex\\.android\\build-cache\\c2157dc35693f8f71233f248720d5b7782d489f6\\output\\res\\values-land\\values-land.xml",
+                    "file": "C:\\Users\\Okta\\.android\\build-cache\\23eeae67d6a26c5b4698847ab9efcec400027273\\output\\res\\values-land\\values-land.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -68,7 +68,7 @@
                     "endOffset": 316
                 },
                 "from": {
-                    "file": "C:\\Users\\Voldarex\\.android\\build-cache\\c2157dc35693f8f71233f248720d5b7782d489f6\\output\\res\\values-land\\values-land.xml",
+                    "file": "C:\\Users\\Okta\\.android\\build-cache\\23eeae67d6a26c5b4698847ab9efcec400027273\\output\\res\\values-land\\values-land.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -87,7 +87,7 @@
                     "endOffset": 384
                 },
                 "from": {
-                    "file": "C:\\Users\\Voldarex\\.android\\build-cache\\c2157dc35693f8f71233f248720d5b7782d489f6\\output\\res\\values-land\\values-land.xml",
+                    "file": "C:\\Users\\Okta\\.android\\build-cache\\23eeae67d6a26c5b4698847ab9efcec400027273\\output\\res\\values-land\\values-land.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -107,128 +107,7 @@
                     "endOffset": 566
                 },
                 "from": {
-                    "file": "C:\\Users\\Voldarex\\.android\\build-cache\\354e7540d6d33628be2e9c473b81e981c2595f29\\output\\res\\values-land\\values-land.xml",
-                    "position": {
-                        "startLine": 2,
-                        "startColumn": 4,
-                        "startOffset": 55,
-                        "endLine": 5,
-                        "endColumn": 12,
-                        "endOffset": 232
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "outputFile": "D:\\Kuliah\\Magang_GVM\\AvailaballsApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-land\\values-land.xml",
-        "map": [
-            {
-                "to": {
-                    "startLine": 2,
-                    "startColumn": 4,
-                    "startOffset": 55,
-                    "endColumn": 60,
-                    "endOffset": 111
-                },
-                "from": {
-                    "file": "C:\\Users\\Voldarex\\.android\\build-cache\\0dbf4fad8d940e16993989a004e5040278bae467\\output\\res\\values-land\\values-land.xml",
-                    "position": {
-                        "startLine": 2,
-                        "startColumn": 4,
-                        "startOffset": 55,
-                        "endColumn": 60,
-                        "endOffset": 111
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 3,
-                    "startColumn": 4,
-                    "startOffset": 116,
-                    "endColumn": 69,
-                    "endOffset": 181
-                },
-                "from": {
-                    "file": "C:\\Users\\Voldarex\\.android\\build-cache\\c2157dc35693f8f71233f248720d5b7782d489f6\\output\\res\\values-land\\values-land.xml",
-                    "position": {
-                        "startLine": 2,
-                        "startColumn": 4,
-                        "startOffset": 55,
-                        "endColumn": 69,
-                        "endOffset": 120
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 4,
-                    "startColumn": 4,
-                    "startOffset": 186,
-                    "endColumn": 63,
-                    "endOffset": 245
-                },
-                "from": {
-                    "file": "C:\\Users\\Voldarex\\.android\\build-cache\\c2157dc35693f8f71233f248720d5b7782d489f6\\output\\res\\values-land\\values-land.xml",
-                    "position": {
-                        "startLine": 3,
-                        "startColumn": 4,
-                        "startOffset": 125,
-                        "endColumn": 63,
-                        "endOffset": 184
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 5,
-                    "startColumn": 4,
-                    "startOffset": 250,
-                    "endColumn": 70,
-                    "endOffset": 316
-                },
-                "from": {
-                    "file": "C:\\Users\\Voldarex\\.android\\build-cache\\c2157dc35693f8f71233f248720d5b7782d489f6\\output\\res\\values-land\\values-land.xml",
-                    "position": {
-                        "startLine": 4,
-                        "startColumn": 4,
-                        "startOffset": 189,
-                        "endColumn": 70,
-                        "endOffset": 255
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 6,
-                    "startColumn": 4,
-                    "startOffset": 321,
-                    "endColumn": 67,
-                    "endOffset": 384
-                },
-                "from": {
-                    "file": "C:\\Users\\Voldarex\\.android\\build-cache\\c2157dc35693f8f71233f248720d5b7782d489f6\\output\\res\\values-land\\values-land.xml",
-                    "position": {
-                        "startLine": 5,
-                        "startColumn": 4,
-                        "startOffset": 260,
-                        "endColumn": 67,
-                        "endOffset": 323
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 7,
-                    "startColumn": 4,
-                    "startOffset": 389,
-                    "endLine": 10,
-                    "endColumn": 12,
-                    "endOffset": 566
-                },
-                "from": {
-                    "file": "C:\\Users\\Voldarex\\.android\\build-cache\\354e7540d6d33628be2e9c473b81e981c2595f29\\output\\res\\values-land\\values-land.xml",
+                    "file": "C:\\Users\\Okta\\.android\\build-cache\\0636a0cf5804a3f8bf106ee7e092c8a7d016a2bd\\output\\res\\values-land\\values-land.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,

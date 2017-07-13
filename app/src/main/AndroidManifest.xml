@@ -38,6 +38,9 @@
         <activity android:name=".Activity.TambahLapanganStepDuaActivity">
 
         </activity>
+        <activity
+            android:name=".Activity.DetailLapanganActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"

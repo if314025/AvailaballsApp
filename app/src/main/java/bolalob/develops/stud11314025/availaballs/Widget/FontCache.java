@@ -1,4 +1,4 @@
-package bolalob.develops.stud11314025.availaballs.CustomView;
+package bolalob.develops.stud11314025.availaballs.Widget;
 
 import android.content.Context;
 import android.graphics.Typeface;

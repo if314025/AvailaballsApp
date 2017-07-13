@@ -1,187 +1,178 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\Kuliah\Magang_GVM\AvailaballsApp\app\src\main\AndroidManifest.xml:2:1-56:12
+ADDED from D:\Intern GVM\master\AvailaballsApp\app\src\main\AndroidManifest.xml:2:1-59:12
 	package
-		ADDED from D:\Kuliah\Magang_GVM\AvailaballsApp\app\src\main\AndroidManifest.xml:3:5-56
-		INJECTED from D:\Kuliah\Magang_GVM\AvailaballsApp\app\src\main\AndroidManifest.xml
-		INJECTED from D:\Kuliah\Magang_GVM\AvailaballsApp\app\src\main\AndroidManifest.xml
+		ADDED from D:\Intern GVM\master\AvailaballsApp\app\src\main\AndroidManifest.xml:3:5-56
+		INJECTED from D:\Intern GVM\master\AvailaballsApp\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Intern GVM\master\AvailaballsApp\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from D:\Kuliah\Magang_GVM\AvailaballsApp\app\src\main\AndroidManifest.xml
-		INJECTED from D:\Kuliah\Magang_GVM\AvailaballsApp\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Intern GVM\master\AvailaballsApp\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Intern GVM\master\AvailaballsApp\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from D:\Kuliah\Magang_GVM\AvailaballsApp\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from D:\Intern GVM\master\AvailaballsApp\app\src\main\AndroidManifest.xml:2:11-69
 	android:versionCode
-		INJECTED from D:\Kuliah\Magang_GVM\AvailaballsApp\app\src\main\AndroidManifest.xml
-		INJECTED from D:\Kuliah\Magang_GVM\AvailaballsApp\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Intern GVM\master\AvailaballsApp\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Intern GVM\master\AvailaballsApp\app\src\main\AndroidManifest.xml
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from D:\Kuliah\Magang_GVM\AvailaballsApp\app\src\main\AndroidManifest.xml:5:5-79
+ADDED from D:\Intern GVM\master\AvailaballsApp\app\src\main\AndroidManifest.xml:5:5-79
 	android:name
-		ADDED from D:\Kuliah\Magang_GVM\AvailaballsApp\app\src\main\AndroidManifest.xml:5:22-76
+		ADDED from D:\Intern GVM\master\AvailaballsApp\app\src\main\AndroidManifest.xml:5:22-76
 application
-ADDED from D:\Kuliah\Magang_GVM\AvailaballsApp\app\src\main\AndroidManifest.xml:8:5-54:19
-MERGED from [com.android.support:design:25.3.1] C:\Users\Voldarex\.android\build-cache\354e7540d6d33628be2e9c473b81e981c2595f29\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:transition:25.3.1] C:\Users\Voldarex\.android\build-cache\5069980b41639167e0ddd4435ddc78ae8aeb0156\output\AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Voldarex\.android\build-cache\c2157dc35693f8f71233f248720d5b7782d489f6\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Voldarex\.android\build-cache\a09fe43246549c3308fb673a30b3cb1e68ed45ed\output\AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Voldarex\.android\build-cache\9ee4e9d6cc71d622a4b9214e79fcb832404a96a7\output\AndroidManifest.xml:26:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Voldarex\.android\build-cache\b6aa7bfcbed404d5c15d38679d958204070669a9\output\AndroidManifest.xml:9:5-20
-MERGED from [com.google.android.gms:play-services-maps:11.0.2] C:\Users\Voldarex\.android\build-cache\2eaf53e199fcb430cce928d03c088c1f8b884067\output\AndroidManifest.xml:24:5-19
-MERGED from [com.google.android.gms:play-services-base:11.0.2] C:\Users\Voldarex\.android\build-cache\375b984a95e34c1b0985600e5108cc843129d41e\output\AndroidManifest.xml:18:5-20:19
-MERGED from [com.google.android.gms:play-services-tasks:11.0.2] C:\Users\Voldarex\.android\build-cache\33cb826d3a1bd4625313828e76cc643e30e3cb26\output\AndroidManifest.xml:4:5-19
-MERGED from [com.google.android.gms:play-services-basement:11.0.2] C:\Users\Voldarex\.android\build-cache\df93144060785149196d34cd91384b1a5736aea4\output\AndroidManifest.xml:19:5-21:19
-MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Voldarex\.android\build-cache\68b157c956dad542b2b28ba4649f8f0b794dda09\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Voldarex\.android\build-cache\7b9173cf59605d723c7f6414655fd846b861fcf2\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Voldarex\.android\build-cache\160258d303cda61c27e313ac3b5d8f6b2d617286\output\AndroidManifest.xml:7:5-24:19
-MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Voldarex\.android\build-cache\b9b7988d066c25beaae6310722cc33ebb85bfc86\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Voldarex\.android\build-cache\9ea140537fa98a86679abb39e2089ed0e0316f9e\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Voldarex\.android\build-cache\2eeff29e0e5de0b56b5e191a6d0ff12951414b63\output\AndroidManifest.xml:29:5-20
+ADDED from D:\Intern GVM\master\AvailaballsApp\app\src\main\AndroidManifest.xml:8:5-57:19
+MERGED from [com.android.support:design:25.3.1] C:\Users\Okta\.android\build-cache\0636a0cf5804a3f8bf106ee7e092c8a7d016a2bd\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:transition:25.3.1] C:\Users\Okta\.android\build-cache\6746ae230113f1534a5c81e58b5471fcc756f2ec\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Okta\.android\build-cache\23eeae67d6a26c5b4698847ab9efcec400027273\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Okta\.android\build-cache\3bad58682f896c9024faae7c614d488a20052205\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Okta\.android\build-cache\9839425d8a79f9036cc00891e3a60625a1e7c48f\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Okta\.android\build-cache\211b7a1ee412c1f7b57b241e8f4e132e0cd1d389\output\AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-maps:11.0.2] C:\Users\Okta\.android\build-cache\16effdf3d3850106b913db6c429a447887bd64d4\output\AndroidManifest.xml:24:5-19
+MERGED from [com.google.android.gms:play-services-base:11.0.2] C:\Users\Okta\.android\build-cache\b4021930c599dad7ea6c2d50f9ca0e89f7490048\output\AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-tasks:11.0.2] C:\Users\Okta\.android\build-cache\dbde0059e6758794451d7c0d0b6ba4a27a7ddb1d\output\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:11.0.2] C:\Users\Okta\.android\build-cache\a36d74e39a4ffb6b90336ec9b4df7ad09ad5be26\output\AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Okta\.android\build-cache\8387a3b62b541c62fdb2e8838a4155bdf0eb8b24\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Okta\.android\build-cache\47b91ddedbae9fbfb7bb5dcc8ee27b7e3f49e657\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Okta\.android\build-cache\aafe68befa9258b9b4c9db4bfb40af5989c030c5\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Okta\.android\build-cache\2a96d4d3f254019128008ebf9a5b63b82cc7432c\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Okta\.android\build-cache\90d3cdafa2f5a70626672e8f521e0392761e1ca2\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Okta\.android\build-cache\ec7a3c8cc29046aaf2f75baeb742c608e2c9e539\output\AndroidManifest.xml:29:5-20
 	android:label
-		ADDED from D:\Kuliah\Magang_GVM\AvailaballsApp\app\src\main\AndroidManifest.xml:11:9-41
+		ADDED from D:\Intern GVM\master\AvailaballsApp\app\src\main\AndroidManifest.xml:11:9-41
 	android:supportsRtl
-		ADDED from D:\Kuliah\Magang_GVM\AvailaballsApp\app\src\main\AndroidManifest.xml:12:9-35
-	android:roundIcon
-		ADDED from [com.android.support:support-media-compat:25.3.1] C:\Users\Voldarex\.android\build-cache\160258d303cda61c27e313ac3b5d8f6b2d617286\output\AndroidManifest.xml:11:9-54
+		ADDED from D:\Intern GVM\master\AvailaballsApp\app\src\main\AndroidManifest.xml:12:9-35
 	android:allowBackup
-		ADDED from D:\Kuliah\Magang_GVM\AvailaballsApp\app\src\main\AndroidManifest.xml:9:9-35
+		ADDED from D:\Intern GVM\master\AvailaballsApp\app\src\main\AndroidManifest.xml:9:9-35
 	android:icon
-		ADDED from D:\Kuliah\Magang_GVM\AvailaballsApp\app\src\main\AndroidManifest.xml:10:9-43
+		ADDED from D:\Intern GVM\master\AvailaballsApp\app\src\main\AndroidManifest.xml:10:9-43
 	android:theme
-		ADDED from D:\Kuliah\Magang_GVM\AvailaballsApp\app\src\main\AndroidManifest.xml:13:9-40
+		ADDED from D:\Intern GVM\master\AvailaballsApp\app\src\main\AndroidManifest.xml:13:9-40
 activity#bolalob.develops.stud11314025.availaballs.Activity.LoginActivity
-ADDED from D:\Kuliah\Magang_GVM\AvailaballsApp\app\src\main\AndroidManifest.xml:15:9-24:20
+ADDED from D:\Intern GVM\master\AvailaballsApp\app\src\main\AndroidManifest.xml:15:9-24:20
 	android:screenOrientation
-		ADDED from D:\Kuliah\Magang_GVM\AvailaballsApp\app\src\main\AndroidManifest.xml:17:13-49
+		ADDED from D:\Intern GVM\master\AvailaballsApp\app\src\main\AndroidManifest.xml:17:13-49
 	android:theme
-		ADDED from D:\Kuliah\Magang_GVM\AvailaballsApp\app\src\main\AndroidManifest.xml:18:13-56
+		ADDED from D:\Intern GVM\master\AvailaballsApp\app\src\main\AndroidManifest.xml:18:13-56
 	android:name
-		ADDED from D:\Kuliah\Magang_GVM\AvailaballsApp\app\src\main\AndroidManifest.xml:16:13-51
+		ADDED from D:\Intern GVM\master\AvailaballsApp\app\src\main\AndroidManifest.xml:16:13-51
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from D:\Kuliah\Magang_GVM\AvailaballsApp\app\src\main\AndroidManifest.xml:19:13-23:29
+ADDED from D:\Intern GVM\master\AvailaballsApp\app\src\main\AndroidManifest.xml:19:13-23:29
 action#android.intent.action.MAIN
-ADDED from D:\Kuliah\Magang_GVM\AvailaballsApp\app\src\main\AndroidManifest.xml:20:17-69
+ADDED from D:\Intern GVM\master\AvailaballsApp\app\src\main\AndroidManifest.xml:20:17-69
 	android:name
-		ADDED from D:\Kuliah\Magang_GVM\AvailaballsApp\app\src\main\AndroidManifest.xml:20:25-66
+		ADDED from D:\Intern GVM\master\AvailaballsApp\app\src\main\AndroidManifest.xml:20:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\Kuliah\Magang_GVM\AvailaballsApp\app\src\main\AndroidManifest.xml:22:17-77
+ADDED from D:\Intern GVM\master\AvailaballsApp\app\src\main\AndroidManifest.xml:22:17-77
 	android:name
-		ADDED from D:\Kuliah\Magang_GVM\AvailaballsApp\app\src\main\AndroidManifest.xml:22:27-74
+		ADDED from D:\Intern GVM\master\AvailaballsApp\app\src\main\AndroidManifest.xml:22:27-74
 activity#bolalob.develops.stud11314025.availaballs.Activity.MainActivity
-ADDED from D:\Kuliah\Magang_GVM\AvailaballsApp\app\src\main\AndroidManifest.xml:26:9-32:20
+ADDED from D:\Intern GVM\master\AvailaballsApp\app\src\main\AndroidManifest.xml:26:9-32:20
 	android:screenOrientation
-		ADDED from D:\Kuliah\Magang_GVM\AvailaballsApp\app\src\main\AndroidManifest.xml:29:13-49
+		ADDED from D:\Intern GVM\master\AvailaballsApp\app\src\main\AndroidManifest.xml:29:13-49
 	android:label
-		ADDED from D:\Kuliah\Magang_GVM\AvailaballsApp\app\src\main\AndroidManifest.xml:28:13-42
+		ADDED from D:\Intern GVM\master\AvailaballsApp\app\src\main\AndroidManifest.xml:28:13-42
 	android:windowSoftInputMode
-		ADDED from D:\Kuliah\Magang_GVM\AvailaballsApp\app\src\main\AndroidManifest.xml:30:13-60
+		ADDED from D:\Intern GVM\master\AvailaballsApp\app\src\main\AndroidManifest.xml:30:13-60
 	android:name
-		ADDED from D:\Kuliah\Magang_GVM\AvailaballsApp\app\src\main\AndroidManifest.xml:27:13-50
+		ADDED from D:\Intern GVM\master\AvailaballsApp\app\src\main\AndroidManifest.xml:27:13-50
 activity#bolalob.develops.stud11314025.availaballs.Activity.TambahLapanganActivity
-ADDED from D:\Kuliah\Magang_GVM\AvailaballsApp\app\src\main\AndroidManifest.xml:34:9-36:20
+ADDED from D:\Intern GVM\master\AvailaballsApp\app\src\main\AndroidManifest.xml:34:9-36:20
 	android:name
-		ADDED from D:\Kuliah\Magang_GVM\AvailaballsApp\app\src\main\AndroidManifest.xml:34:19-66
+		ADDED from D:\Intern GVM\master\AvailaballsApp\app\src\main\AndroidManifest.xml:34:19-66
 activity#bolalob.develops.stud11314025.availaballs.Activity.TambahLapanganStepDuaActivity
-ADDED from D:\Kuliah\Magang_GVM\AvailaballsApp\app\src\main\AndroidManifest.xml:38:9-40:20
+ADDED from D:\Intern GVM\master\AvailaballsApp\app\src\main\AndroidManifest.xml:38:9-40:20
 	android:name
-		ADDED from D:\Kuliah\Magang_GVM\AvailaballsApp\app\src\main\AndroidManifest.xml:38:19-73
+		ADDED from D:\Intern GVM\master\AvailaballsApp\app\src\main\AndroidManifest.xml:38:19-73
+activity#bolalob.develops.stud11314025.availaballs.Activity.DetailLapanganActivity
+ADDED from D:\Intern GVM\master\AvailaballsApp\app\src\main\AndroidManifest.xml:41:9-43:59
+	android:theme
+		ADDED from D:\Intern GVM\master\AvailaballsApp\app\src\main\AndroidManifest.xml:43:13-56
+	android:name
+		ADDED from D:\Intern GVM\master\AvailaballsApp\app\src\main\AndroidManifest.xml:42:13-60
 meta-data#com.google.android.geo.API_KEY
-ADDED from D:\Kuliah\Magang_GVM\AvailaballsApp\app\src\main\AndroidManifest.xml:42:9-44:55
+ADDED from D:\Intern GVM\master\AvailaballsApp\app\src\main\AndroidManifest.xml:45:9-47:55
 	android:value
-		ADDED from D:\Kuliah\Magang_GVM\AvailaballsApp\app\src\main\AndroidManifest.xml:44:13-52
+		ADDED from D:\Intern GVM\master\AvailaballsApp\app\src\main\AndroidManifest.xml:47:13-52
 	android:name
-		ADDED from D:\Kuliah\Magang_GVM\AvailaballsApp\app\src\main\AndroidManifest.xml:43:13-58
+		ADDED from D:\Intern GVM\master\AvailaballsApp\app\src\main\AndroidManifest.xml:46:13-58
 activity#bolalob.develops.stud11314025.availaballs.Activity.MapsActivity
-ADDED from D:\Kuliah\Magang_GVM\AvailaballsApp\app\src\main\AndroidManifest.xml:46:9-48:59
+ADDED from D:\Intern GVM\master\AvailaballsApp\app\src\main\AndroidManifest.xml:49:9-51:59
 	android:label
-		ADDED from D:\Kuliah\Magang_GVM\AvailaballsApp\app\src\main\AndroidManifest.xml:48:13-56
+		ADDED from D:\Intern GVM\master\AvailaballsApp\app\src\main\AndroidManifest.xml:51:13-56
 	android:name
-		ADDED from D:\Kuliah\Magang_GVM\AvailaballsApp\app\src\main\AndroidManifest.xml:47:13-50
+		ADDED from D:\Intern GVM\master\AvailaballsApp\app\src\main\AndroidManifest.xml:50:13-50
 activity#bolalob.develops.stud11314025.availaballs.Activity.TambahLapanganStepTigaActivity
-ADDED from D:\Kuliah\Magang_GVM\AvailaballsApp\app\src\main\AndroidManifest.xml:50:9-52:20
+ADDED from D:\Intern GVM\master\AvailaballsApp\app\src\main\AndroidManifest.xml:53:9-55:20
 	android:name
-		ADDED from D:\Kuliah\Magang_GVM\AvailaballsApp\app\src\main\AndroidManifest.xml:50:19-74
+		ADDED from D:\Intern GVM\master\AvailaballsApp\app\src\main\AndroidManifest.xml:53:19-74
 uses-sdk
-INJECTED from D:\Kuliah\Magang_GVM\AvailaballsApp\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-MERGED from [com.roughike:bottom-bar:2.3.1] C:\Users\Voldarex\.android\build-cache\0dbf4fad8d940e16993989a004e5040278bae467\output\AndroidManifest.xml:8:5-10:41
-MERGED from [com.android.support:design:25.3.1] C:\Users\Voldarex\.android\build-cache\354e7540d6d33628be2e9c473b81e981c2595f29\output\AndroidManifest.xml:21:5-23:62
-MERGED from [com.android.support:transition:25.3.1] C:\Users\Voldarex\.android\build-cache\5069980b41639167e0ddd4435ddc78ae8aeb0156\output\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Voldarex\.android\build-cache\c2157dc35693f8f71233f248720d5b7782d489f6\output\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Voldarex\.android\build-cache\a09fe43246549c3308fb673a30b3cb1e68ed45ed\output\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Voldarex\.android\build-cache\9ee4e9d6cc71d622a4b9214e79fcb832404a96a7\output\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Voldarex\.android\build-cache\b6aa7bfcbed404d5c15d38679d958204070669a9\output\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\Voldarex\.android\build-cache\14065bf73c14f169e7ca8beb76d0a6f113e02e8f\output\AndroidManifest.xml:20:5-43
-MERGED from [com.google.android.gms:play-services-maps:11.0.2] C:\Users\Voldarex\.android\build-cache\2eaf53e199fcb430cce928d03c088c1f8b884067\output\AndroidManifest.xml:23:5-43
-MERGED from [com.google.android.gms:play-services-base:11.0.2] C:\Users\Voldarex\.android\build-cache\375b984a95e34c1b0985600e5108cc843129d41e\output\AndroidManifest.xml:17:5-43
-MERGED from [com.google.android.gms:play-services-tasks:11.0.2] C:\Users\Voldarex\.android\build-cache\33cb826d3a1bd4625313828e76cc643e30e3cb26\output\AndroidManifest.xml:3:5-43
-MERGED from [com.google.android.gms:play-services-basement:11.0.2] C:\Users\Voldarex\.android\build-cache\df93144060785149196d34cd91384b1a5736aea4\output\AndroidManifest.xml:17:5-43
-MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Voldarex\.android\build-cache\68b157c956dad542b2b28ba4649f8f0b794dda09\output\AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Voldarex\.android\build-cache\7b9173cf59605d723c7f6414655fd846b861fcf2\output\AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Voldarex\.android\build-cache\b9b7988d066c25beaae6310722cc33ebb85bfc86\output\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Voldarex\.android\build-cache\9ea140537fa98a86679abb39e2089ed0e0316f9e\output\AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Voldarex\.android\build-cache\2eeff29e0e5de0b56b5e191a6d0ff12951414b63\output\AndroidManifest.xml:21:5-23:58
+INJECTED from D:\Intern GVM\master\AvailaballsApp\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.roughike:bottom-bar:2.3.1] C:\Users\Okta\.android\build-cache\56d00e5e9aae85204ecfcac647638e22af0dc64d\output\AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:design:25.3.1] C:\Users\Okta\.android\build-cache\0636a0cf5804a3f8bf106ee7e092c8a7d016a2bd\output\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:transition:25.3.1] C:\Users\Okta\.android\build-cache\6746ae230113f1534a5c81e58b5471fcc756f2ec\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Okta\.android\build-cache\23eeae67d6a26c5b4698847ab9efcec400027273\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Okta\.android\build-cache\3bad58682f896c9024faae7c614d488a20052205\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Okta\.android\build-cache\9839425d8a79f9036cc00891e3a60625a1e7c48f\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Okta\.android\build-cache\211b7a1ee412c1f7b57b241e8f4e132e0cd1d389\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\Okta\.android\build-cache\affcf3718a9b6903dc28d1e76cf699a874bed6ab\output\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-maps:11.0.2] C:\Users\Okta\.android\build-cache\16effdf3d3850106b913db6c429a447887bd64d4\output\AndroidManifest.xml:23:5-43
+MERGED from [com.google.android.gms:play-services-base:11.0.2] C:\Users\Okta\.android\build-cache\b4021930c599dad7ea6c2d50f9ca0e89f7490048\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tasks:11.0.2] C:\Users\Okta\.android\build-cache\dbde0059e6758794451d7c0d0b6ba4a27a7ddb1d\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-basement:11.0.2] C:\Users\Okta\.android\build-cache\a36d74e39a4ffb6b90336ec9b4df7ad09ad5be26\output\AndroidManifest.xml:17:5-43
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Okta\.android\build-cache\8387a3b62b541c62fdb2e8838a4155bdf0eb8b24\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Okta\.android\build-cache\47b91ddedbae9fbfb7bb5dcc8ee27b7e3f49e657\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Okta\.android\build-cache\aafe68befa9258b9b4c9db4bfb40af5989c030c5\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Okta\.android\build-cache\2a96d4d3f254019128008ebf9a5b63b82cc7432c\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Okta\.android\build-cache\90d3cdafa2f5a70626672e8f521e0392761e1ca2\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Okta\.android\build-cache\ec7a3c8cc29046aaf2f75baeb742c608e2c9e539\output\AndroidManifest.xml:21:5-23:58
 	tools:overrideLibrary
-		ADDED from [com.android.support:design:25.3.1] C:\Users\Voldarex\.android\build-cache\354e7540d6d33628be2e9c473b81e981c2595f29\output\AndroidManifest.xml:23:9-59
+		ADDED from [com.android.support:design:25.3.1] C:\Users\Okta\.android\build-cache\0636a0cf5804a3f8bf106ee7e092c8a7d016a2bd\output\AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
-		INJECTED from D:\Kuliah\Magang_GVM\AvailaballsApp\app\src\main\AndroidManifest.xml
-		INJECTED from D:\Kuliah\Magang_GVM\AvailaballsApp\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Intern GVM\master\AvailaballsApp\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Intern GVM\master\AvailaballsApp\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from D:\Kuliah\Magang_GVM\AvailaballsApp\app\src\main\AndroidManifest.xml
-		INJECTED from D:\Kuliah\Magang_GVM\AvailaballsApp\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Intern GVM\master\AvailaballsApp\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Intern GVM\master\AvailaballsApp\app\src\main\AndroidManifest.xml
 meta-data#android.support.VERSION
-ADDED from [com.android.support:design:25.3.1] C:\Users\Voldarex\.android\build-cache\354e7540d6d33628be2e9c473b81e981c2595f29\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:transition:25.3.1] C:\Users\Voldarex\.android\build-cache\5069980b41639167e0ddd4435ddc78ae8aeb0156\output\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Voldarex\.android\build-cache\c2157dc35693f8f71233f248720d5b7782d489f6\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Voldarex\.android\build-cache\a09fe43246549c3308fb673a30b3cb1e68ed45ed\output\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Voldarex\.android\build-cache\9ee4e9d6cc71d622a4b9214e79fcb832404a96a7\output\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\Voldarex\.android\build-cache\14065bf73c14f169e7ca8beb76d0a6f113e02e8f\output\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Voldarex\.android\build-cache\68b157c956dad542b2b28ba4649f8f0b794dda09\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Voldarex\.android\build-cache\7b9173cf59605d723c7f6414655fd846b861fcf2\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Voldarex\.android\build-cache\b9b7988d066c25beaae6310722cc33ebb85bfc86\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Voldarex\.android\build-cache\9ea140537fa98a86679abb39e2089ed0e0316f9e\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Voldarex\.android\build-cache\2eeff29e0e5de0b56b5e191a6d0ff12951414b63\output\AndroidManifest.xml:25:5-27:34
+ADDED from [com.android.support:design:25.3.1] C:\Users\Okta\.android\build-cache\0636a0cf5804a3f8bf106ee7e092c8a7d016a2bd\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:transition:25.3.1] C:\Users\Okta\.android\build-cache\6746ae230113f1534a5c81e58b5471fcc756f2ec\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Okta\.android\build-cache\23eeae67d6a26c5b4698847ab9efcec400027273\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Okta\.android\build-cache\3bad58682f896c9024faae7c614d488a20052205\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Okta\.android\build-cache\9839425d8a79f9036cc00891e3a60625a1e7c48f\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\Okta\.android\build-cache\affcf3718a9b6903dc28d1e76cf699a874bed6ab\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Okta\.android\build-cache\8387a3b62b541c62fdb2e8838a4155bdf0eb8b24\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Okta\.android\build-cache\47b91ddedbae9fbfb7bb5dcc8ee27b7e3f49e657\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Okta\.android\build-cache\aafe68befa9258b9b4c9db4bfb40af5989c030c5\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Okta\.android\build-cache\2a96d4d3f254019128008ebf9a5b63b82cc7432c\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Okta\.android\build-cache\90d3cdafa2f5a70626672e8f521e0392761e1ca2\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Okta\.android\build-cache\ec7a3c8cc29046aaf2f75baeb742c608e2c9e539\output\AndroidManifest.xml:25:5-27:34
 	android:value
-		ADDED from [com.android.support:design:25.3.1] C:\Users\Voldarex\.android\build-cache\354e7540d6d33628be2e9c473b81e981c2595f29\output\AndroidManifest.xml:27:9-31
+		ADDED from [com.android.support:design:25.3.1] C:\Users\Okta\.android\build-cache\0636a0cf5804a3f8bf106ee7e092c8a7d016a2bd\output\AndroidManifest.xml:27:9-31
 	android:name
-		ADDED from [com.android.support:design:25.3.1] C:\Users\Voldarex\.android\build-cache\354e7540d6d33628be2e9c473b81e981c2595f29\output\AndroidManifest.xml:26:9-47
+		ADDED from [com.android.support:design:25.3.1] C:\Users\Okta\.android\build-cache\0636a0cf5804a3f8bf106ee7e092c8a7d016a2bd\output\AndroidManifest.xml:26:9-47
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from [com.google.android.gms:play-services-maps:11.0.2] C:\Users\Voldarex\.android\build-cache\2eaf53e199fcb430cce928d03c088c1f8b884067\output\AndroidManifest.xml:19:5-78
+ADDED from [com.google.android.gms:play-services-maps:11.0.2] C:\Users\Okta\.android\build-cache\16effdf3d3850106b913db6c429a447887bd64d4\output\AndroidManifest.xml:19:5-78
 	android:name
-		ADDED from [com.google.android.gms:play-services-maps:11.0.2] C:\Users\Voldarex\.android\build-cache\2eaf53e199fcb430cce928d03c088c1f8b884067\output\AndroidManifest.xml:19:22-76
+		ADDED from [com.google.android.gms:play-services-maps:11.0.2] C:\Users\Okta\.android\build-cache\16effdf3d3850106b913db6c429a447887bd64d4\output\AndroidManifest.xml:19:22-76
 uses-permission#android.permission.INTERNET
-ADDED from [com.google.android.gms:play-services-maps:11.0.2] C:\Users\Voldarex\.android\build-cache\2eaf53e199fcb430cce928d03c088c1f8b884067\output\AndroidManifest.xml:20:5-66
-MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Voldarex\.android\build-cache\160258d303cda61c27e313ac3b5d8f6b2d617286\output\AndroidManifest.xml:5:5-67
+ADDED from [com.google.android.gms:play-services-maps:11.0.2] C:\Users\Okta\.android\build-cache\16effdf3d3850106b913db6c429a447887bd64d4\output\AndroidManifest.xml:20:5-66
 	android:name
-		ADDED from [com.google.android.gms:play-services-maps:11.0.2] C:\Users\Voldarex\.android\build-cache\2eaf53e199fcb430cce928d03c088c1f8b884067\output\AndroidManifest.xml:20:22-64
+		ADDED from [com.google.android.gms:play-services-maps:11.0.2] C:\Users\Okta\.android\build-cache\16effdf3d3850106b913db6c429a447887bd64d4\output\AndroidManifest.xml:20:22-64
 uses-feature#0x00020000
-ADDED from [com.google.android.gms:play-services-maps:11.0.2] C:\Users\Voldarex\.android\build-cache\2eaf53e199fcb430cce928d03c088c1f8b884067\output\AndroidManifest.xml:21:5-77
+ADDED from [com.google.android.gms:play-services-maps:11.0.2] C:\Users\Okta\.android\build-cache\16effdf3d3850106b913db6c429a447887bd64d4\output\AndroidManifest.xml:21:5-77
 	android:glEsVersion
-		ADDED from [com.google.android.gms:play-services-maps:11.0.2] C:\Users\Voldarex\.android\build-cache\2eaf53e199fcb430cce928d03c088c1f8b884067\output\AndroidManifest.xml:21:19-51
+		ADDED from [com.google.android.gms:play-services-maps:11.0.2] C:\Users\Okta\.android\build-cache\16effdf3d3850106b913db6c429a447887bd64d4\output\AndroidManifest.xml:21:19-51
 	android:required
-		ADDED from [com.google.android.gms:play-services-maps:11.0.2] C:\Users\Voldarex\.android\build-cache\2eaf53e199fcb430cce928d03c088c1f8b884067\output\AndroidManifest.xml:21:52-75
+		ADDED from [com.google.android.gms:play-services-maps:11.0.2] C:\Users\Okta\.android\build-cache\16effdf3d3850106b913db6c429a447887bd64d4\output\AndroidManifest.xml:21:52-75
 activity#com.google.android.gms.common.api.GoogleApiActivity
-ADDED from [com.google.android.gms:play-services-base:11.0.2] C:\Users\Voldarex\.android\build-cache\375b984a95e34c1b0985600e5108cc843129d41e\output\AndroidManifest.xml:19:9-172
+ADDED from [com.google.android.gms:play-services-base:11.0.2] C:\Users\Okta\.android\build-cache\b4021930c599dad7ea6c2d50f9ca0e89f7490048\output\AndroidManifest.xml:19:9-172
 	android:exported
-		ADDED from [com.google.android.gms:play-services-base:11.0.2] C:\Users\Voldarex\.android\build-cache\375b984a95e34c1b0985600e5108cc843129d41e\output\AndroidManifest.xml:19:146-170
+		ADDED from [com.google.android.gms:play-services-base:11.0.2] C:\Users\Okta\.android\build-cache\b4021930c599dad7ea6c2d50f9ca0e89f7490048\output\AndroidManifest.xml:19:146-170
 	android:theme
-		ADDED from [com.google.android.gms:play-services-base:11.0.2] C:\Users\Voldarex\.android\build-cache\375b984a95e34c1b0985600e5108cc843129d41e\output\AndroidManifest.xml:19:86-145
+		ADDED from [com.google.android.gms:play-services-base:11.0.2] C:\Users\Okta\.android\build-cache\b4021930c599dad7ea6c2d50f9ca0e89f7490048\output\AndroidManifest.xml:19:86-145
 	android:name
-		ADDED from [com.google.android.gms:play-services-base:11.0.2] C:\Users\Voldarex\.android\build-cache\375b984a95e34c1b0985600e5108cc843129d41e\output\AndroidManifest.xml:19:19-85
+		ADDED from [com.google.android.gms:play-services-base:11.0.2] C:\Users\Okta\.android\build-cache\b4021930c599dad7ea6c2d50f9ca0e89f7490048\output\AndroidManifest.xml:19:19-85
 meta-data#com.google.android.gms.version
-ADDED from [com.google.android.gms:play-services-basement:11.0.2] C:\Users\Voldarex\.android\build-cache\df93144060785149196d34cd91384b1a5736aea4\output\AndroidManifest.xml:20:9-121
+ADDED from [com.google.android.gms:play-services-basement:11.0.2] C:\Users\Okta\.android\build-cache\a36d74e39a4ffb6b90336ec9b4df7ad09ad5be26\output\AndroidManifest.xml:20:9-121
 	android:value
-		ADDED from [com.google.android.gms:play-services-basement:11.0.2] C:\Users\Voldarex\.android\build-cache\df93144060785149196d34cd91384b1a5736aea4\output\AndroidManifest.xml:20:66-119
+		ADDED from [com.google.android.gms:play-services-basement:11.0.2] C:\Users\Okta\.android\build-cache\a36d74e39a4ffb6b90336ec9b4df7ad09ad5be26\output\AndroidManifest.xml:20:66-119
 	android:name
-		ADDED from [com.google.android.gms:play-services-basement:11.0.2] C:\Users\Voldarex\.android\build-cache\df93144060785149196d34cd91384b1a5736aea4\output\AndroidManifest.xml:20:20-65
-activity#com.example.voldarex.infobola_11414028.Splashscreen
-ADDED from [com.android.support:support-media-compat:25.3.1] C:\Users\Voldarex\.android\build-cache\160258d303cda61c27e313ac3b5d8f6b2d617286\output\AndroidManifest.xml:14:9-23:20
-	android:label
-		ADDED from [com.android.support:support-media-compat:25.3.1] C:\Users\Voldarex\.android\build-cache\160258d303cda61c27e313ac3b5d8f6b2d617286\output\AndroidManifest.xml:16:13-45
-	android:theme
-		ADDED from [com.android.support:support-media-compat:25.3.1] C:\Users\Voldarex\.android\build-cache\160258d303cda61c27e313ac3b5d8f6b2d617286\output\AndroidManifest.xml:17:13-56
-	android:name
-		ADDED from [com.android.support:support-media-compat:25.3.1] C:\Users\Voldarex\.android\build-cache\160258d303cda61c27e313ac3b5d8f6b2d617286\output\AndroidManifest.xml:15:13-41
-uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-IMPLIED from D:\Kuliah\Magang_GVM\AvailaballsApp\app\src\main\AndroidManifest.xml:2:1-56:12 reason: com.example.voldarex.infobola_11414028 has a targetSdkVersion < 4
-uses-permission#android.permission.READ_PHONE_STATE
-IMPLIED from D:\Kuliah\Magang_GVM\AvailaballsApp\app\src\main\AndroidManifest.xml:2:1-56:12 reason: com.example.voldarex.infobola_11414028 has a targetSdkVersion < 4
-uses-permission#android.permission.READ_EXTERNAL_STORAGE
-IMPLIED from D:\Kuliah\Magang_GVM\AvailaballsApp\app\src\main\AndroidManifest.xml:2:1-56:12 reason: com.example.voldarex.infobola_11414028 requested WRITE_EXTERNAL_STORAGE
+		ADDED from [com.google.android.gms:play-services-basement:11.0.2] C:\Users\Okta\.android\build-cache\a36d74e39a4ffb6b90336ec9b4df7ad09ad5be26\output\AndroidManifest.xml:20:20-65

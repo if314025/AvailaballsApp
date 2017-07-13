@@ -22,6 +22,7 @@ import java.util.List;
 
 import bolalob.develops.stud11314025.availaballs.R;
 import butterknife.Bind;
+import butterknife.ButterKnife;
 
 public class TambahLapanganStepDuaActivity extends AppCompatActivity implements AdapterView.OnItemSelectedListener {
 
@@ -31,9 +32,10 @@ public class TambahLapanganStepDuaActivity extends AppCompatActivity implements 
     EditText etTelepon;
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(final Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tambah__lapangan__step__dua);
+        ButterKnife.bind(this);
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);

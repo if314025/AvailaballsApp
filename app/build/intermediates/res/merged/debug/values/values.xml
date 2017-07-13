@@ -799,7 +799,7 @@
     <string name="icon_location"></string>
     <string name="icon_phone"></string>
     <string name="icon_remove"></string>
-    <string name="judulHargaLapangan">Jam berapa Lapangan ini beroperasi?</string>
+    <string name="judulHargaLapangan">Berapa Harga Normal lapanganmu per jam?</string>
     <string name="judulHariBukaLapangan">Hari apa saja Lapangan ini beroperasi?</string>
     <string name="judulJamBukaLapangan">Jam berapa Lapangan ini beroperasi?</string>
     <string name="jumat">Jumat</string>

@@ -15,51 +15,20 @@ import android.widget.TextView;
 
 import bolalob.develops.stud11314025.availaballs.R;
 import butterknife.Bind;
+import butterknife.ButterKnife;
 
 public class TambahLapanganActivity extends AppCompatActivity {
 
     @Bind(R.id.eTNamaLapangan)
     EditText etNamaLapangan;
     @Bind(R.id.eTTipeLapangan)
-    EditText etNamaTipeLapangan;
+    EditText etTipeLapangan;
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(final Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tambah_lapangan);
-
-        final View llnamalapangan= findViewById(R.id.layoutNamaLapangan);
-        final View lltipelapangan= findViewById(R.id.layoutTipeLapangan);
-
-        TextWatcher namaLapanganWatcher = new TextWatcher() {
-            public void beforeTextChanged(CharSequence s, int start, int count, int after) {
-                llnamalapangan.setAlpha(0.5f);
-            }
-
-            public void onTextChanged(CharSequence s, int start, int before, int count) {
-                llnamalapangan.setAlpha(1.0f);
-            }
-
-            public void afterTextChanged(Editable s) {
-                llnamalapangan.setAlpha(1.0f);
-            }
-        };
-        etNamaLapangan.addTextChangedListener(namaLapanganWatcher);
-
-        TextWatcher tipeLapanganWatcher = new TextWatcher() {
-            public void beforeTextChanged(CharSequence s, int start, int count, int after) {
-                lltipelapangan.setAlpha(0.5f);
-            }
-
-            public void onTextChanged(CharSequence s, int start, int before, int count) {
-                lltipelapangan.setAlpha(1.0f);
-            }
-
-            public void afterTextChanged(Editable s) {
-                lltipelapangan.setAlpha(1.0f);
-            }
-        };
-        etNamaTipeLapangan.addTextChangedListener(tipeLapanganWatcher);
+        ButterKnife.bind(this);
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
@@ -76,6 +45,39 @@ public class TambahLapanganActivity extends AppCompatActivity {
         mActionBar.setBackgroundDrawable(new ColorDrawable(getResources().getColor(R.color.clrNavigation)));
         mActionBar.setCustomView(mCustomView);
         mActionBar.setDisplayShowCustomEnabled(true);
+
+        final View llnamalapangan= findViewById(R.id.layoutNamaLapangan);
+        final View lltipelapangan= findViewById(R.id.layoutTipeLapangan);
+
+        TextWatcher namaWatcher = new TextWatcher() {
+            public void beforeTextChanged(CharSequence s, int start, int count, int after) {
+                llnamalapangan.setAlpha(0.5f);
+            }
+
+            public void onTextChanged(CharSequence s, int start, int before, int count) {
+                llnamalapangan.setAlpha(1.0f);
+            }
+
+            public void afterTextChanged(Editable s) {
+                llnamalapangan.setAlpha(1.0f);
+            }
+        };
+        etNamaLapangan.addTextChangedListener(namaWatcher);
+
+        TextWatcher tipeWatcher = new TextWatcher() {
+            public void beforeTextChanged(CharSequence s, int start, int count, int after) {
+                lltipelapangan.setAlpha(0.5f);
+            }
+
+            public void onTextChanged(CharSequence s, int start, int before, int count) {
+                lltipelapangan.setAlpha(1.0f);
+            }
+
+            public void afterTextChanged(Editable s) {
+                lltipelapangan.setAlpha(1.0f);
+            }
+        };
+        etTipeLapangan.addTextChangedListener(tipeWatcher);
 
     }
 

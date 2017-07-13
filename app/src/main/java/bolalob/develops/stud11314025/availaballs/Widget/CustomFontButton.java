@@ -1,27 +1,27 @@
-package bolalob.develops.stud11314025.availaballs.CustomView;
+package bolalob.develops.stud11314025.availaballs.Widget;
 
 import android.content.Context;
 import android.content.res.TypedArray;
 import android.graphics.Typeface;
 import android.util.AttributeSet;
-import android.widget.TextView;
+import android.widget.Button;
 
 import bolalob.develops.stud11314025.availaballs.R;
 
 /**
- * Created by Okta on 15/06/2017.
+ * Created by Okta on 21/06/2017.
  */
 
-public class CustomFontTextView extends TextView {
+public class CustomFontButton extends Button {
     public static final String ANDROID_SCHEMA = "http://schemas.android.com/apk/res/android";
 
-    public CustomFontTextView(Context context, AttributeSet attrs) {
+    public CustomFontButton(Context context, AttributeSet attrs) {
         super(context, attrs);
 
         applyCustomFont(context, attrs);
     }
 
-    public CustomFontTextView(Context context, AttributeSet attrs, int defStyle) {
+    public CustomFontButton(Context context, AttributeSet attrs, int defStyle) {
         super(context, attrs, defStyle);
 
         applyCustomFont(context, attrs);
@@ -41,7 +41,6 @@ public class CustomFontTextView extends TextView {
     }
 
     private Typeface selectTypeface(Context context, String fontName, int textStyle) {
-
         if (fontName.contentEquals(context.getString(R.string.font_icon))) {
             return FontCache.getTypeface(context, "icomoon.ttf");
         /*
@@ -74,4 +73,3 @@ public class CustomFontTextView extends TextView {
 
     }
 }
-

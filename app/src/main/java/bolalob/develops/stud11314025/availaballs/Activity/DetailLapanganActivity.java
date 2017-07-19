@@ -20,30 +20,30 @@ import com.bumptech.glide.request.RequestListener;
 import com.bumptech.glide.request.target.Target;
 
 import bolalob.develops.stud11314025.availaballs.R;
-import butterknife.Bind;
+import butterknife.BindView;
 import butterknife.ButterKnife;
 
 public class DetailLapanganActivity extends AppCompatActivity {
 
-    @Bind(R.id.TvHarga)
+    @BindView(R.id.TvHarga)
     TextView tvHrg;
-    @Bind(R.id.TvNoHp)
+    @BindView(R.id.TvNoHp)
     TextView tvNoHp;
-    @Bind(R.id.TvAlamat)
+    @BindView(R.id.TvAlamat)
     TextView tvAlmt;
-    @Bind(R.id.TvJlhLpng)
+    @BindView(R.id.TvJlhLpng)
     TextView tvJmlhLap;
-    @Bind(R.id.TvNamaLap)
+    @BindView(R.id.TvNamaLap)
     TextView tvNmLap;
-    @Bind(R.id.TvJamOpen)
+    @BindView(R.id.TvJamOpen)
     TextView tvOpenHour;
-    @Bind(R.id.TvJamClose)
+    @BindView(R.id.TvJamClose)
     TextView tvCloseHour;
-    @Bind(R.id.toolbar)
+    @BindView(R.id.toolbar)
     Toolbar toolbar;
-    @Bind(R.id.app_bar_image)
+    @BindView(R.id.app_bar_image)
     ImageView appbarimage;
-    @Bind(R.id.progressBar)
+    @BindView(R.id.progressBar)
     ProgressBar progressBar;
 
     @Override

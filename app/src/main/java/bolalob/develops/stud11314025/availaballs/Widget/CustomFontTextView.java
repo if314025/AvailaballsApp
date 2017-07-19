@@ -15,6 +15,11 @@ import bolalob.develops.stud11314025.availaballs.R;
 public class CustomFontTextView extends TextView {
     public static final String ANDROID_SCHEMA = "http://schemas.android.com/apk/res/android";
 
+    public CustomFontTextView(Context context) {
+        super(context,null);
+
+    }
+
     public CustomFontTextView(Context context, AttributeSet attrs) {
         super(context, attrs);
 
@@ -26,6 +31,8 @@ public class CustomFontTextView extends TextView {
 
         applyCustomFont(context, attrs);
     }
+
+
 
     private void applyCustomFont(Context context, AttributeSet attrs) {
         TypedArray attributeArray = context.obtainStyledAttributes(

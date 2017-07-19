@@ -19,18 +19,18 @@ import bolalob.develops.stud11314025.availaballs.LoginMVP.LoginPresenter;
 import bolalob.develops.stud11314025.availaballs.LoginMVP.LoginPresenterImp;
 import bolalob.develops.stud11314025.availaballs.LoginMVP.LoginView;
 import bolalob.develops.stud11314025.availaballs.R;
-import butterknife.Bind;
+import butterknife.BindView;
 import butterknife.ButterKnife;
 
 //import android.support.design.R;
 
 public class LoginActivity extends AppCompatActivity implements LoginView {
 
-    @Bind(R.id.eTEmail)
+    @BindView(R.id.eTEmail)
     EditText etEmail;
-    @Bind(R.id.eTPassword)
+    @BindView(R.id.eTPassword)
     EditText etPassword;
-    @Bind(R.id.btnLogin)
+    @BindView(R.id.btnLogin)
     Button btnLgn;
 
     private LoginPresenter presenter;
@@ -60,31 +60,54 @@ public class LoginActivity extends AppCompatActivity implements LoginView {
             }
 
             public void onTextChanged(CharSequence s, int start, int before, int count) {
-                lluname.setAlpha(1.0f);
+                int length = etEmail.getText().length();
+                if( length == 0){
+                    lluname.setAlpha(0.5f);
+                }
+                else lluname.setAlpha(1.0f);
             }
 
             public void afterTextChanged(Editable s) {
-                lluname.setAlpha(1.0f);
+                int length = etEmail.getText().length();
+                if( length == 0){
+                    lluname.setAlpha(0.5f);
+                }
+                else lluname.setAlpha(1.0f);
             }
         };
         etEmail.addTextChangedListener(emailWatcher);
 
         TextWatcher passWatcher = new TextWatcher() {
             public void beforeTextChanged(CharSequence s, int start, int count, int after) {
-                llpass.setAlpha(0.5f);
+                int length = etPassword.getText().length();
+                if( length == 0){
+                    llpass.setAlpha(0.5f);
+                }
+
             }
 
             public void onTextChanged(CharSequence s, int start, int before, int count) {
-                llpass.setAlpha(1.0f);
+                int length = etPassword.getText().length();
+                if( length == 0){
+                    llpass.setAlpha(0.5f);
+                }
+                else llpass.setAlpha(1.0f);
+
             }
 
             public void afterTextChanged(Editable s) {
-                llpass.setAlpha(1.0f);
+                int length = etPassword.getText().length();
+                if( length == 0){
+                    llpass.setAlpha(0.5f);
+                }
+                else llpass.setAlpha(1.0f);
             }
         };
         etPassword.addTextChangedListener(passWatcher);
 
     }
+
+
 
     @Override
     public void showValidationError() {

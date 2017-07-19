@@ -19,42 +19,36 @@ import java.util.ArrayList;
 import java.util.List;
 
 import bolalob.develops.stud11314025.availaballs.R;
+import butterknife.BindView;
 
 public class TambahLapanganStepTigaActivity extends AppCompatActivity implements AdapterView.OnItemSelectedListener {
 
-    CheckBox chSenin,chSelasa, chRabu, chKamis, chJumat, chSabtu, chMinggu;
+    @BindView(R.id.checkBoxSenin)
+    CheckBox chSenin;
+    @BindView(R.id.checkBoxSelasa)
+    CheckBox chSelasa;
+    @BindView(R.id.checkBoxRabu)
+    CheckBox chRabu;
+    @BindView(R.id.checkBoxKamis)
+    CheckBox chKamis;
+    @BindView(R.id.checkBoxJumat)
+    CheckBox chJumat;
+    @BindView(R.id.checkBoxSabtu)
+    CheckBox chSabtu;
+    @BindView(R.id.checkBoxMinggu)
+    CheckBox chMinggu;
+
+    @BindView(R.id.spinnerJamBuka)
+    Spinner spinnerJamBuka;
+    @BindView(R.id.spinnerJamTutup)
+    Spinner spinnerJamTutup;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tambah_lapangan_step_tiga);
 
-        chSenin=(CheckBox)findViewById(R.id.checkBoxSenin);
-        chSelasa=(CheckBox)findViewById(R.id.checkBoxSelasa);
-        chRabu=(CheckBox)findViewById(R.id.checkBoxRabu);
-        chKamis=(CheckBox)findViewById(R.id.checkBoxKamis);
-        chJumat=(CheckBox)findViewById(R.id.checkBoxJumat);
-        chSabtu=(CheckBox)findViewById(R.id.checkBoxSabtu);
-        chMinggu=(CheckBox)findViewById(R.id.checkBoxMinggu);
-
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-
-        ActionBar mActionBar = getSupportActionBar();
-        mActionBar.setDisplayShowHomeEnabled(false);
-        mActionBar.setDisplayShowTitleEnabled(false);
-        LayoutInflater mInflater = LayoutInflater.from(this);
-
-        View mCustomView = mInflater.inflate(R.layout.custom_actionbar, null);
-        TextView mTitleTextView = (TextView) mCustomView.findViewById(R.id.title_text);
-        mTitleTextView.setText("Daftarkan Lapangan");
-
-        mActionBar.setBackgroundDrawable(new ColorDrawable(getResources().getColor(R.color.clrNavigation)));
-        mActionBar.setCustomView(mCustomView);
-        mActionBar.setDisplayShowCustomEnabled(true);
-
-        Spinner spinnerJamBuka = (Spinner) findViewById(R.id.spinnerJamBuka);
-        Spinner spinnerJamTutup = (Spinner) findViewById(R.id.spinnerJamTutup);
+        addActionBar();
 
         spinnerJamBuka.setOnItemSelectedListener(this);
         spinnerJamTutup.setOnItemSelectedListener(this);
@@ -91,6 +85,25 @@ public class TambahLapanganStepTigaActivity extends AppCompatActivity implements
 
         spinnerJamBuka.setAdapter(dataAdapter);
         spinnerJamTutup.setAdapter(dataAdapter);
+    }
+
+    public void addActionBar(){
+
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
+        ActionBar mActionBar = getSupportActionBar();
+        mActionBar.setDisplayShowHomeEnabled(false);
+        mActionBar.setDisplayShowTitleEnabled(false);
+        LayoutInflater mInflater = LayoutInflater.from(this);
+
+        View mCustomView = mInflater.inflate(R.layout.custom_actionbar, null);
+        TextView mTitleTextView = (TextView) mCustomView.findViewById(R.id.title_text);
+        mTitleTextView.setText("Daftarkan Lapangan");
+
+        mActionBar.setBackgroundDrawable(new ColorDrawable(getResources().getColor(R.color.clrNavigation)));
+        mActionBar.setCustomView(mCustomView);
+        mActionBar.setDisplayShowCustomEnabled(true);
     }
 
 

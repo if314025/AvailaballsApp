@@ -3,7 +3,6 @@ package bolalob.develops.stud11314025.availaballs.Activity;
 import android.content.Intent;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
-import android.support.design.widget.BottomNavigationView;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
@@ -16,7 +15,6 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import java.util.ArrayList;
 import java.util.List;
 
 import bolalob.develops.stud11314025.availaballs.Adapter.RecyclerViewAdapter;
@@ -25,7 +23,7 @@ import bolalob.develops.stud11314025.availaballs.R;
 import bolalob.develops.stud11314025.availaballs.Service.API;
 import bolalob.develops.stud11314025.availaballs.Service.Service;
 import bolalob.develops.stud11314025.availaballs.Widget.CustomFontTextView;
-import butterknife.Bind;
+import butterknife.BindView;
 import butterknife.ButterKnife;
 import retrofit2.Call;
 import retrofit2.Callback;
@@ -35,31 +33,29 @@ public class MainActivity extends AppCompatActivity {
     private RecyclerViewAdapter adapter;
     private RecyclerView.LayoutManager layoutManager;
 
-    @Bind(R.id.rv_main)
+    @BindView(R.id.rv_main)
     RecyclerView rvView;
-    @Bind(R.id.emptyText)
+    @BindView(R.id.emptyText)
     TextView emptyview;
-    @Bind(R.id.imageView)
+    @BindView(R.id.imageView)
     ImageView imageView;
-    @Bind(R.id.button1)
+    @BindView(R.id.button1)
     Button btn1;
-    @Bind(R.id.button2)
+    @BindView(R.id.button2)
     Button btn2;
-    @Bind(R.id.button3)
+    @BindView(R.id.button3)
     Button btn3;
-    @Bind(R.id.button4)
+    @BindView(R.id.button4)
     Button btn4;
-    @Bind(R.id.button5)
+    @BindView(R.id.button5)
     Button btn5;
-    @Bind(R.id.TextNo)
+    @BindView(R.id.TextNo)
     TextView LabelNo;
-    @Bind(R.id.TextNamaLapangan)
+    @BindView(R.id.TextNamaLapangan)
     TextView LabelNamaLap;
-    @Bind(R.id.customFontTextView)
+    @BindView(R.id.customFontTextView)
     CustomFontTextView LabelLokasi;
-//    @Bind(R.id.navigation)
-//    BottomNavigationView test;
-    @Bind(R.id.progressBar)
+    @BindView(R.id.progressBar)
     ProgressBar progressBar;
 
     @Override

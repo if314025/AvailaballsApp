@@ -1,5 +1,6 @@
 package bolalob.develops.stud11314025.availaballs.Activity;
 
+import android.content.Context;
 import android.content.Intent;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
@@ -13,6 +14,7 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.EditText;
+import android.widget.LinearLayout;
 import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -21,15 +23,22 @@ import java.util.ArrayList;
 import java.util.List;
 
 import bolalob.develops.stud11314025.availaballs.R;
-import butterknife.Bind;
+import bolalob.develops.stud11314025.availaballs.Widget.CustomFontTextView;
+import butterknife.BindView;
 import butterknife.ButterKnife;
+import butterknife.OnClick;
 
 public class TambahLapanganStepDuaActivity extends AppCompatActivity implements AdapterView.OnItemSelectedListener {
 
-    @Bind(R.id.eTLokasi)
+    @BindView(R.id.eTLokasi)
     EditText etLokasi;
-    @Bind(R.id.eTTelepon)
+    @BindView(R.id.eTTelepon)
     EditText etTelepon;
+    @BindView(R.id.iconTeleponAdd)
+    CustomFontTextView addTlp;
+    Context context;
+    @BindView(R.id.lytlp)
+    LinearLayout ly;
 
     @Override
     protected void onCreate(final Bundle savedInstanceState) {
@@ -40,8 +49,8 @@ public class TambahLapanganStepDuaActivity extends AppCompatActivity implements 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
-        final View lllokasi= findViewById(R.id.layoutLokasi);
-        final View lltelepon= findViewById(R.id.layoutTelepon);
+        final View lllokasi = findViewById(R.id.layoutLokasi);
+        final View lltelepon = findViewById(R.id.layoutTelepon);
 
         TextWatcher lokasiWatcher = new TextWatcher() {
             public void beforeTextChanged(CharSequence s, int start, int count, int after) {
@@ -49,11 +58,19 @@ public class TambahLapanganStepDuaActivity extends AppCompatActivity implements 
             }
 
             public void onTextChanged(CharSequence s, int start, int before, int count) {
-                lllokasi.setAlpha(1.0f);
+                int length = etLokasi.getText().length();
+                if( length == 0){
+                    lllokasi.setAlpha(0.5f);
+                }
+                else lllokasi.setAlpha(1.0f);
             }
 
             public void afterTextChanged(Editable s) {
-                lllokasi.setAlpha(1.0f);
+                int length = etLokasi.getText().length();
+                if( length == 0){
+                    lllokasi.setAlpha(0.5f);
+                }
+                else lllokasi.setAlpha(1.0f);
             }
         };
         etLokasi.addTextChangedListener(lokasiWatcher);
@@ -64,11 +81,19 @@ public class TambahLapanganStepDuaActivity extends AppCompatActivity implements 
             }
 
             public void onTextChanged(CharSequence s, int start, int before, int count) {
-                lltelepon.setAlpha(1.0f);
+                int length = etTelepon.getText().length();
+                if( length == 0){
+                    lltelepon.setAlpha(0.5f);
+                }
+                else lltelepon.setAlpha(1.0f);
             }
 
             public void afterTextChanged(Editable s) {
-                lltelepon.setAlpha(1.0f);
+                int length = etTelepon.getText().length();
+                if( length == 0){
+                    lltelepon.setAlpha(0.5f);
+                }
+                else lltelepon.setAlpha(1.0f);
             }
         };
         etTelepon.addTextChangedListener(teleponWatcher);
@@ -103,8 +128,8 @@ public class TambahLapanganStepDuaActivity extends AppCompatActivity implements 
         dataAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
 
         spinner.setAdapter(dataAdapter);
-    }
 
+    }
 
     @Override
     public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
@@ -137,7 +162,24 @@ public class TambahLapanganStepDuaActivity extends AppCompatActivity implements 
     }
 
     public void openMap(View view) {
-        Intent intentMap = new Intent(TambahLapanganStepDuaActivity.this, MapsActivity.class);
+        Intent intentMap = new Intent(TambahLapanganStepDuaActivity.this, MapsCurrentPlaceActivity.class);
         startActivity(intentMap);
     }
+
+    @OnClick(R.id.iconTeleponAdd)
+    void addTelepon(){
+        LinearLayout ly = (LinearLayout) findViewById(R.id.lytlp);
+
+        View tv = LayoutInflater.from(this).inflate(R.layout.listedittext_telepon, null);
+
+        int count = ly.getChildCount();
+
+        if (count < 5){
+            ly.addView(tv);
+        }
+        else {
+            Toast.makeText(ly.getContext(), "Hanya dapat menambahkan 5 nomor telepon." , Toast.LENGTH_LONG).show();
+        }
+    }
+
 }

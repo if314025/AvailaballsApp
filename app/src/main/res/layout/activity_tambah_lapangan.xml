@@ -11,19 +11,15 @@
         android:focusable="true"
         android:focusableInTouchMode="true">
 
-        <Button
-            android:id="@+id/uploadFotoButton"
-            android:text="upload foto lapanganmu &#10; *720x340px"
-            android:textStyle="italic"
-            android:textAllCaps="false"
-            android:textColor="#808080"
-            android:textSize="12sp"
-            android:layout_width="300dp"
-            android:layout_height="140dp"
-            android:drawableTop="@drawable/icon_camera"
-            android:background="@drawable/uploadfotobutton"
-            android:layout_marginTop="30dp"
-            android:layout_gravity="center"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:src="@drawable/upload"
+            android:id="@+id/upload_img"
+            android:onClick="loadImagefromGallery"
+            android:layout_marginTop="30dp"/>
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -129,14 +125,14 @@
             android:id="@+id/btnLogin"
             android:layout_width="283dp"
             android:layout_height="wrap_content"
+            android:layout_gravity="center"
             android:layout_marginBottom="30dp"
             android:layout_marginTop="80dp"
             android:background="@drawable/circlebutton"
+            android:onClick="nextStep"
             android:text="Selanjutnya"
             android:textAllCaps="false"
-            android:textColor="@android:color/background_light"
-            android:layout_gravity="center"
-            android:onClick="nextStep"/>
+            android:textColor="@android:color/background_light" />
 
     </LinearLayout>
 

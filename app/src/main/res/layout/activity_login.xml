@@ -109,7 +109,7 @@
                     android:layout_width="240dp"
                     android:layout_height="40dp"
                     android:drawablePadding="15dp"
-                    android:drawableTint="@color/clrline"
+                    android:drawableTint="@color/clrpressed"
                     android:ems="10"
                     android:textColor="@color/clrpressed"
                     android:hint="password"

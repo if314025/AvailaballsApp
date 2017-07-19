@@ -1,30 +1,34 @@
 [
     {
-        "merged": "D:\\Intern GVM\\master\\AvailaballsApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\list.png",
-        "source": "D:\\Intern GVM\\master\\AvailaballsApp\\app\\src\\main\\res\\drawable-xxhdpi\\list.png"
+        "merged": "D:\\Kuliah\\Magang_GVM\\sprint2reyv1\\AvailaballsApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\email.png",
+        "source": "D:\\Kuliah\\Magang_GVM\\sprint2reyv1\\AvailaballsApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\email.png"
     },
     {
-        "merged": "D:\\Intern GVM\\master\\AvailaballsApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\backgroundlogin.png",
-        "source": "D:\\Intern GVM\\master\\AvailaballsApp\\app\\src\\main\\res\\drawable-xxhdpi\\backgroundlogin.png"
+        "merged": "D:\\Kuliah\\Magang_GVM\\sprint2reyv1\\AvailaballsApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\backgroundlogin.png",
+        "source": "D:\\Kuliah\\Magang_GVM\\sprint2reyv1\\AvailaballsApp\\app\\src\\main\\res\\drawable-xxhdpi\\backgroundlogin.png"
     },
     {
-        "merged": "D:\\Intern GVM\\master\\AvailaballsApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\icon_lapangan.png",
-        "source": "D:\\Intern GVM\\master\\AvailaballsApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\icon_lapangan.png"
+        "merged": "D:\\Kuliah\\Magang_GVM\\sprint2reyv1\\AvailaballsApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\logoavailaball.png",
+        "source": "D:\\Kuliah\\Magang_GVM\\sprint2reyv1\\AvailaballsApp\\app\\src\\main\\res\\drawable-xxhdpi\\logoavailaball.png"
     },
     {
-        "merged": "D:\\Intern GVM\\master\\AvailaballsApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\emptydata.png",
-        "source": "D:\\Intern GVM\\master\\AvailaballsApp\\app\\src\\main\\res\\drawable-xxhdpi\\emptydata.png"
+        "merged": "D:\\Kuliah\\Magang_GVM\\sprint2reyv1\\AvailaballsApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\icon_camera.png",
+        "source": "D:\\Kuliah\\Magang_GVM\\sprint2reyv1\\AvailaballsApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\icon_camera.png"
     },
     {
-        "merged": "D:\\Intern GVM\\master\\AvailaballsApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\email.png",
-        "source": "D:\\Intern GVM\\master\\AvailaballsApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\email.png"
+        "merged": "D:\\Kuliah\\Magang_GVM\\sprint2reyv1\\AvailaballsApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\list.png",
+        "source": "D:\\Kuliah\\Magang_GVM\\sprint2reyv1\\AvailaballsApp\\app\\src\\main\\res\\drawable-xxhdpi\\list.png"
     },
     {
-        "merged": "D:\\Intern GVM\\master\\AvailaballsApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\icon_camera.png",
-        "source": "D:\\Intern GVM\\master\\AvailaballsApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\icon_camera.png"
+        "merged": "D:\\Kuliah\\Magang_GVM\\sprint2reyv1\\AvailaballsApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\icon_lapangan.png",
+        "source": "D:\\Kuliah\\Magang_GVM\\sprint2reyv1\\AvailaballsApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\icon_lapangan.png"
     },
     {
-        "merged": "D:\\Intern GVM\\master\\AvailaballsApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\logoavailaball.png",
-        "source": "D:\\Intern GVM\\master\\AvailaballsApp\\app\\src\\main\\res\\drawable-xxhdpi\\logoavailaball.png"
+        "merged": "D:\\Kuliah\\Magang_GVM\\sprint2reyv1\\AvailaballsApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\emptydata.png",
+        "source": "D:\\Kuliah\\Magang_GVM\\sprint2reyv1\\AvailaballsApp\\app\\src\\main\\res\\drawable-xxhdpi\\emptydata.png"
+    },
+    {
+        "merged": "D:\\Kuliah\\Magang_GVM\\sprint2reyv1\\AvailaballsApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\icon_dropdown.png",
+        "source": "D:\\Kuliah\\Magang_GVM\\sprint2reyv1\\AvailaballsApp\\app\\src\\main\\res\\drawable-xxhdpi\\icon_dropdown.png"
     }
 ]

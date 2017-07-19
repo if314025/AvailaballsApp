@@ -27,12 +27,13 @@
         android:orientation="horizontal">
 
         <Spinner
-            android:clickable="false"
             android:id="@+id/spinnerJamBukaSenin"
+            style="@style/SpinnerTheme"
             android:layout_width="110dp"
             android:layout_height="wrap_content"
-            android:entries="@array/array_itemjam"
-            style="@style/SpinnerTheme"/>
+            android:alpha="0.5"
+            android:clickable="false"
+            android:entries="@array/array_itemjam" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -48,6 +49,7 @@
             android:clickable="false"
             android:id="@+id/spinnerJamTutupSenin"
             android:layout_width="110dp"
+            android:alpha="0.5"
             android:layout_height="wrap_content"
             android:entries="@array/array_itemjam"
 
@@ -70,6 +72,7 @@
 
         <Spinner
             android:clickable="false"
+            android:alpha="0.5"
             android:id="@+id/spinnerJamBukaSelasa"
             android:layout_width="110dp"
             android:layout_height="wrap_content"
@@ -88,8 +91,8 @@
 
         <Spinner
             android:clickable="false"
+            android:alpha="0.5"
             android:entries="@array/array_itemjam"
-
             android:id="@+id/spinnerJamTutupSelasa"
             android:layout_width="110dp"
             android:layout_height="wrap_content"
@@ -110,6 +113,7 @@
 
         <Spinner
             android:clickable="false"
+            android:alpha="0.5"
             android:id="@+id/spinnerJamBukaRabu"
             android:layout_width="110dp"
             android:entries="@array/array_itemjam"
@@ -129,6 +133,7 @@
 
         <Spinner
             android:clickable="false"
+            android:alpha="0.5"
             android:id="@+id/spinnerJamTutupRabu"
             android:layout_width="110dp"
             android:entries="@array/array_itemjam"
@@ -152,6 +157,7 @@
             android:clickable="false"
             android:id="@+id/spinnerJamBukaKamis"
             android:layout_width="110dp"
+            android:alpha="0.5"
             android:entries="@array/array_itemjam"
             android:layout_height="wrap_content"
             style="@style/SpinnerTheme"/>
@@ -169,7 +175,7 @@
         <Spinner
             android:clickable="false"
             android:entries="@array/array_itemjam"
-
+            android:alpha="0.5"
             android:id="@+id/spinnerJamTutupKamis"
             android:layout_width="110dp"
             android:layout_height="wrap_content"
@@ -192,6 +198,7 @@
             android:clickable="false"
             android:id="@+id/spinnerJamBukaJumat"
             android:layout_width="110dp"
+            android:alpha="0.5"
             android:layout_height="wrap_content"
             android:entries="@array/array_itemjam"
             style="@style/SpinnerTheme"/>
@@ -212,6 +219,7 @@
             android:layout_width="110dp"
             android:entries="@array/array_itemjam"
             android:layout_height="wrap_content"
+            android:alpha="0.5"
             style="@style/SpinnerTheme"/>
 
     </LinearLayout>
@@ -228,6 +236,7 @@
         android:orientation="horizontal">
 
         <Spinner
+            android:alpha="0.5"
             android:clickable="false"
             android:id="@+id/spinnerJamBukaSabtu"
             android:layout_width="110dp"
@@ -246,6 +255,7 @@
             android:layout_marginLeft="10dp"/>
 
         <Spinner
+            android:alpha="0.5"
             android:clickable="false"
             android:id="@+id/spinnerJamTutupSabtu"
             android:layout_width="110dp"
@@ -272,7 +282,7 @@
             android:layout_width="110dp"
             android:layout_height="wrap_content"
             android:entries="@array/array_itemjam"
-
+            android:alpha="0.5"
             style="@style/SpinnerTheme"/>
 
         <TextView
@@ -289,6 +299,7 @@
             android:clickable="false"
             android:id="@+id/spinnerJamTutupMinggu"
             android:layout_width="110dp"
+            android:alpha="0.5"
             android:layout_height="wrap_content"
             android:entries="@array/array_itemjam"
             style="@style/SpinnerTheme"/>

@@ -2071,7 +2071,6 @@
         <item name="colorControlHighlight">@color/colorAccent</item>
     </style><style name="SpinnerTheme" parent="android:Widget.Spinner">
         <item name="android:background">@drawable/bgspinner</item>
-
     </style></file><file path="D:\Intern GVM\master\AvailaballsApp\app\src\main\res\values-v21\styles.xml" qualifiers="v21"><style name="AppTheme.NoActionBar">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>

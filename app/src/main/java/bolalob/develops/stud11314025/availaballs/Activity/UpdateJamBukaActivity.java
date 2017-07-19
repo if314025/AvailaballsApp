@@ -66,10 +66,8 @@ public class UpdateJamBukaActivity extends AppCompatActivity implements AdapterV
             if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
                 spinnerJmBkMinggu.setBackground(getDrawable(R.drawable.bgspinner));
                 spinnerJmTpMinggu.setBackground(getDrawable(R.drawable.bgspinner));
-                TextView spinnerTextJmBk = (TextView) spinnerJmBkMinggu.getChildAt(0);
-                spinnerTextJmBk.setTextColor(getResources().getColor(R.color.clrline));
-                TextView spinnerTextJmTp = (TextView) spinnerJmTpMinggu.getChildAt(0);
-                spinnerTextJmTp.setTextColor(getResources().getColor(R.color.clrline));
+                spinnerJmBkMinggu.setAlpha(0.5f);
+                spinnerJmTpMinggu.setAlpha(0.5f);
             }
 
 
@@ -80,10 +78,9 @@ public class UpdateJamBukaActivity extends AppCompatActivity implements AdapterV
             if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
                 spinnerJmBkMinggu.setBackground(getDrawable(R.drawable.bgspinner_checked));
                 spinnerJmTpMinggu.setBackground(getDrawable(R.drawable.bgspinner_checked));
-                TextView spinnerTextJmBk = (TextView) spinnerJmBkMinggu.getChildAt(0);
-                spinnerTextJmBk.setTextColor(Color.BLACK);
-                TextView spinnerTextJmTp = (TextView) spinnerJmTpMinggu.getChildAt(0);
-                spinnerTextJmTp.setTextColor(Color.BLACK);
+                spinnerJmBkMinggu.setAlpha(1.0f);
+                spinnerJmTpMinggu.setAlpha(1.0f);
+
             }
         }
     }
@@ -96,10 +93,8 @@ public class UpdateJamBukaActivity extends AppCompatActivity implements AdapterV
             if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
                 spinnerJmBkSabtu.setBackground(getDrawable(R.drawable.bgspinner));
                 spinnerJmTpSabtu.setBackground(getDrawable(R.drawable.bgspinner));
-                TextView spinnerTextJmBk = (TextView) spinnerJmBkSabtu.getChildAt(0);
-                spinnerTextJmBk.setTextColor(getResources().getColor(R.color.clrline));
-                TextView spinnerTextJmTp = (TextView) spinnerJmTpSabtu.getChildAt(0);
-                spinnerTextJmTp.setTextColor(getResources().getColor(R.color.clrline));
+                spinnerJmBkSabtu.setAlpha(0.5f);
+                spinnerJmTpSabtu.setAlpha(0.5f);
             }
 
 
@@ -109,10 +104,9 @@ public class UpdateJamBukaActivity extends AppCompatActivity implements AdapterV
             if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
                 spinnerJmBkSabtu.setBackground(getDrawable(R.drawable.bgspinner_checked));
                 spinnerJmTpSabtu.setBackground(getDrawable(R.drawable.bgspinner_checked));
-                TextView spinnerTextJmBk = (TextView) spinnerJmBkSabtu.getChildAt(0);
-                spinnerTextJmBk.setTextColor(Color.BLACK);
-                TextView spinnerTextJmTp = (TextView) spinnerJmTpSabtu.getChildAt(0);
-                spinnerTextJmTp.setTextColor(Color.BLACK);
+                spinnerJmBkSabtu.setAlpha(1.0f);
+                spinnerJmTpSabtu.setAlpha(1.0f);
+
             }
         }
     }
@@ -125,10 +119,8 @@ public class UpdateJamBukaActivity extends AppCompatActivity implements AdapterV
             if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
                 spinnerJmBkJumat.setBackground(getDrawable(R.drawable.bgspinner));
                 spinnerJmTpJumat.setBackground(getDrawable(R.drawable.bgspinner));
-                TextView spinnerTextJmBk = (TextView) spinnerJmBkJumat.getChildAt(0);
-                spinnerTextJmBk.setTextColor(getResources().getColor(R.color.clrline));
-                TextView spinnerTextJmTp = (TextView) spinnerJmTpJumat.getChildAt(0);
-                spinnerTextJmTp.setTextColor(getResources().getColor(R.color.clrline));
+                spinnerJmBkJumat.setAlpha(0.5f);
+                spinnerJmTpJumat.setAlpha(0.5f);
             }
 
 
@@ -138,10 +130,8 @@ public class UpdateJamBukaActivity extends AppCompatActivity implements AdapterV
             if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
                 spinnerJmBkJumat.setBackground(getDrawable(R.drawable.bgspinner_checked));
                 spinnerJmTpJumat.setBackground(getDrawable(R.drawable.bgspinner_checked));
-                TextView spinnerTextJmBk = (TextView) spinnerJmBkJumat.getChildAt(0);
-                spinnerTextJmBk.setTextColor(Color.BLACK);
-                TextView spinnerTextJmTp = (TextView) spinnerJmTpJumat.getChildAt(0);
-                spinnerTextJmTp.setTextColor(Color.BLACK);
+                spinnerJmBkJumat.setAlpha(1.0f);
+                spinnerJmTpJumat.setAlpha(1.0f);
             }
         }
     }
@@ -154,10 +144,8 @@ public class UpdateJamBukaActivity extends AppCompatActivity implements AdapterV
             if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
                 spinnerJmBkKamis.setBackground(getDrawable(R.drawable.bgspinner));
                 spinnerJmTpKamis.setBackground(getDrawable(R.drawable.bgspinner));
-                TextView spinnerTextJmBk = (TextView) spinnerJmBkKamis.getChildAt(0);
-                spinnerTextJmBk.setTextColor(getResources().getColor(R.color.clrline));
-                TextView spinnerTextJmTp = (TextView) spinnerJmTpKamis.getChildAt(0);
-                spinnerTextJmTp.setTextColor(getResources().getColor(R.color.clrline));
+                spinnerJmBkKamis.setAlpha(0.5f);
+                spinnerJmTpKamis.setAlpha(0.5f);
             }
 
 
@@ -167,10 +155,9 @@ public class UpdateJamBukaActivity extends AppCompatActivity implements AdapterV
             if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
                 spinnerJmBkKamis.setBackground(getDrawable(R.drawable.bgspinner_checked));
                 spinnerJmTpKamis.setBackground(getDrawable(R.drawable.bgspinner_checked));
-                TextView spinnerTextJmBk = (TextView) spinnerJmBkKamis.getChildAt(0);
-                spinnerTextJmBk.setTextColor(Color.BLACK);
-                TextView spinnerTextJmTp = (TextView) spinnerJmTpKamis.getChildAt(0);
-                spinnerTextJmTp.setTextColor(Color.BLACK);
+                spinnerJmBkKamis.setAlpha(1.0f);
+                spinnerJmTpKamis.setAlpha(1.0f);
+
             }
         }
     }
@@ -183,10 +170,8 @@ public class UpdateJamBukaActivity extends AppCompatActivity implements AdapterV
             if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
                 spinnerJmBkRabu.setBackground(getDrawable(R.drawable.bgspinner));
                 spinnerJmTpRabu.setBackground(getDrawable(R.drawable.bgspinner));
-                TextView spinnerTextJmBk = (TextView) spinnerJmBkRabu.getChildAt(0);
-                spinnerTextJmBk.setTextColor(getResources().getColor(R.color.clrline));
-                TextView spinnerTextJmTp = (TextView) spinnerJmTpRabu.getChildAt(0);
-                spinnerTextJmTp.setTextColor(getResources().getColor(R.color.clrline));
+                spinnerJmBkRabu.setAlpha(0.5f);
+                spinnerJmTpRabu.setAlpha(0.5f);
 
             }
 
@@ -197,10 +182,9 @@ public class UpdateJamBukaActivity extends AppCompatActivity implements AdapterV
             if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
                 spinnerJmBkRabu.setBackground(getDrawable(R.drawable.bgspinner_checked));
                 spinnerJmTpRabu.setBackground(getDrawable(R.drawable.bgspinner_checked));
-                TextView spinnerTextJmBk = (TextView) spinnerJmBkRabu.getChildAt(0);
-                spinnerTextJmBk.setTextColor(Color.BLACK);
-                TextView spinnerTextJmTp = (TextView) spinnerJmTpRabu.getChildAt(0);
-                spinnerTextJmTp.setTextColor(Color.BLACK);
+                spinnerJmBkRabu.setAlpha(1.0f);
+                spinnerJmTpRabu.setAlpha(1.0f);
+
             }
         }
     }
@@ -213,10 +197,8 @@ public class UpdateJamBukaActivity extends AppCompatActivity implements AdapterV
             if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
                 spinnerJmBkSelasa.setBackground(getDrawable(R.drawable.bgspinner));
                 spinnerJmTpSelasa.setBackground(getDrawable(R.drawable.bgspinner));
-                TextView spinnerTextJmBk = (TextView) spinnerJmBkSelasa.getChildAt(0);
-                spinnerTextJmBk.setTextColor(getResources().getColor(R.color.clrline));
-                TextView spinnerTextJmTp = (TextView) spinnerJmTpSelasa.getChildAt(0);
-                spinnerTextJmTp.setTextColor(getResources().getColor(R.color.clrline));
+                spinnerJmBkSelasa.setAlpha(0.5f);
+                spinnerJmTpSelasa.setAlpha(0.5f);
             }
 
 
@@ -226,10 +208,9 @@ public class UpdateJamBukaActivity extends AppCompatActivity implements AdapterV
             if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
                 spinnerJmBkSelasa.setBackground(getDrawable(R.drawable.bgspinner_checked));
                 spinnerJmTpSelasa.setBackground(getDrawable(R.drawable.bgspinner_checked));
-                TextView spinnerTextJmBk = (TextView) spinnerJmBkSelasa.getChildAt(0);
-                spinnerTextJmBk.setTextColor(Color.BLACK);
-                TextView spinnerTextJmTp = (TextView) spinnerJmTpSelasa.getChildAt(0);
-                spinnerTextJmTp.setTextColor(Color.BLACK);
+                spinnerJmBkSelasa.setAlpha(1.0f);
+                spinnerJmTpSelasa.setAlpha(1.0f);
+
             }
         }
     }
@@ -242,10 +223,8 @@ public class UpdateJamBukaActivity extends AppCompatActivity implements AdapterV
             if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
                 spinnerJmBkSenin.setBackground(getDrawable(R.drawable.bgspinner));
                 spinnerJmTpSenin.setBackground(getDrawable(R.drawable.bgspinner));
-                TextView spinnerTextJmBk = (TextView) spinnerJmBkSenin.getChildAt(0);
-                spinnerTextJmBk.setTextColor(getResources().getColor(R.color.clrline));
-                TextView spinnerTextJmTp = (TextView) spinnerJmTpSenin.getChildAt(0);
-                spinnerTextJmTp.setTextColor(getResources().getColor(R.color.clrline));
+                spinnerJmBkSenin.setAlpha(0.5f);
+                spinnerJmTpSenin.setAlpha(0.5f);
             }
 
 
@@ -255,10 +234,9 @@ public class UpdateJamBukaActivity extends AppCompatActivity implements AdapterV
             if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
                 spinnerJmBkSenin.setBackground(getDrawable(R.drawable.bgspinner_checked));
                 spinnerJmTpSenin.setBackground(getDrawable(R.drawable.bgspinner_checked));
-                TextView spinnerTextJmBk = (TextView) spinnerJmBkSenin.getChildAt(0);
-                spinnerTextJmBk.setTextColor(Color.BLACK);
-                TextView spinnerTextJmTp = (TextView) spinnerJmTpSenin.getChildAt(0);
-                spinnerTextJmTp.setTextColor(Color.BLACK);
+                spinnerJmBkSenin.setAlpha(1.0f);
+                spinnerJmTpSenin.setAlpha(1.0f);
+
             }
         }
     }

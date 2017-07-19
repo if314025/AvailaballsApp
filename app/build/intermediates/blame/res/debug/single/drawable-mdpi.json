@@ -1,5 +1,9 @@
 [
     {
+        "merged": "D:\\Intern GVM\\master\\AvailaballsApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\icon_dropdown.png",
+        "source": "D:\\Intern GVM\\master\\AvailaballsApp\\app\\src\\main\\res\\drawable-mdpi\\icon_dropdown.png"
+    },
+    {
         "merged": "D:\\Intern GVM\\master\\AvailaballsApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\backgroundlogin.png",
         "source": "D:\\Intern GVM\\master\\AvailaballsApp\\app\\src\\main\\res\\drawable-mdpi\\backgroundlogin.png"
     },

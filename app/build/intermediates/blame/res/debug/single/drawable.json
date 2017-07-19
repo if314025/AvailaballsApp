@@ -36,6 +36,10 @@
         "source": "C:\\Users\\Okta\\.android\\build-cache\\23eeae67d6a26c5b4698847ab9efcec400027273\\output\\res\\drawable\\abc_item_background_holo_light.xml"
     },
     {
+        "merged": "D:\\Intern GVM\\master\\AvailaballsApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\upload.png",
+        "source": "D:\\Intern GVM\\master\\AvailaballsApp\\app\\src\\main\\res\\drawable\\upload.png"
+    },
+    {
         "merged": "D:\\Intern GVM\\master\\AvailaballsApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\texteditdark.xml",
         "source": "D:\\Intern GVM\\master\\AvailaballsApp\\app\\src\\main\\res\\drawable\\texteditdark.xml"
     },

@@ -12,6 +12,10 @@
         "source": "D:\\Intern GVM\\master\\AvailaballsApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\email.png"
     },
     {
+        "merged": "D:\\Intern GVM\\master\\AvailaballsApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_dropdown.png",
+        "source": "D:\\Intern GVM\\master\\AvailaballsApp\\app\\src\\main\\res\\drawable-xhdpi\\icon_dropdown.png"
+    },
+    {
         "merged": "D:\\Intern GVM\\master\\AvailaballsApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\logoavailaball.png",
         "source": "D:\\Intern GVM\\master\\AvailaballsApp\\app\\src\\main\\res\\drawable-xhdpi\\logoavailaball.png"
     },

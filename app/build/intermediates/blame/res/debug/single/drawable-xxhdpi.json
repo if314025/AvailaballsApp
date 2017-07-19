@@ -4,6 +4,10 @@
         "source": "D:\\Intern GVM\\master\\AvailaballsApp\\app\\src\\main\\res\\drawable-xxhdpi\\backgroundlogin.png"
     },
     {
+        "merged": "D:\\Intern GVM\\master\\AvailaballsApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\icon_dropdown.png",
+        "source": "D:\\Intern GVM\\master\\AvailaballsApp\\app\\src\\main\\res\\drawable-xxhdpi\\icon_dropdown.png"
+    },
+    {
         "merged": "D:\\Intern GVM\\master\\AvailaballsApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\icon_lapangan.png",
         "source": "D:\\Intern GVM\\master\\AvailaballsApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\icon_lapangan.png"
     },
@@ -16,11 +20,11 @@
         "source": "D:\\Intern GVM\\master\\AvailaballsApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\email.png"
     },
     {
-        "merged": "D:\\Intern GVM\\master\\AvailaballsApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\icon_camera.png",
-        "source": "D:\\Intern GVM\\master\\AvailaballsApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\icon_camera.png"
-    },
-    {
         "merged": "D:\\Intern GVM\\master\\AvailaballsApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\logoavailaball.png",
         "source": "D:\\Intern GVM\\master\\AvailaballsApp\\app\\src\\main\\res\\drawable-xxhdpi\\logoavailaball.png"
+    },
+    {
+        "merged": "D:\\Intern GVM\\master\\AvailaballsApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\icon_camera.png",
+        "source": "D:\\Intern GVM\\master\\AvailaballsApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\icon_camera.png"
     }
 ]

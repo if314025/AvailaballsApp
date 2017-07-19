@@ -20,6 +20,10 @@
         "source": "D:\\Intern GVM\\master\\AvailaballsApp\\app\\src\\main\\res\\drawable-hdpi\\emptydata.png"
     },
     {
+        "merged": "D:\\Intern GVM\\master\\AvailaballsApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icon_dropdown.png",
+        "source": "D:\\Intern GVM\\master\\AvailaballsApp\\app\\src\\main\\res\\drawable-hdpi\\icon_dropdown.png"
+    },
+    {
         "merged": "D:\\Intern GVM\\master\\AvailaballsApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icon_camera.png",
         "source": "D:\\Intern GVM\\master\\AvailaballsApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\icon_camera.png"
     }

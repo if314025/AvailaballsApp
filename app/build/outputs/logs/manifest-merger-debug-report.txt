@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\Kuliah\Magang_GVM\sprint2reyv1\AvailaballsApp\app\src\main\AndroidManifest.xml:2:1-46:12
+ADDED from D:\Kuliah\Magang_GVM\sprint2reyv1\AvailaballsApp\app\src\main\AndroidManifest.xml:2:1-55:12
 	package
 		ADDED from D:\Kuliah\Magang_GVM\sprint2reyv1\AvailaballsApp\app\src\main\AndroidManifest.xml:3:5-56
 		INJECTED from D:\Kuliah\Magang_GVM\sprint2reyv1\AvailaballsApp\app\src\main\AndroidManifest.xml
@@ -21,137 +21,117 @@ uses-permission#android.permission.READ_EXTERNAL_STORAGE
 ADDED from D:\Kuliah\Magang_GVM\sprint2reyv1\AvailaballsApp\app\src\main\AndroidManifest.xml:6:5-80
 	android:name
 		ADDED from D:\Kuliah\Magang_GVM\sprint2reyv1\AvailaballsApp\app\src\main\AndroidManifest.xml:6:22-77
+uses-permission#android.permission.INTERNET
+ADDED from D:\Kuliah\Magang_GVM\sprint2reyv1\AvailaballsApp\app\src\main\AndroidManifest.xml:7:5-66
+MERGED from [com.google.android.gms:play-services-maps:11.0.1] C:\Users\Voldarex\.android\build-cache\4a7bf6ef4e85c74a343a93a487c848b0ded2299b\output\AndroidManifest.xml:20:5-66
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Voldarex\.android\build-cache\160258d303cda61c27e313ac3b5d8f6b2d617286\output\AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from D:\Kuliah\Magang_GVM\sprint2reyv1\AvailaballsApp\app\src\main\AndroidManifest.xml:7:22-64
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from D:\Kuliah\Magang_GVM\sprint2reyv1\AvailaballsApp\app\src\main\AndroidManifest.xml:8:5-75
+	android:name
+		ADDED from D:\Kuliah\Magang_GVM\sprint2reyv1\AvailaballsApp\app\src\main\AndroidManifest.xml:8:22-73
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from D:\Kuliah\Magang_GVM\sprint2reyv1\AvailaballsApp\app\src\main\AndroidManifest.xml:9:5-78
+MERGED from [com.google.android.gms:play-services-maps:11.0.1] C:\Users\Voldarex\.android\build-cache\4a7bf6ef4e85c74a343a93a487c848b0ded2299b\output\AndroidManifest.xml:19:5-78
+	android:name
+		ADDED from D:\Kuliah\Magang_GVM\sprint2reyv1\AvailaballsApp\app\src\main\AndroidManifest.xml:9:22-76
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\Kuliah\Magang_GVM\sprint2reyv1\AvailaballsApp\app\src\main\AndroidManifest.xml:10:5-80
+	android:name
+		ADDED from D:\Kuliah\Magang_GVM\sprint2reyv1\AvailaballsApp\app\src\main\AndroidManifest.xml:10:22-78
+uses-permission#android.permission.CAMERA
+ADDED from D:\Kuliah\Magang_GVM\sprint2reyv1\AvailaballsApp\app\src\main\AndroidManifest.xml:11:5-64
+	android:name
+		ADDED from D:\Kuliah\Magang_GVM\sprint2reyv1\AvailaballsApp\app\src\main\AndroidManifest.xml:11:22-62
 application
-ADDED from D:\Kuliah\Magang_GVM\sprint2reyv1\AvailaballsApp\app\src\main\AndroidManifest.xml:8:5-44:19
+ADDED from D:\Kuliah\Magang_GVM\sprint2reyv1\AvailaballsApp\app\src\main\AndroidManifest.xml:13:5-53:19
 MERGED from [com.android.support:design:25.3.1] C:\Users\Voldarex\.android\build-cache\354e7540d6d33628be2e9c473b81e981c2595f29\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:transition:25.3.1] C:\Users\Voldarex\.android\build-cache\5069980b41639167e0ddd4435ddc78ae8aeb0156\output\AndroidManifest.xml:26:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Voldarex\.android\build-cache\b6aa7bfcbed404d5c15d38679d958204070669a9\output\AndroidManifest.xml:9:5-20
-MERGED from [com.google.android.gms:play-services:10.0.1] C:\Users\Voldarex\.android\build-cache\48594c2a4993457e76cb03a15cb7eeb0f4a482d6\output\AndroidManifest.xml:5:5-20
-MERGED from [com.google.android.gms:play-services-ads-lite:10.0.1] C:\Users\Voldarex\.android\build-cache\e14ef26cc65bade9245ea0e81c043563d935d8bb\output\AndroidManifest.xml:23:5-27:19
-MERGED from [com.google.android.gms:play-services-analytics:10.0.1] C:\Users\Voldarex\.android\build-cache\5a9993299971f73710c53cffbb4646e195f0d223\output\AndroidManifest.xml:26:5-19
-MERGED from [com.google.android.gms:play-services-appinvite:10.0.1] C:\Users\Voldarex\.android\build-cache\bbdccfdffc627b4733200a5652275f0685c4e06c\output\AndroidManifest.xml:19:5-26:19
-MERGED from [com.google.android.gms:play-services-auth:10.0.1] C:\Users\Voldarex\.android\build-cache\c7de93a1c8a46b00d3618b15552134f81d0f456e\output\AndroidManifest.xml:19:5-25:19
-MERGED from [com.google.android.gms:play-services-cast-framework:10.0.1] C:\Users\Voldarex\.android\build-cache\9cc4edfe753a038d236022fd66dcdb6824c5d1d2\output\AndroidManifest.xml:4:5-8:19
-MERGED from [com.google.android.gms:play-services-cast:10.0.1] C:\Users\Voldarex\.android\build-cache\f3d9c16be3e881394dba08c5982b7b16a7abee5c\output\AndroidManifest.xml:18:5-19
-MERGED from [com.android.support:mediarouter-v7:24.0.0] C:\Users\Voldarex\.android\build-cache\adb542a7959cba47cf8df500cfe86b2219709370\output\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:palette-v7:24.0.0] C:\Users\Voldarex\.android\build-cache\1e43d93bd1dd489fbdb538feee40849527f641fa\output\AndroidManifest.xml:22:5-23:19
-MERGED from [com.google.android.gms:play-services-clearcut:10.0.1] C:\Users\Voldarex\.android\build-cache\9e43de1212247ec3a8ec769f14465b70498bbc88\output\AndroidManifest.xml:18:5-19
-MERGED from [com.google.firebase:firebase-config:10.0.1] C:\Users\Voldarex\.android\build-cache\0bfc433e2de093199ecd7b9732c54dadce22d4e0\output\AndroidManifest.xml:18:5-19
-MERGED from [com.google.android.gms:play-services-awareness:10.0.1] C:\Users\Voldarex\.android\build-cache\45347a1e2b9a135d2283b81d17f447c0dabca2b5\output\AndroidManifest.xml:18:5-19
-MERGED from [com.google.firebase:firebase-crash:10.0.1] C:\Users\Voldarex\.android\build-cache\3179232bea2b3e254ba742258fb0d9929b9ac606\output\AndroidManifest.xml:22:5-23:19
-MERGED from [com.google.firebase:firebase-auth:10.0.1] C:\Users\Voldarex\.android\build-cache\bebdd2aec5a41f8bea05ffbdfa8afa87bef45f7d\output\AndroidManifest.xml:19:5-20:19
-MERGED from [com.google.firebase:firebase-messaging:10.0.1] C:\Users\Voldarex\.android\build-cache\d5ee56a0a4aa005fb0e5247d8b121464315b8d6d\output\AndroidManifest.xml:19:5-29:19
-MERGED from [com.google.android.gms:play-services-fitness:10.0.1] C:\Users\Voldarex\.android\build-cache\df98642cd81383f0c114e3ec8a4df8fea7cf3a16\output\AndroidManifest.xml:18:5-19
-MERGED from [com.google.android.gms:play-services-games:10.0.1] C:\Users\Voldarex\.android\build-cache\b3aafb3af56768df42e257f1c80edb7482ec6ae8\output\AndroidManifest.xml:18:5-19
-MERGED from [com.google.android.gms:play-services-drive:10.0.1] C:\Users\Voldarex\.android\build-cache\512bb8629a7e836e7c78850b3a0f32b597812ab3\output\AndroidManifest.xml:18:5-19
-MERGED from [com.google.android.gms:play-services-gass:10.0.1] C:\Users\Voldarex\.android\build-cache\83cbc412b9a0352a621031d766d446f694af1bf2\output\AndroidManifest.xml:4:5-19
-MERGED from [com.google.android.gms:play-services-gcm:10.0.1] C:\Users\Voldarex\.android\build-cache\277c620af2bafe50574ed5827af99ba6bbae94c1\output\AndroidManifest.xml:23:5-19
-MERGED from [com.google.firebase:firebase-appindexing:10.0.1] C:\Users\Voldarex\.android\build-cache\e89c0dab5527a8bc9e85c48723cf8401c15d3cc5\output\AndroidManifest.xml:18:5-19
-MERGED from [com.google.android.gms:play-services-iid:10.0.1] C:\Users\Voldarex\.android\build-cache\7dd417dd64418b7bb9d929e8295677762b211867\output\AndroidManifest.xml:23:5-19
-MERGED from [com.google.android.gms:play-services-nearby:10.0.1] C:\Users\Voldarex\.android\build-cache\0f89efd6fb964cb8aa80c4de048886baf7478b6f\output\AndroidManifest.xml:5:5-19
-MERGED from [com.google.android.gms:play-services-panorama:10.0.1] C:\Users\Voldarex\.android\build-cache\15e6427eab1c99c39f38d37fe249765d72bd048d\output\AndroidManifest.xml:18:5-19
-MERGED from [com.google.android.gms:play-services-places:10.0.1] C:\Users\Voldarex\.android\build-cache\857d6b783f894cb0b57154df38fa5bd850de206e\output\AndroidManifest.xml:18:5-19
-MERGED from [com.google.android.gms:play-services-plus:10.0.1] C:\Users\Voldarex\.android\build-cache\bc6395c8cf9afe5a56f9177a0d0da9629e2b4864\output\AndroidManifest.xml:18:5-19
-MERGED from [com.google.android.gms:play-services-safetynet:10.0.1] C:\Users\Voldarex\.android\build-cache\6630cad3b75c902d764994c84d8ec838bfadd9c3\output\AndroidManifest.xml:18:5-19
-MERGED from [com.google.android.gms:play-services-tagmanager-api:10.0.1] C:\Users\Voldarex\.android\build-cache\d3ea276b793636c5e8cd977da3c85527fd3e3bcb\output\AndroidManifest.xml:23:5-33:19
-MERGED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\Voldarex\.android\build-cache\ca7016e05f2a67fc29a4071a5fca3c052ee40fc1\output\AndroidManifest.xml:24:5-33:19
-MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] C:\Users\Voldarex\.android\build-cache\bf9c096083ce9e7a6091e249b18b1604ed3996f2\output\AndroidManifest.xml:24:5-28:19
-MERGED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Voldarex\.android\build-cache\5b50b2462d83a55237b5629cea12f7dcb620ef74\output\AndroidManifest.xml:28:5-50:19
-MERGED from [com.google.firebase:firebase-common:10.0.1] C:\Users\Voldarex\.android\build-cache\812d9a2df8cba769f8d020754c178b5bb145c62e\output\AndroidManifest.xml:4:5-7:19
-MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:10.0.1] C:\Users\Voldarex\.android\build-cache\2d9027547d51c57b5a244bd4993b7a3e368e9854\output\AndroidManifest.xml:19:5-19
-MERGED from [com.google.android.gms:play-services-analytics-impl:10.0.1] C:\Users\Voldarex\.android\build-cache\26d7e81242880676a37aa781fec693fe135e9d19\output\AndroidManifest.xml:26:5-19
-MERGED from [com.google.android.gms:play-services-vision:10.0.1] C:\Users\Voldarex\.android\build-cache\85fc843a942d7146eaeb7fa2bdc38fefc90d57a1\output\AndroidManifest.xml:4:5-19
-MERGED from [com.google.android.gms:play-services-identity:10.0.1] C:\Users\Voldarex\.android\build-cache\536d37fa75e39d3c70558b3cf39dfe7496292bae\output\AndroidManifest.xml:18:5-19
-MERGED from [com.google.android.gms:play-services-maps:10.0.1] C:\Users\Voldarex\.android\build-cache\2ca69236207d4cfd0c5b62462cde44552bc57ca7\output\AndroidManifest.xml:24:5-19
-MERGED from [com.google.android.gms:play-services-wearable:10.0.1] C:\Users\Voldarex\.android\build-cache\db74c3a439f0d1b08114dfc9646ade94f2406582\output\AndroidManifest.xml:18:5-19
-MERGED from [com.google.android.gms:play-services-location:10.0.1] C:\Users\Voldarex\.android\build-cache\bf3d7d91eb072a1561af69becdad83fc527168c7\output\AndroidManifest.xml:4:5-19
-MERGED from [com.google.android.gms:play-services-base:10.0.1] C:\Users\Voldarex\.android\build-cache\a9a0e072804bdc2102bbd4b647d708e1773c069e\output\AndroidManifest.xml:18:5-20:19
-MERGED from [com.google.android.gms:play-services-tasks:10.0.1] C:\Users\Voldarex\.android\build-cache\65c5bfd4cc7475cb3f9ba039c410e81e7068f7d5\output\AndroidManifest.xml:4:5-19
-MERGED from [com.google.android.gms:play-services-basement:10.0.1] C:\Users\Voldarex\.android\build-cache\45348b9c3cf91d63fc9c96d8445544ffe47a81b4\output\AndroidManifest.xml:19:5-21:19
 MERGED from [pub.devrel:easypermissions:0.2.1] C:\Users\Voldarex\.android\build-cache\5c70ba2b6e4763d90f9b9bdbc975f19e383d8bdd\output\AndroidManifest.xml:12:5-20
 MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Voldarex\.android\build-cache\c2157dc35693f8f71233f248720d5b7782d489f6\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Voldarex\.android\build-cache\a09fe43246549c3308fb673a30b3cb1e68ed45ed\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Voldarex\.android\build-cache\9ee4e9d6cc71d622a4b9214e79fcb832404a96a7\output\AndroidManifest.xml:26:5-20
+MERGED from [com.google.android.gms:play-services-places:11.0.1] C:\Users\Voldarex\.android\build-cache\e7caf31c354552204c167523d33bb18eed3b4809\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-maps:11.0.1] C:\Users\Voldarex\.android\build-cache\4a7bf6ef4e85c74a343a93a487c848b0ded2299b\output\AndroidManifest.xml:24:5-19
+MERGED from [com.google.android.gms:play-services-base:11.0.1] C:\Users\Voldarex\.android\build-cache\7cd6d225b6fa08fd22048c0992485bcff49635c9\output\AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-tasks:11.0.1] C:\Users\Voldarex\.android\build-cache\2200defc2adfb671d6204a0dfe73ff3843de7212\output\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:11.0.1] C:\Users\Voldarex\.android\build-cache\72cbeb7f1b99d4c2035fd73cb72edd3ece58ba21\output\AndroidManifest.xml:19:5-21:19
 MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Voldarex\.android\build-cache\68b157c956dad542b2b28ba4649f8f0b794dda09\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Voldarex\.android\build-cache\7b9173cf59605d723c7f6414655fd846b861fcf2\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Voldarex\.android\build-cache\160258d303cda61c27e313ac3b5d8f6b2d617286\output\AndroidManifest.xml:7:5-24:19
 MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Voldarex\.android\build-cache\b9b7988d066c25beaae6310722cc33ebb85bfc86\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Voldarex\.android\build-cache\9ea140537fa98a86679abb39e2089ed0e0316f9e\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Voldarex\.android\build-cache\a09fe43246549c3308fb673a30b3cb1e68ed45ed\output\AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Voldarex\.android\build-cache\9ee4e9d6cc71d622a4b9214e79fcb832404a96a7\output\AndroidManifest.xml:26:5-20
 MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Voldarex\.android\build-cache\2eeff29e0e5de0b56b5e191a6d0ff12951414b63\output\AndroidManifest.xml:29:5-20
 	android:label
-		ADDED from D:\Kuliah\Magang_GVM\sprint2reyv1\AvailaballsApp\app\src\main\AndroidManifest.xml:11:9-41
+		ADDED from D:\Kuliah\Magang_GVM\sprint2reyv1\AvailaballsApp\app\src\main\AndroidManifest.xml:16:9-41
 	android:supportsRtl
-		ADDED from D:\Kuliah\Magang_GVM\sprint2reyv1\AvailaballsApp\app\src\main\AndroidManifest.xml:12:9-35
+		ADDED from D:\Kuliah\Magang_GVM\sprint2reyv1\AvailaballsApp\app\src\main\AndroidManifest.xml:17:9-35
 	android:roundIcon
 		ADDED from [com.android.support:support-media-compat:25.3.1] C:\Users\Voldarex\.android\build-cache\160258d303cda61c27e313ac3b5d8f6b2d617286\output\AndroidManifest.xml:11:9-54
 	android:allowBackup
-		ADDED from D:\Kuliah\Magang_GVM\sprint2reyv1\AvailaballsApp\app\src\main\AndroidManifest.xml:9:9-35
+		ADDED from D:\Kuliah\Magang_GVM\sprint2reyv1\AvailaballsApp\app\src\main\AndroidManifest.xml:14:9-35
 	android:icon
-		ADDED from D:\Kuliah\Magang_GVM\sprint2reyv1\AvailaballsApp\app\src\main\AndroidManifest.xml:10:9-43
+		ADDED from D:\Kuliah\Magang_GVM\sprint2reyv1\AvailaballsApp\app\src\main\AndroidManifest.xml:15:9-43
 	android:theme
-		ADDED from D:\Kuliah\Magang_GVM\sprint2reyv1\AvailaballsApp\app\src\main\AndroidManifest.xml:13:9-40
+		ADDED from D:\Kuliah\Magang_GVM\sprint2reyv1\AvailaballsApp\app\src\main\AndroidManifest.xml:18:9-40
 activity#bolalob.develops.stud11314025.availaballs.Activity.LoginActivity
-ADDED from D:\Kuliah\Magang_GVM\sprint2reyv1\AvailaballsApp\app\src\main\AndroidManifest.xml:14:9-23:20
+ADDED from D:\Kuliah\Magang_GVM\sprint2reyv1\AvailaballsApp\app\src\main\AndroidManifest.xml:19:9-28:20
 	android:screenOrientation
-		ADDED from D:\Kuliah\Magang_GVM\sprint2reyv1\AvailaballsApp\app\src\main\AndroidManifest.xml:16:13-49
+		ADDED from D:\Kuliah\Magang_GVM\sprint2reyv1\AvailaballsApp\app\src\main\AndroidManifest.xml:21:13-49
 	android:theme
-		ADDED from D:\Kuliah\Magang_GVM\sprint2reyv1\AvailaballsApp\app\src\main\AndroidManifest.xml:17:13-56
+		ADDED from D:\Kuliah\Magang_GVM\sprint2reyv1\AvailaballsApp\app\src\main\AndroidManifest.xml:22:13-56
 	android:name
-		ADDED from D:\Kuliah\Magang_GVM\sprint2reyv1\AvailaballsApp\app\src\main\AndroidManifest.xml:15:13-51
+		ADDED from D:\Kuliah\Magang_GVM\sprint2reyv1\AvailaballsApp\app\src\main\AndroidManifest.xml:20:13-51
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from D:\Kuliah\Magang_GVM\sprint2reyv1\AvailaballsApp\app\src\main\AndroidManifest.xml:18:13-22:29
+ADDED from D:\Kuliah\Magang_GVM\sprint2reyv1\AvailaballsApp\app\src\main\AndroidManifest.xml:23:13-27:29
 action#android.intent.action.MAIN
-ADDED from D:\Kuliah\Magang_GVM\sprint2reyv1\AvailaballsApp\app\src\main\AndroidManifest.xml:19:17-69
+ADDED from D:\Kuliah\Magang_GVM\sprint2reyv1\AvailaballsApp\app\src\main\AndroidManifest.xml:24:17-69
 	android:name
-		ADDED from D:\Kuliah\Magang_GVM\sprint2reyv1\AvailaballsApp\app\src\main\AndroidManifest.xml:19:25-66
+		ADDED from D:\Kuliah\Magang_GVM\sprint2reyv1\AvailaballsApp\app\src\main\AndroidManifest.xml:24:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\Kuliah\Magang_GVM\sprint2reyv1\AvailaballsApp\app\src\main\AndroidManifest.xml:21:17-77
+ADDED from D:\Kuliah\Magang_GVM\sprint2reyv1\AvailaballsApp\app\src\main\AndroidManifest.xml:26:17-77
 	android:name
-		ADDED from D:\Kuliah\Magang_GVM\sprint2reyv1\AvailaballsApp\app\src\main\AndroidManifest.xml:21:27-74
+		ADDED from D:\Kuliah\Magang_GVM\sprint2reyv1\AvailaballsApp\app\src\main\AndroidManifest.xml:26:27-74
 activity#bolalob.develops.stud11314025.availaballs.Activity.MainActivity
-ADDED from D:\Kuliah\Magang_GVM\sprint2reyv1\AvailaballsApp\app\src\main\AndroidManifest.xml:24:9-28:72
+ADDED from D:\Kuliah\Magang_GVM\sprint2reyv1\AvailaballsApp\app\src\main\AndroidManifest.xml:29:9-35:20
 	android:screenOrientation
-		ADDED from D:\Kuliah\Magang_GVM\sprint2reyv1\AvailaballsApp\app\src\main\AndroidManifest.xml:27:13-49
+		ADDED from D:\Kuliah\Magang_GVM\sprint2reyv1\AvailaballsApp\app\src\main\AndroidManifest.xml:32:13-49
 	android:label
-		ADDED from D:\Kuliah\Magang_GVM\sprint2reyv1\AvailaballsApp\app\src\main\AndroidManifest.xml:26:13-42
+		ADDED from D:\Kuliah\Magang_GVM\sprint2reyv1\AvailaballsApp\app\src\main\AndroidManifest.xml:31:13-42
 	android:windowSoftInputMode
-		ADDED from D:\Kuliah\Magang_GVM\sprint2reyv1\AvailaballsApp\app\src\main\AndroidManifest.xml:28:13-60
+		ADDED from D:\Kuliah\Magang_GVM\sprint2reyv1\AvailaballsApp\app\src\main\AndroidManifest.xml:33:13-60
 	android:name
-		ADDED from D:\Kuliah\Magang_GVM\sprint2reyv1\AvailaballsApp\app\src\main\AndroidManifest.xml:25:13-50
+		ADDED from D:\Kuliah\Magang_GVM\sprint2reyv1\AvailaballsApp\app\src\main\AndroidManifest.xml:30:13-50
 activity#bolalob.develops.stud11314025.availaballs.Activity.TambahLapanganActivity
-ADDED from D:\Kuliah\Magang_GVM\sprint2reyv1\AvailaballsApp\app\src\main\AndroidManifest.xml:29:9-78
+ADDED from D:\Kuliah\Magang_GVM\sprint2reyv1\AvailaballsApp\app\src\main\AndroidManifest.xml:36:9-40:20
+	android:screenOrientation
+		ADDED from D:\Kuliah\Magang_GVM\sprint2reyv1\AvailaballsApp\app\src\main\AndroidManifest.xml:37:13-49
+	android:windowSoftInputMode
+		ADDED from D:\Kuliah\Magang_GVM\sprint2reyv1\AvailaballsApp\app\src\main\AndroidManifest.xml:38:13-54
 	android:name
-		ADDED from D:\Kuliah\Magang_GVM\sprint2reyv1\AvailaballsApp\app\src\main\AndroidManifest.xml:29:19-66
+		ADDED from D:\Kuliah\Magang_GVM\sprint2reyv1\AvailaballsApp\app\src\main\AndroidManifest.xml:36:19-66
 activity#bolalob.develops.stud11314025.availaballs.Activity.TambahLapanganStepDuaActivity
-ADDED from D:\Kuliah\Magang_GVM\sprint2reyv1\AvailaballsApp\app\src\main\AndroidManifest.xml:30:9-85
+ADDED from D:\Kuliah\Magang_GVM\sprint2reyv1\AvailaballsApp\app\src\main\AndroidManifest.xml:41:9-42:20
 	android:name
-		ADDED from D:\Kuliah\Magang_GVM\sprint2reyv1\AvailaballsApp\app\src\main\AndroidManifest.xml:30:19-73
-activity#bolalob.develops.stud11314025.availaballs.Activity.DetailLapanganActivity
-ADDED from D:\Kuliah\Magang_GVM\sprint2reyv1\AvailaballsApp\app\src\main\AndroidManifest.xml:31:9-33:59
-	android:theme
-		ADDED from D:\Kuliah\Magang_GVM\sprint2reyv1\AvailaballsApp\app\src\main\AndroidManifest.xml:33:13-56
-	android:name
-		ADDED from D:\Kuliah\Magang_GVM\sprint2reyv1\AvailaballsApp\app\src\main\AndroidManifest.xml:32:13-60
-meta-data#com.google.android.geo.AIzaSyDZ7IYsqrxcfplljP-ghdzeIkbViLUghfM
-ADDED from D:\Kuliah\Magang_GVM\sprint2reyv1\AvailaballsApp\app\src\main\AndroidManifest.xml:35:9-37:55
+		ADDED from D:\Kuliah\Magang_GVM\sprint2reyv1\AvailaballsApp\app\src\main\AndroidManifest.xml:41:19-73
+meta-data#com.google.android.geo.API_KEY
+ADDED from D:\Kuliah\Magang_GVM\sprint2reyv1\AvailaballsApp\app\src\main\AndroidManifest.xml:43:9-45:71
 	android:value
-		ADDED from D:\Kuliah\Magang_GVM\sprint2reyv1\AvailaballsApp\app\src\main\AndroidManifest.xml:37:13-52
+		ADDED from D:\Kuliah\Magang_GVM\sprint2reyv1\AvailaballsApp\app\src\main\AndroidManifest.xml:45:13-68
 	android:name
-		ADDED from D:\Kuliah\Magang_GVM\sprint2reyv1\AvailaballsApp\app\src\main\AndroidManifest.xml:36:13-90
-activity#bolalob.develops.stud11314025.availaballs.Activity.MapsActivity
-ADDED from D:\Kuliah\Magang_GVM\sprint2reyv1\AvailaballsApp\app\src\main\AndroidManifest.xml:39:9-41:59
-	android:label
-		ADDED from D:\Kuliah\Magang_GVM\sprint2reyv1\AvailaballsApp\app\src\main\AndroidManifest.xml:41:13-56
+		ADDED from D:\Kuliah\Magang_GVM\sprint2reyv1\AvailaballsApp\app\src\main\AndroidManifest.xml:44:13-58
+activity#bolalob.develops.stud11314025.availaballs.Activity.DetailLapanganActivity
+ADDED from D:\Kuliah\Magang_GVM\sprint2reyv1\AvailaballsApp\app\src\main\AndroidManifest.xml:46:9-48:59
+	android:theme
+		ADDED from D:\Kuliah\Magang_GVM\sprint2reyv1\AvailaballsApp\app\src\main\AndroidManifest.xml:48:13-56
 	android:name
-		ADDED from D:\Kuliah\Magang_GVM\sprint2reyv1\AvailaballsApp\app\src\main\AndroidManifest.xml:40:13-50
+		ADDED from D:\Kuliah\Magang_GVM\sprint2reyv1\AvailaballsApp\app\src\main\AndroidManifest.xml:47:13-60
 activity#bolalob.develops.stud11314025.availaballs.Activity.TambahLapanganStepTigaActivity
-ADDED from D:\Kuliah\Magang_GVM\sprint2reyv1\AvailaballsApp\app\src\main\AndroidManifest.xml:42:9-86
+ADDED from D:\Kuliah\Magang_GVM\sprint2reyv1\AvailaballsApp\app\src\main\AndroidManifest.xml:52:9-86
 	android:name
-		ADDED from D:\Kuliah\Magang_GVM\sprint2reyv1\AvailaballsApp\app\src\main\AndroidManifest.xml:42:19-74
-activity#bolalob.develops.stud11314025.availaballs.Activity.MapsCurrentPlaceActivity
-ADDED from D:\Kuliah\Magang_GVM\sprint2reyv1\AvailaballsApp\app\src\main\AndroidManifest.xml:43:9-80
-	android:name
-		ADDED from D:\Kuliah\Magang_GVM\sprint2reyv1\AvailaballsApp\app\src\main\AndroidManifest.xml:43:19-68
+		ADDED from D:\Kuliah\Magang_GVM\sprint2reyv1\AvailaballsApp\app\src\main\AndroidManifest.xml:52:19-74
 uses-sdk
 INJECTED from D:\Kuliah\Magang_GVM\sprint2reyv1\AvailaballsApp\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.roughike:bottom-bar:2.3.1] C:\Users\Voldarex\.android\build-cache\0dbf4fad8d940e16993989a004e5040278bae467\output\AndroidManifest.xml:8:5-10:41
@@ -160,65 +140,19 @@ MERGED from [com.android.support:transition:25.3.1] C:\Users\Voldarex\.android\b
 MERGED from [com.jakewharton:butterknife:8.7.0] C:\Users\Voldarex\.android\build-cache\94adeda887e90a50955959dbe71dd73b7946105c\output\AndroidManifest.xml:5:5-43
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Voldarex\.android\build-cache\b6aa7bfcbed404d5c15d38679d958204070669a9\output\AndroidManifest.xml:5:5-7:41
 MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\Voldarex\.android\build-cache\14065bf73c14f169e7ca8beb76d0a6f113e02e8f\output\AndroidManifest.xml:20:5-43
-MERGED from [com.google.android.gms:play-services:10.0.1] C:\Users\Voldarex\.android\build-cache\48594c2a4993457e76cb03a15cb7eeb0f4a482d6\output\AndroidManifest.xml:4:5-42
-MERGED from [com.google.android.gms:play-services-ads:10.0.1] C:\Users\Voldarex\.android\build-cache\102aa3da597df894f13e1da213bf8bf4fa136869\output\AndroidManifest.xml:17:5-42
-MERGED from [com.google.android.gms:play-services-ads-lite:10.0.1] C:\Users\Voldarex\.android\build-cache\e14ef26cc65bade9245ea0e81c043563d935d8bb\output\AndroidManifest.xml:22:5-42
-MERGED from [com.google.android.gms:play-services-analytics:10.0.1] C:\Users\Voldarex\.android\build-cache\5a9993299971f73710c53cffbb4646e195f0d223\output\AndroidManifest.xml:17:5-42
-MERGED from [com.google.android.gms:play-services-appinvite:10.0.1] C:\Users\Voldarex\.android\build-cache\bbdccfdffc627b4733200a5652275f0685c4e06c\output\AndroidManifest.xml:17:5-42
-MERGED from [com.google.android.gms:play-services-auth:10.0.1] C:\Users\Voldarex\.android\build-cache\c7de93a1c8a46b00d3618b15552134f81d0f456e\output\AndroidManifest.xml:17:5-42
-MERGED from [com.google.android.gms:play-services-auth-base:10.0.1] C:\Users\Voldarex\.android\build-cache\34cbfe3be73b3267991c4e1041f19a3425594467\output\AndroidManifest.xml:4:5-42
-MERGED from [com.google.android.gms:play-services-cast-framework:10.0.1] C:\Users\Voldarex\.android\build-cache\9cc4edfe753a038d236022fd66dcdb6824c5d1d2\output\AndroidManifest.xml:3:5-42
-MERGED from [com.google.android.gms:play-services-cast:10.0.1] C:\Users\Voldarex\.android\build-cache\f3d9c16be3e881394dba08c5982b7b16a7abee5c\output\AndroidManifest.xml:17:5-42
-MERGED from [com.android.support:mediarouter-v7:24.0.0] C:\Users\Voldarex\.android\build-cache\adb542a7959cba47cf8df500cfe86b2219709370\output\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:palette-v7:24.0.0] C:\Users\Voldarex\.android\build-cache\1e43d93bd1dd489fbdb538feee40849527f641fa\output\AndroidManifest.xml:20:5-43
-MERGED from [com.google.android.gms:play-services-clearcut:10.0.1] C:\Users\Voldarex\.android\build-cache\9e43de1212247ec3a8ec769f14465b70498bbc88\output\AndroidManifest.xml:17:5-42
-MERGED from [com.google.firebase:firebase-config:10.0.1] C:\Users\Voldarex\.android\build-cache\0bfc433e2de093199ecd7b9732c54dadce22d4e0\output\AndroidManifest.xml:17:5-42
-MERGED from [com.google.android.gms:play-services-awareness:10.0.1] C:\Users\Voldarex\.android\build-cache\45347a1e2b9a135d2283b81d17f447c0dabca2b5\output\AndroidManifest.xml:17:5-42
-MERGED from [com.google.firebase:firebase-crash:10.0.1] C:\Users\Voldarex\.android\build-cache\3179232bea2b3e254ba742258fb0d9929b9ac606\output\AndroidManifest.xml:20:5-42
-MERGED from [com.google.firebase:firebase-auth:10.0.1] C:\Users\Voldarex\.android\build-cache\bebdd2aec5a41f8bea05ffbdfa8afa87bef45f7d\output\AndroidManifest.xml:17:5-42
-MERGED from [com.google.firebase:firebase-database:10.0.1] C:\Users\Voldarex\.android\build-cache\599915e9124a68e5b1477a3b8c10523e837ff82f\output\AndroidManifest.xml:3:5-42
-MERGED from [com.google.firebase:firebase-database-connection:10.0.1] C:\Users\Voldarex\.android\build-cache\3fd7e370bc21880215034cc9fe91987983286a3a\output\AndroidManifest.xml:3:5-42
-MERGED from [com.google.firebase:firebase-messaging:10.0.1] C:\Users\Voldarex\.android\build-cache\d5ee56a0a4aa005fb0e5247d8b121464315b8d6d\output\AndroidManifest.xml:17:5-42
-MERGED from [com.google.firebase:firebase-storage:10.0.1] C:\Users\Voldarex\.android\build-cache\65b8c79fe666d8e3cdf30bab65f2b6cb25178f55\output\AndroidManifest.xml:3:5-42
-MERGED from [com.google.firebase:firebase-storage-common:10.0.1] C:\Users\Voldarex\.android\build-cache\58f0ae3df96fdb0c2b9c1af297633e605571b05a\output\AndroidManifest.xml:3:5-42
-MERGED from [com.google.android.gms:play-services-fitness:10.0.1] C:\Users\Voldarex\.android\build-cache\df98642cd81383f0c114e3ec8a4df8fea7cf3a16\output\AndroidManifest.xml:17:5-42
-MERGED from [com.google.android.gms:play-services-games:10.0.1] C:\Users\Voldarex\.android\build-cache\b3aafb3af56768df42e257f1c80edb7482ec6ae8\output\AndroidManifest.xml:17:5-42
-MERGED from [com.google.android.gms:play-services-drive:10.0.1] C:\Users\Voldarex\.android\build-cache\512bb8629a7e836e7c78850b3a0f32b597812ab3\output\AndroidManifest.xml:17:5-42
-MERGED from [com.google.android.gms:play-services-gass:10.0.1] C:\Users\Voldarex\.android\build-cache\83cbc412b9a0352a621031d766d446f694af1bf2\output\AndroidManifest.xml:3:5-42
-MERGED from [com.google.android.gms:play-services-gcm:10.0.1] C:\Users\Voldarex\.android\build-cache\277c620af2bafe50574ed5827af99ba6bbae94c1\output\AndroidManifest.xml:17:5-42
-MERGED from [com.google.firebase:firebase-appindexing:10.0.1] C:\Users\Voldarex\.android\build-cache\e89c0dab5527a8bc9e85c48723cf8401c15d3cc5\output\AndroidManifest.xml:17:5-42
-MERGED from [com.google.android.gms:play-services-iid:10.0.1] C:\Users\Voldarex\.android\build-cache\7dd417dd64418b7bb9d929e8295677762b211867\output\AndroidManifest.xml:17:5-42
-MERGED from [com.google.android.gms:play-services-instantapps:10.0.1] C:\Users\Voldarex\.android\build-cache\eca1c11bbe1560fae7a28abc8073c01e3d2e1183\output\AndroidManifest.xml:3:5-42
-MERGED from [com.google.android.gms:play-services-nearby:10.0.1] C:\Users\Voldarex\.android\build-cache\0f89efd6fb964cb8aa80c4de048886baf7478b6f\output\AndroidManifest.xml:3:5-42
-MERGED from [com.google.android.gms:play-services-panorama:10.0.1] C:\Users\Voldarex\.android\build-cache\15e6427eab1c99c39f38d37fe249765d72bd048d\output\AndroidManifest.xml:17:5-42
-MERGED from [com.google.android.gms:play-services-places:10.0.1] C:\Users\Voldarex\.android\build-cache\857d6b783f894cb0b57154df38fa5bd850de206e\output\AndroidManifest.xml:17:5-42
-MERGED from [com.google.android.gms:play-services-plus:10.0.1] C:\Users\Voldarex\.android\build-cache\bc6395c8cf9afe5a56f9177a0d0da9629e2b4864\output\AndroidManifest.xml:17:5-42
-MERGED from [com.google.android.gms:play-services-safetynet:10.0.1] C:\Users\Voldarex\.android\build-cache\6630cad3b75c902d764994c84d8ec838bfadd9c3\output\AndroidManifest.xml:17:5-42
-MERGED from [com.google.android.gms:play-services-tagmanager:10.0.1] C:\Users\Voldarex\.android\build-cache\89da32f8020fa503f0f64be5e410f889e0c58d36\output\AndroidManifest.xml:17:5-42
-MERGED from [com.google.android.gms:play-services-tagmanager-api:10.0.1] C:\Users\Voldarex\.android\build-cache\d3ea276b793636c5e8cd977da3c85527fd3e3bcb\output\AndroidManifest.xml:17:5-42
-MERGED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\Voldarex\.android\build-cache\ca7016e05f2a67fc29a4071a5fca3c052ee40fc1\output\AndroidManifest.xml:17:5-42
-MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] C:\Users\Voldarex\.android\build-cache\bf9c096083ce9e7a6091e249b18b1604ed3996f2\output\AndroidManifest.xml:17:5-42
-MERGED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Voldarex\.android\build-cache\5b50b2462d83a55237b5629cea12f7dcb620ef74\output\AndroidManifest.xml:17:5-42
-MERGED from [com.google.firebase:firebase-common:10.0.1] C:\Users\Voldarex\.android\build-cache\812d9a2df8cba769f8d020754c178b5bb145c62e\output\AndroidManifest.xml:3:5-42
-MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:10.0.1] C:\Users\Voldarex\.android\build-cache\2d9027547d51c57b5a244bd4993b7a3e368e9854\output\AndroidManifest.xml:17:5-42
-MERGED from [com.google.android.gms:play-services-analytics-impl:10.0.1] C:\Users\Voldarex\.android\build-cache\26d7e81242880676a37aa781fec693fe135e9d19\output\AndroidManifest.xml:17:5-42
-MERGED from [com.google.android.gms:play-services-vision:10.0.1] C:\Users\Voldarex\.android\build-cache\85fc843a942d7146eaeb7fa2bdc38fefc90d57a1\output\AndroidManifest.xml:3:5-42
-MERGED from [com.google.android.gms:play-services-wallet:10.0.1] C:\Users\Voldarex\.android\build-cache\52e2b32373b750126be785c786fb694891d35251\output\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-identity:10.0.1] C:\Users\Voldarex\.android\build-cache\536d37fa75e39d3c70558b3cf39dfe7496292bae\output\AndroidManifest.xml:17:5-42
-MERGED from [com.google.android.gms:play-services-maps:10.0.1] C:\Users\Voldarex\.android\build-cache\2ca69236207d4cfd0c5b62462cde44552bc57ca7\output\AndroidManifest.xml:23:5-42
-MERGED from [com.google.android.gms:play-services-wearable:10.0.1] C:\Users\Voldarex\.android\build-cache\db74c3a439f0d1b08114dfc9646ade94f2406582\output\AndroidManifest.xml:17:5-42
-MERGED from [com.google.android.gms:play-services-location:10.0.1] C:\Users\Voldarex\.android\build-cache\bf3d7d91eb072a1561af69becdad83fc527168c7\output\AndroidManifest.xml:3:5-42
-MERGED from [com.google.android.gms:play-services-base:10.0.1] C:\Users\Voldarex\.android\build-cache\a9a0e072804bdc2102bbd4b647d708e1773c069e\output\AndroidManifest.xml:17:5-42
-MERGED from [com.google.android.gms:play-services-tasks:10.0.1] C:\Users\Voldarex\.android\build-cache\65c5bfd4cc7475cb3f9ba039c410e81e7068f7d5\output\AndroidManifest.xml:3:5-42
-MERGED from [com.google.android.gms:play-services-basement:10.0.1] C:\Users\Voldarex\.android\build-cache\45348b9c3cf91d63fc9c96d8445544ffe47a81b4\output\AndroidManifest.xml:17:5-42
 MERGED from [pub.devrel:easypermissions:0.2.1] C:\Users\Voldarex\.android\build-cache\5c70ba2b6e4763d90f9b9bdbc975f19e383d8bdd\output\AndroidManifest.xml:8:5-10:41
 MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Voldarex\.android\build-cache\c2157dc35693f8f71233f248720d5b7782d489f6\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Voldarex\.android\build-cache\a09fe43246549c3308fb673a30b3cb1e68ed45ed\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Voldarex\.android\build-cache\9ee4e9d6cc71d622a4b9214e79fcb832404a96a7\output\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-places:11.0.1] C:\Users\Voldarex\.android\build-cache\e7caf31c354552204c167523d33bb18eed3b4809\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-maps:11.0.1] C:\Users\Voldarex\.android\build-cache\4a7bf6ef4e85c74a343a93a487c848b0ded2299b\output\AndroidManifest.xml:23:5-43
+MERGED from [com.google.android.gms:play-services-base:11.0.1] C:\Users\Voldarex\.android\build-cache\7cd6d225b6fa08fd22048c0992485bcff49635c9\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tasks:11.0.1] C:\Users\Voldarex\.android\build-cache\2200defc2adfb671d6204a0dfe73ff3843de7212\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-basement:11.0.1] C:\Users\Voldarex\.android\build-cache\72cbeb7f1b99d4c2035fd73cb72edd3ece58ba21\output\AndroidManifest.xml:17:5-43
 MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Voldarex\.android\build-cache\68b157c956dad542b2b28ba4649f8f0b794dda09\output\AndroidManifest.xml:21:5-23:54
 MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Voldarex\.android\build-cache\7b9173cf59605d723c7f6414655fd846b861fcf2\output\AndroidManifest.xml:21:5-23:60
 MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Voldarex\.android\build-cache\b9b7988d066c25beaae6310722cc33ebb85bfc86\output\AndroidManifest.xml:21:5-23:58
 MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Voldarex\.android\build-cache\9ea140537fa98a86679abb39e2089ed0e0316f9e\output\AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Voldarex\.android\build-cache\a09fe43246549c3308fb673a30b3cb1e68ed45ed\output\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Voldarex\.android\build-cache\9ee4e9d6cc71d622a4b9214e79fcb832404a96a7\output\AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Voldarex\.android\build-cache\2eeff29e0e5de0b56b5e191a6d0ff12951414b63\output\AndroidManifest.xml:21:5-23:58
 	tools:overrideLibrary
 		ADDED from [com.android.support:design:25.3.1] C:\Users\Voldarex\.android\build-cache\354e7540d6d33628be2e9c473b81e981c2595f29\output\AndroidManifest.xml:23:9-59
@@ -233,277 +167,37 @@ ADDED from [com.android.support:design:25.3.1] C:\Users\Voldarex\.android\build-
 MERGED from [com.android.support:transition:25.3.1] C:\Users\Voldarex\.android\build-cache\5069980b41639167e0ddd4435ddc78ae8aeb0156\output\AndroidManifest.xml:22:5-24:34
 MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\Voldarex\.android\build-cache\14065bf73c14f169e7ca8beb76d0a6f113e02e8f\output\AndroidManifest.xml:22:5-24:34
 MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Voldarex\.android\build-cache\c2157dc35693f8f71233f248720d5b7782d489f6\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Voldarex\.android\build-cache\a09fe43246549c3308fb673a30b3cb1e68ed45ed\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Voldarex\.android\build-cache\9ee4e9d6cc71d622a4b9214e79fcb832404a96a7\output\AndroidManifest.xml:22:5-24:34
 MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Voldarex\.android\build-cache\68b157c956dad542b2b28ba4649f8f0b794dda09\output\AndroidManifest.xml:25:5-27:34
 MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Voldarex\.android\build-cache\7b9173cf59605d723c7f6414655fd846b861fcf2\output\AndroidManifest.xml:25:5-27:34
 MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Voldarex\.android\build-cache\b9b7988d066c25beaae6310722cc33ebb85bfc86\output\AndroidManifest.xml:25:5-27:34
 MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Voldarex\.android\build-cache\9ea140537fa98a86679abb39e2089ed0e0316f9e\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Voldarex\.android\build-cache\a09fe43246549c3308fb673a30b3cb1e68ed45ed\output\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Voldarex\.android\build-cache\9ee4e9d6cc71d622a4b9214e79fcb832404a96a7\output\AndroidManifest.xml:22:5-24:34
 MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Voldarex\.android\build-cache\2eeff29e0e5de0b56b5e191a6d0ff12951414b63\output\AndroidManifest.xml:25:5-27:34
 	android:value
 		ADDED from [com.android.support:design:25.3.1] C:\Users\Voldarex\.android\build-cache\354e7540d6d33628be2e9c473b81e981c2595f29\output\AndroidManifest.xml:27:9-31
 	android:name
 		ADDED from [com.android.support:design:25.3.1] C:\Users\Voldarex\.android\build-cache\354e7540d6d33628be2e9c473b81e981c2595f29\output\AndroidManifest.xml:26:9-47
-uses-permission#android.permission.INTERNET
-ADDED from [com.google.android.gms:play-services-ads-lite:10.0.1] C:\Users\Voldarex\.android\build-cache\e14ef26cc65bade9245ea0e81c043563d935d8bb\output\AndroidManifest.xml:19:5-66
-MERGED from [com.google.android.gms:play-services-analytics:10.0.1] C:\Users\Voldarex\.android\build-cache\5a9993299971f73710c53cffbb4646e195f0d223\output\AndroidManifest.xml:20:5-66
-MERGED from [com.google.android.gms:play-services-appinvite:10.0.1] C:\Users\Voldarex\.android\build-cache\bbdccfdffc627b4733200a5652275f0685c4e06c\output\AndroidManifest.xml:18:5-66
-MERGED from [com.google.firebase:firebase-crash:10.0.1] C:\Users\Voldarex\.android\build-cache\3179232bea2b3e254ba742258fb0d9929b9ac606\output\AndroidManifest.xml:18:5-66
-MERGED from [com.google.android.gms:play-services-gcm:10.0.1] C:\Users\Voldarex\.android\build-cache\277c620af2bafe50574ed5827af99ba6bbae94c1\output\AndroidManifest.xml:21:5-66
-MERGED from [com.google.android.gms:play-services-iid:10.0.1] C:\Users\Voldarex\.android\build-cache\7dd417dd64418b7bb9d929e8295677762b211867\output\AndroidManifest.xml:21:5-66
-MERGED from [com.google.android.gms:play-services-tagmanager-api:10.0.1] C:\Users\Voldarex\.android\build-cache\d3ea276b793636c5e8cd977da3c85527fd3e3bcb\output\AndroidManifest.xml:20:5-66
-MERGED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\Voldarex\.android\build-cache\ca7016e05f2a67fc29a4071a5fca3c052ee40fc1\output\AndroidManifest.xml:20:5-66
-MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] C:\Users\Voldarex\.android\build-cache\bf9c096083ce9e7a6091e249b18b1604ed3996f2\output\AndroidManifest.xml:20:5-66
-MERGED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Voldarex\.android\build-cache\5b50b2462d83a55237b5629cea12f7dcb620ef74\output\AndroidManifest.xml:20:5-66
-MERGED from [com.google.android.gms:play-services-analytics-impl:10.0.1] C:\Users\Voldarex\.android\build-cache\26d7e81242880676a37aa781fec693fe135e9d19\output\AndroidManifest.xml:20:5-66
-MERGED from [com.google.android.gms:play-services-maps:10.0.1] C:\Users\Voldarex\.android\build-cache\2ca69236207d4cfd0c5b62462cde44552bc57ca7\output\AndroidManifest.xml:20:5-66
-MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Voldarex\.android\build-cache\160258d303cda61c27e313ac3b5d8f6b2d617286\output\AndroidManifest.xml:5:5-67
-	android:name
-		ADDED from [com.google.android.gms:play-services-ads-lite:10.0.1] C:\Users\Voldarex\.android\build-cache\e14ef26cc65bade9245ea0e81c043563d935d8bb\output\AndroidManifest.xml:19:22-64
-uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from [com.google.android.gms:play-services-ads-lite:10.0.1] C:\Users\Voldarex\.android\build-cache\e14ef26cc65bade9245ea0e81c043563d935d8bb\output\AndroidManifest.xml:20:5-78
-MERGED from [com.google.android.gms:play-services-analytics:10.0.1] C:\Users\Voldarex\.android\build-cache\5a9993299971f73710c53cffbb4646e195f0d223\output\AndroidManifest.xml:21:5-78
-MERGED from [com.google.android.gms:play-services-nearby:10.0.1] C:\Users\Voldarex\.android\build-cache\0f89efd6fb964cb8aa80c4de048886baf7478b6f\output\AndroidManifest.xml:4:5-78
-MERGED from [com.google.android.gms:play-services-tagmanager-api:10.0.1] C:\Users\Voldarex\.android\build-cache\d3ea276b793636c5e8cd977da3c85527fd3e3bcb\output\AndroidManifest.xml:21:5-78
-MERGED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\Voldarex\.android\build-cache\ca7016e05f2a67fc29a4071a5fca3c052ee40fc1\output\AndroidManifest.xml:21:5-78
-MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] C:\Users\Voldarex\.android\build-cache\bf9c096083ce9e7a6091e249b18b1604ed3996f2\output\AndroidManifest.xml:21:5-78
-MERGED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Voldarex\.android\build-cache\5b50b2462d83a55237b5629cea12f7dcb620ef74\output\AndroidManifest.xml:19:5-78
-MERGED from [com.google.android.gms:play-services-analytics-impl:10.0.1] C:\Users\Voldarex\.android\build-cache\26d7e81242880676a37aa781fec693fe135e9d19\output\AndroidManifest.xml:21:5-78
-MERGED from [com.google.android.gms:play-services-maps:10.0.1] C:\Users\Voldarex\.android\build-cache\2ca69236207d4cfd0c5b62462cde44552bc57ca7\output\AndroidManifest.xml:19:5-78
-	android:name
-		ADDED from [com.google.android.gms:play-services-ads-lite:10.0.1] C:\Users\Voldarex\.android\build-cache\e14ef26cc65bade9245ea0e81c043563d935d8bb\output\AndroidManifest.xml:20:22-76
-activity#com.google.android.gms.ads.AdActivity
-ADDED from [com.google.android.gms:play-services-ads-lite:10.0.1] C:\Users\Voldarex\.android\build-cache\e14ef26cc65bade9245ea0e81c043563d935d8bb\output\AndroidManifest.xml:25:9-232
-	android:configChanges
-		ADDED from [com.google.android.gms:play-services-ads-lite:10.0.1] C:\Users\Voldarex\.android\build-cache\e14ef26cc65bade9245ea0e81c043563d935d8bb\output\AndroidManifest.xml:25:72-181
-	android:theme
-		ADDED from [com.google.android.gms:play-services-ads-lite:10.0.1] C:\Users\Voldarex\.android\build-cache\e14ef26cc65bade9245ea0e81c043563d935d8bb\output\AndroidManifest.xml:25:182-230
-	android:name
-		ADDED from [com.google.android.gms:play-services-ads-lite:10.0.1] C:\Users\Voldarex\.android\build-cache\e14ef26cc65bade9245ea0e81c043563d935d8bb\output\AndroidManifest.xml:25:19-71
-activity#com.google.android.gms.ads.purchase.InAppPurchaseActivity
-ADDED from [com.google.android.gms:play-services-ads-lite:10.0.1] C:\Users\Voldarex\.android\build-cache\e14ef26cc65bade9245ea0e81c043563d935d8bb\output\AndroidManifest.xml:26:9-131
-	android:theme
-		ADDED from [com.google.android.gms:play-services-ads-lite:10.0.1] C:\Users\Voldarex\.android\build-cache\e14ef26cc65bade9245ea0e81c043563d935d8bb\output\AndroidManifest.xml:26:92-129
-	android:name
-		ADDED from [com.google.android.gms:play-services-ads-lite:10.0.1] C:\Users\Voldarex\.android\build-cache\e14ef26cc65bade9245ea0e81c043563d935d8bb\output\AndroidManifest.xml:26:19-91
-uses-permission#android.permission.WAKE_LOCK
-ADDED from [com.google.android.gms:play-services-analytics:10.0.1] C:\Users\Voldarex\.android\build-cache\5a9993299971f73710c53cffbb4646e195f0d223\output\AndroidManifest.xml:24:5-67
-MERGED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\Voldarex\.android\build-cache\ca7016e05f2a67fc29a4071a5fca3c052ee40fc1\output\AndroidManifest.xml:22:5-67
-MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] C:\Users\Voldarex\.android\build-cache\bf9c096083ce9e7a6091e249b18b1604ed3996f2\output\AndroidManifest.xml:22:5-67
-MERGED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Voldarex\.android\build-cache\5b50b2462d83a55237b5629cea12f7dcb620ef74\output\AndroidManifest.xml:21:5-67
-MERGED from [com.google.android.gms:play-services-analytics-impl:10.0.1] C:\Users\Voldarex\.android\build-cache\26d7e81242880676a37aa781fec693fe135e9d19\output\AndroidManifest.xml:24:5-67
-	android:name
-		ADDED from [com.google.android.gms:play-services-analytics:10.0.1] C:\Users\Voldarex\.android\build-cache\5a9993299971f73710c53cffbb4646e195f0d223\output\AndroidManifest.xml:24:22-65
-activity#com.google.android.gms.appinvite.PreviewActivity
-ADDED from [com.google.android.gms:play-services-appinvite:10.0.1] C:\Users\Voldarex\.android\build-cache\bbdccfdffc627b4733200a5652275f0685c4e06c\output\AndroidManifest.xml:20:9-25:20
-	android:exported
-		ADDED from [com.google.android.gms:play-services-appinvite:10.0.1] C:\Users\Voldarex\.android\build-cache\bbdccfdffc627b4733200a5652275f0685c4e06c\output\AndroidManifest.xml:20:51-74
-	android:theme
-		ADDED from [com.google.android.gms:play-services-appinvite:10.0.1] C:\Users\Voldarex\.android\build-cache\bbdccfdffc627b4733200a5652275f0685c4e06c\output\AndroidManifest.xml:20:75-121
-	android:name
-		ADDED from [com.google.android.gms:play-services-appinvite:10.0.1] C:\Users\Voldarex\.android\build-cache\bbdccfdffc627b4733200a5652275f0685c4e06c\output\AndroidManifest.xml:20:19-50
-intent-filter#android.intent.category.DEFAULT+com.google.android.gms.appinvite.ACTION_PREVIEW
-ADDED from [com.google.android.gms:play-services-appinvite:10.0.1] C:\Users\Voldarex\.android\build-cache\bbdccfdffc627b4733200a5652275f0685c4e06c\output\AndroidManifest.xml:21:13-24:29
-action#com.google.android.gms.appinvite.ACTION_PREVIEW
-ADDED from [com.google.android.gms:play-services-appinvite:10.0.1] C:\Users\Voldarex\.android\build-cache\bbdccfdffc627b4733200a5652275f0685c4e06c\output\AndroidManifest.xml:22:17-89
-	android:name
-		ADDED from [com.google.android.gms:play-services-appinvite:10.0.1] C:\Users\Voldarex\.android\build-cache\bbdccfdffc627b4733200a5652275f0685c4e06c\output\AndroidManifest.xml:22:25-87
-category#android.intent.category.DEFAULT
-ADDED from [com.google.android.gms:play-services-appinvite:10.0.1] C:\Users\Voldarex\.android\build-cache\bbdccfdffc627b4733200a5652275f0685c4e06c\output\AndroidManifest.xml:23:17-75
-	android:name
-		ADDED from [com.google.android.gms:play-services-appinvite:10.0.1] C:\Users\Voldarex\.android\build-cache\bbdccfdffc627b4733200a5652275f0685c4e06c\output\AndroidManifest.xml:23:27-73
-activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
-ADDED from [com.google.android.gms:play-services-auth:10.0.1] C:\Users\Voldarex\.android\build-cache\c7de93a1c8a46b00d3618b15552134f81d0f456e\output\AndroidManifest.xml:20:9-189
-	android:excludeFromRecents
-		ADDED from [com.google.android.gms:play-services-auth:10.0.1] C:\Users\Voldarex\.android\build-cache\c7de93a1c8a46b00d3618b15552134f81d0f456e\output\AndroidManifest.xml:20:129-162
-	android:exported
-		ADDED from [com.google.android.gms:play-services-auth:10.0.1] C:\Users\Voldarex\.android\build-cache\c7de93a1c8a46b00d3618b15552134f81d0f456e\output\AndroidManifest.xml:20:163-187
-	android:theme
-		ADDED from [com.google.android.gms:play-services-auth:10.0.1] C:\Users\Voldarex\.android\build-cache\c7de93a1c8a46b00d3618b15552134f81d0f456e\output\AndroidManifest.xml:20:69-128
-	android:name
-		ADDED from [com.google.android.gms:play-services-auth:10.0.1] C:\Users\Voldarex\.android\build-cache\c7de93a1c8a46b00d3618b15552134f81d0f456e\output\AndroidManifest.xml:20:19-68
-service#com.google.android.gms.auth.api.signin.RevocationBoundService
-ADDED from [com.google.android.gms:play-services-auth:10.0.1] C:\Users\Voldarex\.android\build-cache\c7de93a1c8a46b00d3618b15552134f81d0f456e\output\AndroidManifest.xml:24:9-184
-	android:exported
-		ADDED from [com.google.android.gms:play-services-auth:10.0.1] C:\Users\Voldarex\.android\build-cache\c7de93a1c8a46b00d3618b15552134f81d0f456e\output\AndroidManifest.xml:24:64-87
-	android:permission
-		ADDED from [com.google.android.gms:play-services-auth:10.0.1] C:\Users\Voldarex\.android\build-cache\c7de93a1c8a46b00d3618b15552134f81d0f456e\output\AndroidManifest.xml:24:88-182
-	android:name
-		ADDED from [com.google.android.gms:play-services-auth:10.0.1] C:\Users\Voldarex\.android\build-cache\c7de93a1c8a46b00d3618b15552134f81d0f456e\output\AndroidManifest.xml:24:18-63
-receiver#com.google.android.gms.cast.framework.media.MediaIntentReceiver
-ADDED from [com.google.android.gms:play-services-cast-framework:10.0.1] C:\Users\Voldarex\.android\build-cache\9cc4edfe753a038d236022fd66dcdb6824c5d1d2\output\AndroidManifest.xml:5:9-99
-	android:name
-		ADDED from [com.google.android.gms:play-services-cast-framework:10.0.1] C:\Users\Voldarex\.android\build-cache\9cc4edfe753a038d236022fd66dcdb6824c5d1d2\output\AndroidManifest.xml:5:19-97
-service#com.google.android.gms.cast.framework.media.MediaNotificationService
-ADDED from [com.google.android.gms:play-services-cast-framework:10.0.1] C:\Users\Voldarex\.android\build-cache\9cc4edfe753a038d236022fd66dcdb6824c5d1d2\output\AndroidManifest.xml:6:9-103
-	android:name
-		ADDED from [com.google.android.gms:play-services-cast-framework:10.0.1] C:\Users\Voldarex\.android\build-cache\9cc4edfe753a038d236022fd66dcdb6824c5d1d2\output\AndroidManifest.xml:6:18-101
-service#com.google.android.gms.cast.framework.ReconnectionService
-ADDED from [com.google.android.gms:play-services-cast-framework:10.0.1] C:\Users\Voldarex\.android\build-cache\9cc4edfe753a038d236022fd66dcdb6824c5d1d2\output\AndroidManifest.xml:7:9-92
-	android:name
-		ADDED from [com.google.android.gms:play-services-cast-framework:10.0.1] C:\Users\Voldarex\.android\build-cache\9cc4edfe753a038d236022fd66dcdb6824c5d1d2\output\AndroidManifest.xml:7:18-90
-service#com.google.firebase.messaging.FirebaseMessagingService
-ADDED from [com.google.firebase:firebase-messaging:10.0.1] C:\Users\Voldarex\.android\build-cache\d5ee56a0a4aa005fb0e5247d8b121464315b8d6d\output\AndroidManifest.xml:23:9-27:19
-	android:exported
-		ADDED from [com.google.firebase:firebase-messaging:10.0.1] C:\Users\Voldarex\.android\build-cache\d5ee56a0a4aa005fb0e5247d8b121464315b8d6d\output\AndroidManifest.xml:23:88-111
-	android:name
-		ADDED from [com.google.firebase:firebase-messaging:10.0.1] C:\Users\Voldarex\.android\build-cache\d5ee56a0a4aa005fb0e5247d8b121464315b8d6d\output\AndroidManifest.xml:23:18-87
-intent-filter#com.google.firebase.MESSAGING_EVENT
-ADDED from [com.google.firebase:firebase-messaging:10.0.1] C:\Users\Voldarex\.android\build-cache\d5ee56a0a4aa005fb0e5247d8b121464315b8d6d\output\AndroidManifest.xml:24:13-26:29
-	android:priority
-		ADDED from [com.google.firebase:firebase-messaging:10.0.1] C:\Users\Voldarex\.android\build-cache\d5ee56a0a4aa005fb0e5247d8b121464315b8d6d\output\AndroidManifest.xml:24:28-51
-action#com.google.firebase.MESSAGING_EVENT
-ADDED from [com.google.firebase:firebase-messaging:10.0.1] C:\Users\Voldarex\.android\build-cache\d5ee56a0a4aa005fb0e5247d8b121464315b8d6d\output\AndroidManifest.xml:25:17-77
-	android:name
-		ADDED from [com.google.firebase:firebase-messaging:10.0.1] C:\Users\Voldarex\.android\build-cache\d5ee56a0a4aa005fb0e5247d8b121464315b8d6d\output\AndroidManifest.xml:25:25-75
-uses-permission#com.google.android.c2dm.permission.RECEIVE
-ADDED from [com.google.android.gms:play-services-gcm:10.0.1] C:\Users\Voldarex\.android\build-cache\277c620af2bafe50574ed5827af99ba6bbae94c1\output\AndroidManifest.xml:20:5-81
-MERGED from [com.google.android.gms:play-services-iid:10.0.1] C:\Users\Voldarex\.android\build-cache\7dd417dd64418b7bb9d929e8295677762b211867\output\AndroidManifest.xml:20:5-81
-MERGED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Voldarex\.android\build-cache\5b50b2462d83a55237b5629cea12f7dcb620ef74\output\AndroidManifest.xml:22:5-81
-	android:name
-		ADDED from [com.google.android.gms:play-services-gcm:10.0.1] C:\Users\Voldarex\.android\build-cache\277c620af2bafe50574ed5827af99ba6bbae94c1\output\AndroidManifest.xml:20:22-79
-service#com.google.android.gms.tagmanager.TagManagerService
-ADDED from [com.google.android.gms:play-services-tagmanager-api:10.0.1] C:\Users\Voldarex\.android\build-cache\d3ea276b793636c5e8cd977da3c85527fd3e3bcb\output\AndroidManifest.xml:24:9-134
-	android:enabled
-		ADDED from [com.google.android.gms:play-services-tagmanager-api:10.0.1] C:\Users\Voldarex\.android\build-cache\d3ea276b793636c5e8cd977da3c85527fd3e3bcb\output\AndroidManifest.xml:24:110-132
-	android:exported
-		ADDED from [com.google.android.gms:play-services-tagmanager-api:10.0.1] C:\Users\Voldarex\.android\build-cache\d3ea276b793636c5e8cd977da3c85527fd3e3bcb\output\AndroidManifest.xml:24:85-109
-	android:name
-		ADDED from [com.google.android.gms:play-services-tagmanager-api:10.0.1] C:\Users\Voldarex\.android\build-cache\d3ea276b793636c5e8cd977da3c85527fd3e3bcb\output\AndroidManifest.xml:24:18-84
-activity#com.google.android.gms.tagmanager.TagManagerPreviewActivity
-ADDED from [com.google.android.gms:play-services-tagmanager-api:10.0.1] C:\Users\Voldarex\.android\build-cache\d3ea276b793636c5e8cd977da3c85527fd3e3bcb\output\AndroidManifest.xml:25:9-32:20
-	android:noHistory
-		ADDED from [com.google.android.gms:play-services-tagmanager-api:10.0.1] C:\Users\Voldarex\.android\build-cache\d3ea276b793636c5e8cd977da3c85527fd3e3bcb\output\AndroidManifest.xml:25:94-118
-	android:name
-		ADDED from [com.google.android.gms:play-services-tagmanager-api:10.0.1] C:\Users\Voldarex\.android\build-cache\d3ea276b793636c5e8cd977da3c85527fd3e3bcb\output\AndroidManifest.xml:25:19-93
-intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
-ADDED from [com.google.android.gms:play-services-tagmanager-api:10.0.1] C:\Users\Voldarex\.android\build-cache\d3ea276b793636c5e8cd977da3c85527fd3e3bcb\output\AndroidManifest.xml:26:13-31:29
-data
-ADDED from [com.google.android.gms:play-services-tagmanager-api:10.0.1] C:\Users\Voldarex\.android\build-cache\d3ea276b793636c5e8cd977da3c85527fd3e3bcb\output\AndroidManifest.xml:27:17-71
-	android:scheme
-		ADDED from [com.google.android.gms:play-services-tagmanager-api:10.0.1] C:\Users\Voldarex\.android\build-cache\d3ea276b793636c5e8cd977da3c85527fd3e3bcb\output\AndroidManifest.xml:27:23-69
-action#android.intent.action.VIEW
-ADDED from [com.google.android.gms:play-services-tagmanager-api:10.0.1] C:\Users\Voldarex\.android\build-cache\d3ea276b793636c5e8cd977da3c85527fd3e3bcb\output\AndroidManifest.xml:28:17-68
-	android:name
-		ADDED from [com.google.android.gms:play-services-tagmanager-api:10.0.1] C:\Users\Voldarex\.android\build-cache\d3ea276b793636c5e8cd977da3c85527fd3e3bcb\output\AndroidManifest.xml:28:25-66
-category#android.intent.category.BROWSABLE
-ADDED from [com.google.android.gms:play-services-tagmanager-api:10.0.1] C:\Users\Voldarex\.android\build-cache\d3ea276b793636c5e8cd977da3c85527fd3e3bcb\output\AndroidManifest.xml:30:17-77
-	android:name
-		ADDED from [com.google.android.gms:play-services-tagmanager-api:10.0.1] C:\Users\Voldarex\.android\build-cache\d3ea276b793636c5e8cd977da3c85527fd3e3bcb\output\AndroidManifest.xml:30:27-75
-receiver#com.google.android.gms.measurement.AppMeasurementReceiver
-ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\Voldarex\.android\build-cache\ca7016e05f2a67fc29a4071a5fca3c052ee40fc1\output\AndroidManifest.xml:25:7-26:18
-MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] C:\Users\Voldarex\.android\build-cache\bf9c096083ce9e7a6091e249b18b1604ed3996f2\output\AndroidManifest.xml:25:7-26:18
-	android:enabled
-		ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\Voldarex\.android\build-cache\ca7016e05f2a67fc29a4071a5fca3c052ee40fc1\output\AndroidManifest.xml:25:90-112
-	android:exported
-		ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\Voldarex\.android\build-cache\ca7016e05f2a67fc29a4071a5fca3c052ee40fc1\output\AndroidManifest.xml:25:113-137
-	android:name
-		ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\Voldarex\.android\build-cache\ca7016e05f2a67fc29a4071a5fca3c052ee40fc1\output\AndroidManifest.xml:25:17-89
-receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
-ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\Voldarex\.android\build-cache\ca7016e05f2a67fc29a4071a5fca3c052ee40fc1\output\AndroidManifest.xml:27:7-31:18
-	android:enabled
-		ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\Voldarex\.android\build-cache\ca7016e05f2a67fc29a4071a5fca3c052ee40fc1\output\AndroidManifest.xml:27:162-184
-	android:permission
-		ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\Voldarex\.android\build-cache\ca7016e05f2a67fc29a4071a5fca3c052ee40fc1\output\AndroidManifest.xml:27:105-161
-	android:name
-		ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\Voldarex\.android\build-cache\ca7016e05f2a67fc29a4071a5fca3c052ee40fc1\output\AndroidManifest.xml:27:17-104
-intent-filter#com.android.vending.INSTALL_REFERRER
-ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\Voldarex\.android\build-cache\ca7016e05f2a67fc29a4071a5fca3c052ee40fc1\output\AndroidManifest.xml:28:11-30:27
-action#com.android.vending.INSTALL_REFERRER
-ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\Voldarex\.android\build-cache\ca7016e05f2a67fc29a4071a5fca3c052ee40fc1\output\AndroidManifest.xml:29:15-76
-	android:name
-		ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\Voldarex\.android\build-cache\ca7016e05f2a67fc29a4071a5fca3c052ee40fc1\output\AndroidManifest.xml:29:23-74
-service#com.google.android.gms.measurement.AppMeasurementService
-ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\Voldarex\.android\build-cache\ca7016e05f2a67fc29a4071a5fca3c052ee40fc1\output\AndroidManifest.xml:32:7-137
-MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] C:\Users\Voldarex\.android\build-cache\bf9c096083ce9e7a6091e249b18b1604ed3996f2\output\AndroidManifest.xml:27:7-137
-	android:enabled
-		ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\Voldarex\.android\build-cache\ca7016e05f2a67fc29a4071a5fca3c052ee40fc1\output\AndroidManifest.xml:32:88-110
-	android:exported
-		ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\Voldarex\.android\build-cache\ca7016e05f2a67fc29a4071a5fca3c052ee40fc1\output\AndroidManifest.xml:32:111-135
-	android:name
-		ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\Voldarex\.android\build-cache\ca7016e05f2a67fc29a4071a5fca3c052ee40fc1\output\AndroidManifest.xml:32:16-87
-permission#${applicationId}.permission.C2D_MESSAGE
-ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Voldarex\.android\build-cache\5b50b2462d83a55237b5629cea12f7dcb620ef74\output\AndroidManifest.xml:24:5-109
-	android:protectionLevel
-		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Voldarex\.android\build-cache\5b50b2462d83a55237b5629cea12f7dcb620ef74\output\AndroidManifest.xml:24:72-107
-	android:name
-		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Voldarex\.android\build-cache\5b50b2462d83a55237b5629cea12f7dcb620ef74\output\AndroidManifest.xml:24:17-71
-uses-permission#${applicationId}.permission.C2D_MESSAGE
-ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Voldarex\.android\build-cache\5b50b2462d83a55237b5629cea12f7dcb620ef74\output\AndroidManifest.xml:26:5-78
-	android:name
-		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Voldarex\.android\build-cache\5b50b2462d83a55237b5629cea12f7dcb620ef74\output\AndroidManifest.xml:26:22-76
-receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
-ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Voldarex\.android\build-cache\5b50b2462d83a55237b5629cea12f7dcb620ef74\output\AndroidManifest.xml:30:9-36:20
-	android:exported
-		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Voldarex\.android\build-cache\5b50b2462d83a55237b5629cea12f7dcb620ef74\output\AndroidManifest.xml:30:85-108
-	android:permission
-		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Voldarex\.android\build-cache\5b50b2462d83a55237b5629cea12f7dcb620ef74\output\AndroidManifest.xml:30:109-169
-	android:name
-		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Voldarex\.android\build-cache\5b50b2462d83a55237b5629cea12f7dcb620ef74\output\AndroidManifest.xml:30:19-84
-intent-filter#${applicationId}+com.google.android.c2dm.intent.RECEIVE+com.google.android.c2dm.intent.REGISTRATION
-ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Voldarex\.android\build-cache\5b50b2462d83a55237b5629cea12f7dcb620ef74\output\AndroidManifest.xml:31:13-35:29
-action#com.google.android.c2dm.intent.RECEIVE
-ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Voldarex\.android\build-cache\5b50b2462d83a55237b5629cea12f7dcb620ef74\output\AndroidManifest.xml:32:17-80
-	android:name
-		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Voldarex\.android\build-cache\5b50b2462d83a55237b5629cea12f7dcb620ef74\output\AndroidManifest.xml:32:25-78
-action#com.google.android.c2dm.intent.REGISTRATION
-ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Voldarex\.android\build-cache\5b50b2462d83a55237b5629cea12f7dcb620ef74\output\AndroidManifest.xml:33:17-85
-	android:name
-		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Voldarex\.android\build-cache\5b50b2462d83a55237b5629cea12f7dcb620ef74\output\AndroidManifest.xml:33:25-83
-category#${applicationId}
-ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Voldarex\.android\build-cache\5b50b2462d83a55237b5629cea12f7dcb620ef74\output\AndroidManifest.xml:34:17-60
-	android:name
-		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Voldarex\.android\build-cache\5b50b2462d83a55237b5629cea12f7dcb620ef74\output\AndroidManifest.xml:34:27-58
-receiver#com.google.firebase.iid.FirebaseInstanceIdInternalReceiver
-ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Voldarex\.android\build-cache\5b50b2462d83a55237b5629cea12f7dcb620ef74\output\AndroidManifest.xml:40:9-119
-	android:exported
-		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Voldarex\.android\build-cache\5b50b2462d83a55237b5629cea12f7dcb620ef74\output\AndroidManifest.xml:40:93-117
-	android:name
-		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Voldarex\.android\build-cache\5b50b2462d83a55237b5629cea12f7dcb620ef74\output\AndroidManifest.xml:40:19-92
-service#com.google.firebase.iid.FirebaseInstanceIdService
-ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Voldarex\.android\build-cache\5b50b2462d83a55237b5629cea12f7dcb620ef74\output\AndroidManifest.xml:44:9-48:19
-	android:exported
-		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Voldarex\.android\build-cache\5b50b2462d83a55237b5629cea12f7dcb620ef74\output\AndroidManifest.xml:44:83-106
-	android:name
-		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Voldarex\.android\build-cache\5b50b2462d83a55237b5629cea12f7dcb620ef74\output\AndroidManifest.xml:44:18-82
-intent-filter#com.google.firebase.INSTANCE_ID_EVENT
-ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Voldarex\.android\build-cache\5b50b2462d83a55237b5629cea12f7dcb620ef74\output\AndroidManifest.xml:45:13-47:29
-	android:priority
-		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Voldarex\.android\build-cache\5b50b2462d83a55237b5629cea12f7dcb620ef74\output\AndroidManifest.xml:45:28-51
-action#com.google.firebase.INSTANCE_ID_EVENT
-ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Voldarex\.android\build-cache\5b50b2462d83a55237b5629cea12f7dcb620ef74\output\AndroidManifest.xml:46:17-79
-	android:name
-		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\Voldarex\.android\build-cache\5b50b2462d83a55237b5629cea12f7dcb620ef74\output\AndroidManifest.xml:46:25-77
-provider#com.google.firebase.provider.FirebaseInitProvider
-ADDED from [com.google.firebase:firebase-common:10.0.1] C:\Users\Voldarex\.android\build-cache\812d9a2df8cba769f8d020754c178b5bb145c62e\output\AndroidManifest.xml:6:9-194
-	android:authorities
-		ADDED from [com.google.firebase:firebase-common:10.0.1] C:\Users\Voldarex\.android\build-cache\812d9a2df8cba769f8d020754c178b5bb145c62e\output\AndroidManifest.xml:6:19-78
-	android:exported
-		ADDED from [com.google.firebase:firebase-common:10.0.1] C:\Users\Voldarex\.android\build-cache\812d9a2df8cba769f8d020754c178b5bb145c62e\output\AndroidManifest.xml:6:144-168
-	android:initOrder
-		ADDED from [com.google.firebase:firebase-common:10.0.1] C:\Users\Voldarex\.android\build-cache\812d9a2df8cba769f8d020754c178b5bb145c62e\output\AndroidManifest.xml:6:169-192
-	android:name
-		ADDED from [com.google.firebase:firebase-common:10.0.1] C:\Users\Voldarex\.android\build-cache\812d9a2df8cba769f8d020754c178b5bb145c62e\output\AndroidManifest.xml:6:79-143
 uses-feature#0x00020000
-ADDED from [com.google.android.gms:play-services-maps:10.0.1] C:\Users\Voldarex\.android\build-cache\2ca69236207d4cfd0c5b62462cde44552bc57ca7\output\AndroidManifest.xml:21:5-77
+ADDED from [com.google.android.gms:play-services-maps:11.0.1] C:\Users\Voldarex\.android\build-cache\4a7bf6ef4e85c74a343a93a487c848b0ded2299b\output\AndroidManifest.xml:21:5-77
 	android:glEsVersion
-		ADDED from [com.google.android.gms:play-services-maps:10.0.1] C:\Users\Voldarex\.android\build-cache\2ca69236207d4cfd0c5b62462cde44552bc57ca7\output\AndroidManifest.xml:21:19-51
+		ADDED from [com.google.android.gms:play-services-maps:11.0.1] C:\Users\Voldarex\.android\build-cache\4a7bf6ef4e85c74a343a93a487c848b0ded2299b\output\AndroidManifest.xml:21:19-51
 	android:required
-		ADDED from [com.google.android.gms:play-services-maps:10.0.1] C:\Users\Voldarex\.android\build-cache\2ca69236207d4cfd0c5b62462cde44552bc57ca7\output\AndroidManifest.xml:21:52-75
+		ADDED from [com.google.android.gms:play-services-maps:11.0.1] C:\Users\Voldarex\.android\build-cache\4a7bf6ef4e85c74a343a93a487c848b0ded2299b\output\AndroidManifest.xml:21:52-75
 activity#com.google.android.gms.common.api.GoogleApiActivity
-ADDED from [com.google.android.gms:play-services-base:10.0.1] C:\Users\Voldarex\.android\build-cache\a9a0e072804bdc2102bbd4b647d708e1773c069e\output\AndroidManifest.xml:19:9-172
+ADDED from [com.google.android.gms:play-services-base:11.0.1] C:\Users\Voldarex\.android\build-cache\7cd6d225b6fa08fd22048c0992485bcff49635c9\output\AndroidManifest.xml:19:9-172
 	android:exported
-		ADDED from [com.google.android.gms:play-services-base:10.0.1] C:\Users\Voldarex\.android\build-cache\a9a0e072804bdc2102bbd4b647d708e1773c069e\output\AndroidManifest.xml:19:146-170
+		ADDED from [com.google.android.gms:play-services-base:11.0.1] C:\Users\Voldarex\.android\build-cache\7cd6d225b6fa08fd22048c0992485bcff49635c9\output\AndroidManifest.xml:19:146-170
 	android:theme
-		ADDED from [com.google.android.gms:play-services-base:10.0.1] C:\Users\Voldarex\.android\build-cache\a9a0e072804bdc2102bbd4b647d708e1773c069e\output\AndroidManifest.xml:19:86-145
+		ADDED from [com.google.android.gms:play-services-base:11.0.1] C:\Users\Voldarex\.android\build-cache\7cd6d225b6fa08fd22048c0992485bcff49635c9\output\AndroidManifest.xml:19:86-145
 	android:name
-		ADDED from [com.google.android.gms:play-services-base:10.0.1] C:\Users\Voldarex\.android\build-cache\a9a0e072804bdc2102bbd4b647d708e1773c069e\output\AndroidManifest.xml:19:19-85
+		ADDED from [com.google.android.gms:play-services-base:11.0.1] C:\Users\Voldarex\.android\build-cache\7cd6d225b6fa08fd22048c0992485bcff49635c9\output\AndroidManifest.xml:19:19-85
 meta-data#com.google.android.gms.version
-ADDED from [com.google.android.gms:play-services-basement:10.0.1] C:\Users\Voldarex\.android\build-cache\45348b9c3cf91d63fc9c96d8445544ffe47a81b4\output\AndroidManifest.xml:20:9-121
+ADDED from [com.google.android.gms:play-services-basement:11.0.1] C:\Users\Voldarex\.android\build-cache\72cbeb7f1b99d4c2035fd73cb72edd3ece58ba21\output\AndroidManifest.xml:20:9-121
 	android:value
-		ADDED from [com.google.android.gms:play-services-basement:10.0.1] C:\Users\Voldarex\.android\build-cache\45348b9c3cf91d63fc9c96d8445544ffe47a81b4\output\AndroidManifest.xml:20:66-119
+		ADDED from [com.google.android.gms:play-services-basement:11.0.1] C:\Users\Voldarex\.android\build-cache\72cbeb7f1b99d4c2035fd73cb72edd3ece58ba21\output\AndroidManifest.xml:20:66-119
 	android:name
-		ADDED from [com.google.android.gms:play-services-basement:10.0.1] C:\Users\Voldarex\.android\build-cache\45348b9c3cf91d63fc9c96d8445544ffe47a81b4\output\AndroidManifest.xml:20:20-65
+		ADDED from [com.google.android.gms:play-services-basement:11.0.1] C:\Users\Voldarex\.android\build-cache\72cbeb7f1b99d4c2035fd73cb72edd3ece58ba21\output\AndroidManifest.xml:20:20-65
 activity#com.example.voldarex.infobola_11414028.Splashscreen
 ADDED from [com.android.support:support-media-compat:25.3.1] C:\Users\Voldarex\.android\build-cache\160258d303cda61c27e313ac3b5d8f6b2d617286\output\AndroidManifest.xml:14:9-23:20
 	android:label
@@ -512,7 +206,5 @@ ADDED from [com.android.support:support-media-compat:25.3.1] C:\Users\Voldarex\.
 		ADDED from [com.android.support:support-media-compat:25.3.1] C:\Users\Voldarex\.android\build-cache\160258d303cda61c27e313ac3b5d8f6b2d617286\output\AndroidManifest.xml:17:13-56
 	android:name
 		ADDED from [com.android.support:support-media-compat:25.3.1] C:\Users\Voldarex\.android\build-cache\160258d303cda61c27e313ac3b5d8f6b2d617286\output\AndroidManifest.xml:15:13-41
-uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-IMPLIED from D:\Kuliah\Magang_GVM\sprint2reyv1\AvailaballsApp\app\src\main\AndroidManifest.xml:2:1-46:12 reason: com.example.voldarex.infobola_11414028 has a targetSdkVersion < 4
 uses-permission#android.permission.READ_PHONE_STATE
-IMPLIED from D:\Kuliah\Magang_GVM\sprint2reyv1\AvailaballsApp\app\src\main\AndroidManifest.xml:2:1-46:12 reason: com.example.voldarex.infobola_11414028 has a targetSdkVersion < 4
+IMPLIED from D:\Kuliah\Magang_GVM\sprint2reyv1\AvailaballsApp\app\src\main\AndroidManifest.xml:2:1-55:12 reason: com.example.voldarex.infobola_11414028 has a targetSdkVersion < 4

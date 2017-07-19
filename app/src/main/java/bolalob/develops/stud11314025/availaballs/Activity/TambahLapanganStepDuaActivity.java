@@ -1,6 +1,5 @@
 package bolalob.develops.stud11314025.availaballs.Activity;
 
-import android.content.Context;
 import android.content.Intent;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
@@ -12,15 +11,14 @@ import android.view.LayoutInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
 import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import java.util.ArrayList;
-import java.util.List;
+import com.google.android.gms.location.places.Place;
+import com.google.android.gms.location.places.ui.PlacePicker;
 
 import bolalob.develops.stud11314025.availaballs.R;
 import bolalob.develops.stud11314025.availaballs.Widget.CustomFontTextView;
@@ -36,9 +34,10 @@ public class TambahLapanganStepDuaActivity extends AppCompatActivity implements 
     EditText etTelepon;
     @BindView(R.id.iconTeleponAdd)
     CustomFontTextView addTlp;
-    Context context;
     @BindView(R.id.lytlp)
     LinearLayout ly;
+
+    int PLACE_PICKER_REQUEST = 1;
 
     @Override
     protected void onCreate(final Bundle savedInstanceState) {
@@ -46,8 +45,41 @@ public class TambahLapanganStepDuaActivity extends AppCompatActivity implements 
         setContentView(R.layout.activity_tambah__lapangan__step__dua);
         ButterKnife.bind(this);
 
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        addActionBar();
+
+        addTextWatcher();
+
+        spinnerJumlahLapangan.setOnItemSelectedListener(this);
+
+    }
+
+    @OnClick(R.id.eTLokasi)
+    void onButtonClick(){
+        try {
+            PlacePicker.IntentBuilder builder = new PlacePicker.IntentBuilder();
+            startActivityForResult(builder.build(TambahLapanganStepDuaActivity.this), PLACE_PICKER_REQUEST);
+        }
+        catch (Exception e)
+        {
+            e.printStackTrace();
+        }
+    }
+
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        if (requestCode == PLACE_PICKER_REQUEST) {
+            if (resultCode == RESULT_OK) {
+                Place place = PlacePicker.getPlace(data, this);
+                String toastMsg = String.format("%s", place.getName()+",\n"+place.getAddress());
+                etLokasi.setText(toastMsg);
+                Toast.makeText(TambahLapanganStepDuaActivity.this, toastMsg, Toast.LENGTH_LONG).show();
+            }
+        }
+    }
+
+    @BindView(R.id.spinnerJumlahLapangan)
+    Spinner spinnerJumlahLapangan;
+
+    public void addTextWatcher() {
 
         final View lllokasi = findViewById(R.id.layoutLokasi);
         final View lltelepon = findViewById(R.id.layoutTelepon);
@@ -59,18 +91,16 @@ public class TambahLapanganStepDuaActivity extends AppCompatActivity implements 
 
             public void onTextChanged(CharSequence s, int start, int before, int count) {
                 int length = etLokasi.getText().length();
-                if( length == 0){
+                if (length == 0) {
                     lllokasi.setAlpha(0.5f);
-                }
-                else lllokasi.setAlpha(1.0f);
+                } else lllokasi.setAlpha(1.0f);
             }
 
             public void afterTextChanged(Editable s) {
                 int length = etLokasi.getText().length();
-                if( length == 0){
+                if (length == 0) {
                     lllokasi.setAlpha(0.5f);
-                }
-                else lllokasi.setAlpha(1.0f);
+                } else lllokasi.setAlpha(1.0f);
             }
         };
         etLokasi.addTextChangedListener(lokasiWatcher);
@@ -82,21 +112,24 @@ public class TambahLapanganStepDuaActivity extends AppCompatActivity implements 
 
             public void onTextChanged(CharSequence s, int start, int before, int count) {
                 int length = etTelepon.getText().length();
-                if( length == 0){
+                if (length == 0) {
                     lltelepon.setAlpha(0.5f);
-                }
-                else lltelepon.setAlpha(1.0f);
+                } else lltelepon.setAlpha(1.0f);
             }
 
             public void afterTextChanged(Editable s) {
                 int length = etTelepon.getText().length();
-                if( length == 0){
+                if (length == 0) {
                     lltelepon.setAlpha(0.5f);
-                }
-                else lltelepon.setAlpha(1.0f);
+                } else lltelepon.setAlpha(1.0f);
             }
         };
         etTelepon.addTextChangedListener(teleponWatcher);
+    }
+
+    public void addActionBar() {
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         ActionBar mActionBar = getSupportActionBar();
         mActionBar.setDisplayShowHomeEnabled(false);
@@ -110,25 +143,6 @@ public class TambahLapanganStepDuaActivity extends AppCompatActivity implements 
         mActionBar.setBackgroundDrawable(new ColorDrawable(getResources().getColor(R.color.clrNavigation)));
         mActionBar.setCustomView(mCustomView);
         mActionBar.setDisplayShowCustomEnabled(true);
-
-        Spinner spinner = (Spinner) findViewById(R.id.spinnerJumlahLapangan);
-
-        spinner.setOnItemSelectedListener(this);
-
-        List<String> categories = new ArrayList<String>();
-        categories.add("1");
-        categories.add("2");
-        categories.add("3");
-        categories.add("4");
-        categories.add("5");
-        categories.add("6");
-
-        ArrayAdapter<String> dataAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, categories);
-
-        dataAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-
-        spinner.setAdapter(dataAdapter);
-
     }
 
     @Override
@@ -137,7 +151,7 @@ public class TambahLapanganStepDuaActivity extends AppCompatActivity implements 
         String item = parent.getItemAtPosition(position).toString();
 
         // Showing selected spinner item
-        Toast.makeText(parent.getContext(), "Selected: " + item, Toast.LENGTH_LONG).show();
+        //Toast.makeText(parent.getContext(), "Selected: " + item, Toast.LENGTH_LONG).show();
     }
 
     @Override
@@ -161,24 +175,20 @@ public class TambahLapanganStepDuaActivity extends AppCompatActivity implements 
         startActivity(intent);
     }
 
-    public void openMap(View view) {
-        Intent intentMap = new Intent(TambahLapanganStepDuaActivity.this, MapsCurrentPlaceActivity.class);
-        startActivity(intentMap);
-    }
-
     @OnClick(R.id.iconTeleponAdd)
-    void addTelepon(){
+    void addTelepon() {
         LinearLayout ly = (LinearLayout) findViewById(R.id.lytlp);
 
         View tv = LayoutInflater.from(this).inflate(R.layout.listedittext_telepon, null);
 
         int count = ly.getChildCount();
 
-        if (count < 5){
+        int maxPhoneNumber = 5;
+
+        if (count < maxPhoneNumber) {
             ly.addView(tv);
-        }
-        else {
-            Toast.makeText(ly.getContext(), "Hanya dapat menambahkan 5 nomor telepon." , Toast.LENGTH_LONG).show();
+        } else {
+            Toast.makeText(ly.getContext(), "Hanya dapat menambahkan 5 nomor telepon.", Toast.LENGTH_LONG).show();
         }
     }
 

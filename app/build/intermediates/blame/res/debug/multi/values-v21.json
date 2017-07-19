@@ -2039,30 +2039,9 @@
                     "startLine": 285,
                     "startColumn": 4,
                     "startOffset": 20752,
-                    "endLine": 286,
-                    "endColumn": 8,
-                    "endOffset": 20877
-                },
-                "from": {
-                    "file": "C:\\Users\\Voldarex\\.android\\build-cache\\bbdccfdffc627b4733200a5652275f0685c4e06c\\output\\res\\values-v21\\values.xml",
-                    "position": {
-                        "startLine": 4,
-                        "startColumn": 0,
-                        "startOffset": 172,
-                        "endLine": 5,
-                        "endColumn": 8,
-                        "endOffset": 297
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 287,
-                    "startColumn": 4,
-                    "startOffset": 20882,
-                    "endLine": 289,
+                    "endLine": 287,
                     "endColumn": 12,
-                    "endOffset": 21052
+                    "endOffset": 20922
                 },
                 "from": {
                     "file": "C:\\Users\\Voldarex\\.android\\build-cache\\c2157dc35693f8f71233f248720d5b7782d489f6\\output\\res\\values-v21\\values-v21.xml",
@@ -2078,12 +2057,12 @@
             },
             {
                 "to": {
-                    "startLine": 290,
+                    "startLine": 288,
                     "startColumn": 4,
-                    "startOffset": 21057,
-                    "endLine": 294,
+                    "startOffset": 20927,
+                    "endLine": 292,
                     "endColumn": 12,
-                    "endOffset": 21393
+                    "endOffset": 21263
                 },
                 "from": {
                     "file": "C:\\Users\\Voldarex\\.android\\build-cache\\c2157dc35693f8f71233f248720d5b7782d489f6\\output\\res\\values-v21\\values-v21.xml",
@@ -2099,12 +2078,12 @@
             },
             {
                 "to": {
-                    "startLine": 295,
+                    "startLine": 293,
                     "startColumn": 4,
-                    "startOffset": 21398,
-                    "endLine": 297,
+                    "startOffset": 21268,
+                    "endLine": 295,
                     "endColumn": 12,
-                    "endOffset": 21591
+                    "endOffset": 21461
                 },
                 "from": {
                     "file": "C:\\Users\\Voldarex\\.android\\build-cache\\354e7540d6d33628be2e9c473b81e981c2595f29\\output\\res\\values-v21\\values-v21.xml",

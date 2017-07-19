@@ -1,13 +1,17 @@
 package bolalob.develops.stud11314025.availaballs.Activity;
 
 import android.Manifest;
+import android.app.AlertDialog;
+import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
-import android.database.Cursor;
-import android.graphics.BitmapFactory;
+import android.content.pm.PackageManager;
 import android.graphics.drawable.ColorDrawable;
 import android.net.Uri;
 import android.os.Bundle;
-import android.provider.MediaStore;
+import android.support.annotation.NonNull;
+import android.support.v4.app.ActivityCompat;
+import android.support.v4.content.ContextCompat;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.text.Editable;
@@ -20,10 +24,14 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.bumptech.glide.Glide;
+
 import bolalob.develops.stud11314025.availaballs.R;
+import bolalob.develops.stud11314025.availaballs.Widget.FileUtil;
+import bolalob.develops.stud11314025.availaballs.Widget.Utils;
 import butterknife.BindView;
 import butterknife.ButterKnife;
-import pub.devrel.easypermissions.EasyPermissions;
+import butterknife.OnClick;
 
 public class TambahLapanganActivity extends AppCompatActivity {
 
@@ -32,59 +40,18 @@ public class TambahLapanganActivity extends AppCompatActivity {
     @BindView(R.id.eTTipeLapangan)
     EditText etTipeLapangan;
 
-    private static int RESULT_LOAD_IMG = 1;
-    String imgDecodableString;
+    @BindView(R.id.upload_img)
+    ImageView upload_img;
 
-    public void loadImagefromGallery(View view) {
-        // Create intent to Open Image applications like Gallery, Google Photos
-        Intent galleryIntent = new Intent(Intent.ACTION_PICK,
-                android.provider.MediaStore.Images.Media.EXTERNAL_CONTENT_URI);
-        // Start the Intent
-        startActivityForResult(galleryIntent, RESULT_LOAD_IMG);
-    }
+    private static final int ASK_MULTIPLE_PERMISSION = 1111;
+    private static final int REQUEST_FROM_CAMERA = 1001;
+    private static final int REQUEST_FROM_ALBUM = 1002;
 
-    @Override
-    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
-        super.onActivityResult(requestCode, resultCode, data);
-        try {
-            // When an Image is picked
-            if (requestCode == RESULT_LOAD_IMG && resultCode == RESULT_OK
-                    && null != data) {
-                // Get the Image from data
+    private Uri imageUri;
+    private String imagePath;
 
-                Uri selectedImage = data.getData();
-                String[] filePathColumn = {MediaStore.Images.Media.DATA};
-
-                // Get the cursor
-                Cursor cursor = getContentResolver().query(selectedImage,
-                        filePathColumn, null, null, null);
-                // Move to first row
-                cursor.moveToFirst();
-
-                int columnIndex = cursor.getColumnIndex(filePathColumn[0]);
-                imgDecodableString = cursor.getString(columnIndex);
-                cursor.close();
-
-                String[] galleryPermissions = {Manifest.permission.READ_EXTERNAL_STORAGE, Manifest.permission.WRITE_EXTERNAL_STORAGE};
-
-                if (EasyPermissions.hasPermissions(this, galleryPermissions)) {
-                    ImageView imgView = (ImageView) findViewById(R.id.upload_img);
-                    // Set the Image in ImageView after decoding the String
-                    imgView.setImageBitmap(BitmapFactory
-                            .decodeFile(imgDecodableString));
-                } else {
-                    EasyPermissions.requestPermissions(this, "Access for storage",
-                            101, galleryPermissions);
-                }
-
-            } else {
-                Toast.makeText(this, "You haven't picked Image",
-                        Toast.LENGTH_LONG).show();
-            }
-        } catch (Exception e) {
-            Toast.makeText(this, "Something went wrong", Toast.LENGTH_LONG)
-                    .show();
-        }
+    private Context getContext() {
+        return TambahLapanganActivity.this;
     }
 
     @Override
@@ -93,22 +60,92 @@ public class TambahLapanganActivity extends AppCompatActivity {
         setContentView(R.layout.activity_tambah_lapangan);
         ButterKnife.bind(this);
 
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        addActionBar();
+        addTextWatcher();
+    }
 
-        ActionBar mActionBar = getSupportActionBar();
-        mActionBar.setDisplayShowHomeEnabled(false);
-        mActionBar.setDisplayShowTitleEnabled(false);
-        LayoutInflater mInflater = LayoutInflater.from(this);
+    @OnClick(R.id.upload_img)
+    void onButtonClick() {
+        if (Utils.checkSupportCamera(this)) {
+            onAskPermission();
+        } else {
+            Toast.makeText(this, "", Toast.LENGTH_SHORT).show();
+        }
+    }
 
-        View mCustomView = mInflater.inflate(R.layout.custom_actionbar, null);
-        TextView mTitleTextView = (TextView) mCustomView.findViewById(R.id.title_text);
-        mTitleTextView.setText("Daftarkan Lapangan");
+    private void onAskPermission() {
+        if (ContextCompat.checkSelfPermission(getContext(), Manifest.permission.WRITE_EXTERNAL_STORAGE)
+                + ContextCompat.checkSelfPermission(getContext(), Manifest.permission.CAMERA) != PackageManager.PERMISSION_GRANTED) {
+            ActivityCompat.requestPermissions(this, new String[]{Manifest.permission.CAMERA, Manifest.permission.WRITE_EXTERNAL_STORAGE}, ASK_MULTIPLE_PERMISSION);
+        } else {
+            onPermissionGranted();
+        }
+    }
 
-        mActionBar.setBackgroundDrawable(new ColorDrawable(getResources().getColor(R.color.clrNavigation)));
-        mActionBar.setCustomView(mCustomView);
-        mActionBar.setDisplayShowCustomEnabled(true);
+    private void onPermissionGranted() {
+        AlertDialog.Builder takebgCoverDialog = new AlertDialog.Builder(this);
+        takebgCoverDialog.setTitle("Ambil Foto");
+        takebgCoverDialog.setItems(new CharSequence[]{"Kamera", "Album"}, new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialogInterface, int position) {
+                switch (position) {
+                    case 0:
+                        imageUri = FileUtil.getFromCamera(getContext());
+                        break;
+                    case 1:
+                        FileUtil.getFromAlbum(getContext());
+                        break;
+                }
+            }
+        });
+        takebgCoverDialog.show();
+    }
 
+    private void attachToImageView(String imagePath){
+        Glide.with(getContext())
+                .load(imagePath)
+                .dontAnimate()
+                .into(upload_img);
+    }
+
+    @Override
+    public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
+        super.onRequestPermissionsResult(requestCode, permissions, grantResults);
+        if (requestCode == ASK_MULTIPLE_PERMISSION && grantResults.length > 0) {
+            boolean cameraPermission = grantResults[1] == PackageManager.PERMISSION_GRANTED;
+            boolean writeExternalFile = grantResults[0] == PackageManager.PERMISSION_GRANTED;
+            if (cameraPermission && writeExternalFile) {
+                onPermissionGranted();
+            } else {
+                System.out.println("permission not granted.");
+            }
+        } else {
+            super.onRequestPermissionsResult(requestCode, permissions, grantResults);
+        }
+    }
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+
+        if (requestCode == REQUEST_FROM_CAMERA) {
+            if (resultCode == RESULT_OK) {
+                imagePath = FileUtil.compressImage(this, imageUri.getPath(), 640);
+                attachToImageView(imagePath);
+            }
+        } else if (requestCode == REQUEST_FROM_ALBUM) {
+            if (resultCode == RESULT_OK) {
+                imageUri = data.getData();
+                boolean isFromGoogleDrive = imageUri.toString().contains("com.google.android.apps.docs.storage");
+                imagePath = FileUtil.compressImage(this, isFromGoogleDrive ?
+                        FileUtil.downloadFromGoogleDrive(this, imageUri) :
+                        FileUtil.getPath(this, imageUri), 640);
+                attachToImageView(imagePath);
+            }
+        }
+    }
+
+    public void addTextWatcher() {
         final View llnamalapangan = findViewById(R.id.layoutNamaLapangan);
         final View lltipelapangan = findViewById(R.id.layoutTipeLapangan);
 
@@ -118,11 +155,17 @@ public class TambahLapanganActivity extends AppCompatActivity {
             }
 
             public void onTextChanged(CharSequence s, int start, int before, int count) {
-                llnamalapangan.setAlpha(1.0f);
+                int length = etNamaLapangan.getText().length();
+                if (length == 0) {
+                    llnamalapangan.setAlpha(0.5f);
+                } else llnamalapangan.setAlpha(1.0f);
             }
 
             public void afterTextChanged(Editable s) {
-                llnamalapangan.setAlpha(1.0f);
+                int length = etNamaLapangan.getText().length();
+                if (length == 0) {
+                    llnamalapangan.setAlpha(0.5f);
+                } else llnamalapangan.setAlpha(1.0f);
             }
         };
         etNamaLapangan.addTextChangedListener(namaWatcher);
@@ -133,15 +176,20 @@ public class TambahLapanganActivity extends AppCompatActivity {
             }
 
             public void onTextChanged(CharSequence s, int start, int before, int count) {
-                lltipelapangan.setAlpha(1.0f);
+                int length = etTipeLapangan.getText().length();
+                if (length == 0) {
+                    lltipelapangan.setAlpha(0.5f);
+                } else lltipelapangan.setAlpha(1.0f);
             }
 
             public void afterTextChanged(Editable s) {
-                lltipelapangan.setAlpha(1.0f);
+                int length = etTipeLapangan.getText().length();
+                if (length == 0) {
+                    lltipelapangan.setAlpha(0.5f);
+                } else lltipelapangan.setAlpha(1.0f);
             }
         };
         etTipeLapangan.addTextChangedListener(tipeWatcher);
-
     }
 
     public void nextStep(View view) {
@@ -158,6 +206,24 @@ public class TambahLapanganActivity extends AppCompatActivity {
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    public void addActionBar() {
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
+        ActionBar mActionBar = getSupportActionBar();
+        mActionBar.setDisplayShowHomeEnabled(false);
+        mActionBar.setDisplayShowTitleEnabled(false);
+        LayoutInflater mInflater = LayoutInflater.from(this);
+
+        View mCustomView = mInflater.inflate(R.layout.custom_actionbar, null);
+        TextView mTitleTextView = (TextView) mCustomView.findViewById(R.id.title_text);
+        mTitleTextView.setText("Daftarkan Lapangan");
+
+        mActionBar.setBackgroundDrawable(new ColorDrawable(getResources().getColor(R.color.clrNavigation)));
+        mActionBar.setCustomView(mCustomView);
+        mActionBar.setDisplayShowCustomEnabled(true);
     }
 
 }

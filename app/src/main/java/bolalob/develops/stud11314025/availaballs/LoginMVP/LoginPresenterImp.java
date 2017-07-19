@@ -19,7 +19,7 @@ public class LoginPresenterImp implements LoginPresenter {
         if (TextUtils.isEmpty(username) || TextUtils.isEmpty(password)) {
             loginView.showValidationError();
         } else {
-            if (username.equals("test@gmail.com") && password.equals("test")) {
+            if (username.equals("admin") && password.equals("admin")) {
                 loginView.loginSucess();
             } else {
                 loginView.loginError();

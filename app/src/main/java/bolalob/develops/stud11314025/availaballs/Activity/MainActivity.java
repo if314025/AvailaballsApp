@@ -125,50 +125,6 @@ public class MainActivity extends AppCompatActivity {
         });
 
     }
-//        dataSet = new ArrayList<>();
-//        initDataset();
-
-//        rvView = (RecyclerView) findViewById(R.id.rv_main);
-//        rvView.setHasFixedSize(true);
-//
-//
-//        /**
-//         * Kita menggunakan LinearLayoutManager untuk list standar
-//         * yang hanya berisi daftar item
-//         * disusun dari atas ke bawah
-//         */
-//        layoutManager = new LinearLayoutManager(this);
-//        rvView.setLayoutManager(layoutManager);
-//
-//        adapter = new RecyclerViewAdapter(dataSet);
-//        rvView.setAdapter(adapter);
-//
-//        if (dataSet.isEmpty()) {
-//            rvView.setVisibility(View.GONE);
-//            imageView.setVisibility(View.VISIBLE);
-//            emptyview.setVisibility(View.VISIBLE);
-//            btn1.setVisibility(View.GONE);
-//            btn2.setVisibility(View.GONE);
-//            btn3.setVisibility(View.GONE);
-//            btn4.setVisibility(View.GONE);
-//            btn5.setVisibility(View.GONE);
-//
-//        } else {
-//            imageView.setVisibility(View.GONE);
-//            rvView.setVisibility(View.VISIBLE);
-//            emptyview.setVisibility(View.GONE);
-//        }
-//
-//
-//    }
-//
-//    private void initDataset() {
-//
-//        for (int i = 1; i < 21; i++) {
-//            dataSet.add(new Lapangan(i, "Futsal Bolalob", "Wisma77Tower2"));
-//        }
-//
-//    }
 
     public void tambahLapangan(View view) {
         Intent intent = new Intent(MainActivity.this, TambahLapanganActivity.class);

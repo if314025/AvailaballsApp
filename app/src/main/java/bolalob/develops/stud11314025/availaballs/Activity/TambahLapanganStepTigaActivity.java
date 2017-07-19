@@ -9,14 +9,10 @@ import android.view.LayoutInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
 import android.widget.CheckBox;
 import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
-
-import java.util.ArrayList;
-import java.util.List;
 
 import bolalob.develops.stud11314025.availaballs.R;
 import butterknife.BindView;
@@ -50,44 +46,9 @@ public class TambahLapanganStepTigaActivity extends AppCompatActivity implements
 
         addActionBar();
 
-        spinnerJamBuka.setOnItemSelectedListener(this);
-        spinnerJamTutup.setOnItemSelectedListener(this);
-
-        List<String> categories = new ArrayList<String>();
-        categories.add("08:00");
-        categories.add("00:00");
-        categories.add("01:00");
-        categories.add("02:00");
-        categories.add("03:00");
-        categories.add("04:00");
-        categories.add("05:00");
-        categories.add("06:00");
-        categories.add("07:00");
-        categories.add("09:00");
-        categories.add("10:00");
-        categories.add("11:00");
-        categories.add("12:00");
-        categories.add("13:00");
-        categories.add("14:00");
-        categories.add("15:00");
-        categories.add("16:00");
-        categories.add("17:00");
-        categories.add("18:00");
-        categories.add("19:00");
-        categories.add("20:00");
-        categories.add("21:00");
-        categories.add("22:00");
-        categories.add("23:00");
-
-        ArrayAdapter<String> dataAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, categories);
-
-        dataAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-
-        spinnerJamBuka.setAdapter(dataAdapter);
-        spinnerJamTutup.setAdapter(dataAdapter);
     }
 
-    public void addActionBar(){
+    public void addActionBar() {
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
@@ -109,10 +70,8 @@ public class TambahLapanganStepTigaActivity extends AppCompatActivity implements
 
     @Override
     public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-        // On selecting a spinner item
         String item = parent.getItemAtPosition(position).toString();
 
-        // Showing selected spinner item
         Toast.makeText(parent.getContext(), "Selected: " + item, Toast.LENGTH_LONG).show();
     }
 

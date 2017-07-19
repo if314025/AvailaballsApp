@@ -8,6 +8,10 @@
         "source": "C:\\Users\\Voldarex\\.android\\build-cache\\c2157dc35693f8f71233f248720d5b7782d489f6\\output\\res\\color\\switch_thumb_material_dark.xml"
     },
     {
+        "merged": "D:\\Kuliah\\Magang_GVM\\sprint2reyv1\\AvailaballsApp\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_google_signin_btn_tint.xml",
+        "source": "C:\\Users\\Voldarex\\.android\\build-cache\\7cd6d225b6fa08fd22048c0992485bcff49635c9\\output\\res\\color\\common_google_signin_btn_tint.xml"
+    },
+    {
         "merged": "D:\\Kuliah\\Magang_GVM\\sprint2reyv1\\AvailaballsApp\\app\\build\\intermediates\\res\\merged\\debug\\color\\design_tint_password_toggle.xml",
         "source": "C:\\Users\\Voldarex\\.android\\build-cache\\354e7540d6d33628be2e9c473b81e981c2595f29\\output\\res\\color\\design_tint_password_toggle.xml"
     },
@@ -41,7 +45,7 @@
     },
     {
         "merged": "D:\\Kuliah\\Magang_GVM\\sprint2reyv1\\AvailaballsApp\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_google_signin_btn_text_dark.xml",
-        "source": "C:\\Users\\Voldarex\\.android\\build-cache\\a9a0e072804bdc2102bbd4b647d708e1773c069e\\output\\res\\color\\common_google_signin_btn_text_dark.xml"
+        "source": "C:\\Users\\Voldarex\\.android\\build-cache\\7cd6d225b6fa08fd22048c0992485bcff49635c9\\output\\res\\color\\common_google_signin_btn_text_dark.xml"
     },
     {
         "merged": "D:\\Kuliah\\Magang_GVM\\sprint2reyv1\\AvailaballsApp\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_dark.xml",
@@ -50,10 +54,6 @@
     {
         "merged": "D:\\Kuliah\\Magang_GVM\\sprint2reyv1\\AvailaballsApp\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_dark.xml",
         "source": "C:\\Users\\Voldarex\\.android\\build-cache\\c2157dc35693f8f71233f248720d5b7782d489f6\\output\\res\\color\\abc_secondary_text_material_dark.xml"
-    },
-    {
-        "merged": "D:\\Kuliah\\Magang_GVM\\sprint2reyv1\\AvailaballsApp\\app\\build\\intermediates\\res\\merged\\debug\\color\\wallet_secondary_text_holo_dark.xml",
-        "source": "C:\\Users\\Voldarex\\.android\\build-cache\\52e2b32373b750126be785c786fb694891d35251\\output\\res\\color\\wallet_secondary_text_holo_dark.xml"
     },
     {
         "merged": "D:\\Kuliah\\Magang_GVM\\sprint2reyv1\\AvailaballsApp\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_hint_foreground_material_dark.xml",
@@ -68,16 +68,12 @@
         "source": "C:\\Users\\Voldarex\\.android\\build-cache\\c2157dc35693f8f71233f248720d5b7782d489f6\\output\\res\\color\\abc_tint_switch_track.xml"
     },
     {
-        "merged": "D:\\Kuliah\\Magang_GVM\\sprint2reyv1\\AvailaballsApp\\app\\build\\intermediates\\res\\merged\\debug\\color\\wallet_primary_text_holo_light.xml",
-        "source": "C:\\Users\\Voldarex\\.android\\build-cache\\52e2b32373b750126be785c786fb694891d35251\\output\\res\\color\\wallet_primary_text_holo_light.xml"
+        "merged": "D:\\Kuliah\\Magang_GVM\\sprint2reyv1\\AvailaballsApp\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_search_url_text.xml",
+        "source": "C:\\Users\\Voldarex\\.android\\build-cache\\c2157dc35693f8f71233f248720d5b7782d489f6\\output\\res\\color\\abc_search_url_text.xml"
     },
     {
         "merged": "D:\\Kuliah\\Magang_GVM\\sprint2reyv1\\AvailaballsApp\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_seek_thumb.xml",
         "source": "C:\\Users\\Voldarex\\.android\\build-cache\\c2157dc35693f8f71233f248720d5b7782d489f6\\output\\res\\color\\abc_tint_seek_thumb.xml"
-    },
-    {
-        "merged": "D:\\Kuliah\\Magang_GVM\\sprint2reyv1\\AvailaballsApp\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_search_url_text.xml",
-        "source": "C:\\Users\\Voldarex\\.android\\build-cache\\c2157dc35693f8f71233f248720d5b7782d489f6\\output\\res\\color\\abc_search_url_text.xml"
     },
     {
         "merged": "D:\\Kuliah\\Magang_GVM\\sprint2reyv1\\AvailaballsApp\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_light.xml",
@@ -109,6 +105,6 @@
     },
     {
         "merged": "D:\\Kuliah\\Magang_GVM\\sprint2reyv1\\AvailaballsApp\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_google_signin_btn_text_light.xml",
-        "source": "C:\\Users\\Voldarex\\.android\\build-cache\\a9a0e072804bdc2102bbd4b647d708e1773c069e\\output\\res\\color\\common_google_signin_btn_text_light.xml"
+        "source": "C:\\Users\\Voldarex\\.android\\build-cache\\7cd6d225b6fa08fd22048c0992485bcff49635c9\\output\\res\\color\\common_google_signin_btn_text_light.xml"
     }
 ]

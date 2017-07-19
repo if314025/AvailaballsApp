@@ -2,14 +2,18 @@ package bolalob.develops.stud11314025.availaballs.Activity;
 
 import android.content.Intent;
 import android.graphics.drawable.ColorDrawable;
+import android.os.Build;
 import android.os.Bundle;
 import android.support.design.widget.BottomNavigationView;
+import android.support.v4.content.ContextCompat;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
+import android.view.Window;
+import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.ProgressBar;
@@ -25,7 +29,7 @@ import bolalob.develops.stud11314025.availaballs.R;
 import bolalob.develops.stud11314025.availaballs.Service.API;
 import bolalob.develops.stud11314025.availaballs.Service.Service;
 import bolalob.develops.stud11314025.availaballs.Widget.CustomFontTextView;
-import butterknife.Bind;
+import butterknife.BindView;
 import butterknife.ButterKnife;
 import retrofit2.Call;
 import retrofit2.Callback;
@@ -35,31 +39,31 @@ public class MainActivity extends AppCompatActivity {
     private RecyclerViewAdapter adapter;
     private RecyclerView.LayoutManager layoutManager;
 
-    @Bind(R.id.rv_main)
+    @BindView(R.id.rv_main)
     RecyclerView rvView;
-    @Bind(R.id.emptyText)
+    @BindView(R.id.emptyText)
     TextView emptyview;
-    @Bind(R.id.imageView)
+    @BindView(R.id.imageView)
     ImageView imageView;
-    @Bind(R.id.button1)
+    @BindView(R.id.button1)
     Button btn1;
-    @Bind(R.id.button2)
+    @BindView(R.id.button2)
     Button btn2;
-    @Bind(R.id.button3)
+    @BindView(R.id.button3)
     Button btn3;
-    @Bind(R.id.button4)
+    @BindView(R.id.button4)
     Button btn4;
-    @Bind(R.id.button5)
+    @BindView(R.id.button5)
     Button btn5;
-    @Bind(R.id.TextNo)
+    @BindView(R.id.TextNo)
     TextView LabelNo;
-    @Bind(R.id.TextNamaLapangan)
+    @BindView(R.id.TextNamaLapangan)
     TextView LabelNamaLap;
-    @Bind(R.id.customFontTextView)
+    @BindView(R.id.customFontTextView)
     CustomFontTextView LabelLokasi;
 //    @Bind(R.id.navigation)
 //    BottomNavigationView test;
-    @Bind(R.id.progressBar)
+    @BindView(R.id.progressBar)
     ProgressBar progressBar;
 
     @Override
@@ -71,6 +75,13 @@ public class MainActivity extends AppCompatActivity {
         mActionBar.setDisplayShowHomeEnabled(false);
         mActionBar.setDisplayShowTitleEnabled(false);
         LayoutInflater mInflater = LayoutInflater.from(this);
+
+        Window window = MainActivity.this.getWindow();
+        window.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
+        window.clearFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+            window.setStatusBarColor(ContextCompat.getColor(getApplicationContext(), R.color.colorPrimaryDark));
+        }
 
         View mCustomView = mInflater.inflate(R.layout.custom_actionbar, null);
         TextView mTitleTextView = (TextView) mCustomView.findViewById(R.id.title_text_centered);
@@ -129,50 +140,6 @@ public class MainActivity extends AppCompatActivity {
         });
 
     }
-//        dataSet = new ArrayList<>();
-//        initDataset();
-
-//        rvView = (RecyclerView) findViewById(R.id.rv_main);
-//        rvView.setHasFixedSize(true);
-//
-//
-//        /**
-//         * Kita menggunakan LinearLayoutManager untuk list standar
-//         * yang hanya berisi daftar item
-//         * disusun dari atas ke bawah
-//         */
-//        layoutManager = new LinearLayoutManager(this);
-//        rvView.setLayoutManager(layoutManager);
-//
-//        adapter = new RecyclerViewAdapter(dataSet);
-//        rvView.setAdapter(adapter);
-//
-//        if (dataSet.isEmpty()) {
-//            rvView.setVisibility(View.GONE);
-//            imageView.setVisibility(View.VISIBLE);
-//            emptyview.setVisibility(View.VISIBLE);
-//            btn1.setVisibility(View.GONE);
-//            btn2.setVisibility(View.GONE);
-//            btn3.setVisibility(View.GONE);
-//            btn4.setVisibility(View.GONE);
-//            btn5.setVisibility(View.GONE);
-//
-//        } else {
-//            imageView.setVisibility(View.GONE);
-//            rvView.setVisibility(View.VISIBLE);
-//            emptyview.setVisibility(View.GONE);
-//        }
-//
-//
-//    }
-//
-//    private void initDataset() {
-//
-//        for (int i = 1; i < 21; i++) {
-//            dataSet.add(new Lapangan(i, "Futsal Bolalob", "Wisma77Tower2"));
-//        }
-//
-//    }
 
     public void tambahLapangan(View view) {
         Intent intent = new Intent(MainActivity.this, TambahLapanganActivity.class);

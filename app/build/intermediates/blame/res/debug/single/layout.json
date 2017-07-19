@@ -104,6 +104,10 @@
         "source": "C:\\Users\\Okta\\.android\\build-cache\\56d00e5e9aae85204ecfcac647638e22af0dc64d\\output\\res\\layout\\bb_bottom_bar_item_titleless.xml"
     },
     {
+        "merged": "D:\\Intern GVM\\master\\AvailaballsApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_update_jam_buka.xml",
+        "source": "D:\\Intern GVM\\master\\AvailaballsApp\\app\\src\\main\\res\\layout\\activity_update_jam_buka.xml"
+    },
+    {
         "merged": "D:\\Intern GVM\\master\\AvailaballsApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
         "source": "C:\\Users\\Okta\\.android\\build-cache\\23eeae67d6a26c5b4698847ab9efcec400027273\\output\\res\\layout\\abc_popup_menu_item_layout.xml"
     },
@@ -250,6 +254,10 @@
     {
         "merged": "D:\\Intern GVM\\master\\AvailaballsApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_custom_big.xml",
         "source": "C:\\Users\\Okta\\.android\\build-cache\\23eeae67d6a26c5b4698847ab9efcec400027273\\output\\res\\layout\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "D:\\Intern GVM\\master\\AvailaballsApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\spinner_itemjam.xml",
+        "source": "D:\\Intern GVM\\master\\AvailaballsApp\\app\\src\\main\\res\\layout\\spinner_itemjam.xml"
     },
     {
         "merged": "D:\\Intern GVM\\master\\AvailaballsApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_header_item_layout.xml",

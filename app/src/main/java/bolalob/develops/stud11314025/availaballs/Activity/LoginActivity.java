@@ -4,12 +4,15 @@ import android.content.Intent;
 import android.os.Build;
 import android.os.Bundle;
 import android.support.design.widget.Snackbar;
+import android.support.design.widget.TextInputLayout;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.text.Editable;
 import android.text.TextWatcher;
 import android.view.Gravity;
 import android.view.View;
+import android.view.Window;
+import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.LinearLayout;
@@ -19,19 +22,24 @@ import bolalob.develops.stud11314025.availaballs.LoginMVP.LoginPresenter;
 import bolalob.develops.stud11314025.availaballs.LoginMVP.LoginPresenterImp;
 import bolalob.develops.stud11314025.availaballs.LoginMVP.LoginView;
 import bolalob.develops.stud11314025.availaballs.R;
-import butterknife.Bind;
+import bolalob.develops.stud11314025.availaballs.Widget.CustomFontTextView;
+import butterknife.BindView;
 import butterknife.ButterKnife;
 
 //import android.support.design.R;
 
 public class LoginActivity extends AppCompatActivity implements LoginView {
 
-    @Bind(R.id.eTEmail)
+    @BindView(R.id.eTEmail)
     EditText etEmail;
-    @Bind(R.id.eTPassword)
+    @BindView(R.id.eTPassword)
     EditText etPassword;
-    @Bind(R.id.btnLogin)
+    @BindView(R.id.btnLogin)
     Button btnLgn;
+    @BindView(R.id.textInputEmail)
+    TextInputLayout txtinputEmail;
+    @BindView(R.id.iconEmailTextView)
+    CustomFontTextView iconemailTV;
 
     private LoginPresenter presenter;
 
@@ -41,6 +49,12 @@ public class LoginActivity extends AppCompatActivity implements LoginView {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
         ButterKnife.bind(this);
+        Window window = LoginActivity.this.getWindow();
+        window.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
+        window.clearFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+            window.setStatusBarColor(ContextCompat.getColor(getApplicationContext(), R.color.colorPrimaryDark));
+        }
 
         presenter = new LoginPresenterImp(this);
 
@@ -53,6 +67,10 @@ public class LoginActivity extends AppCompatActivity implements LoginView {
 
         final View lluname= findViewById(R.id.layoutUsername);
         final View llpass= findViewById(R.id.layoutPassword);
+
+        if (llpass.isActivated()){
+
+        }
 
         TextWatcher emailWatcher = new TextWatcher() {
             public void beforeTextChanged(CharSequence s, int start, int count, int after) {

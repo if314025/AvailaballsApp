@@ -79,13 +79,15 @@
                     android:textSize="20sp"
                     app:font="@string/font_roboto" />
 
-                <ImageView
+                <bolalob.develops.stud11314025.availaballs.Widget.CustomFontTextView
                     android:id="@+id/btnEditLapangan"
                     android:layout_width="25dp"
+                    android:textSize="25sp"
+                    app:font="@string/font_icon"
+                    android:text="@string/icon_gear"
                     android:layout_height="25dp"
                     android:layout_gravity="right|bottom"
                     android:layout_weight="0.1"
-                    android:src="@drawable/list"
                     />
             </LinearLayout>
 
@@ -214,13 +216,14 @@
                         android:textSize="16dp"
                         android:layout_weight="1"
                         android:textStyle="bold"/>
-                    <ImageView
-                        android:id="@+id/btnEditHariJam"
+                    <bolalob.develops.stud11314025.availaballs.Widget.CustomFontTextView
+                        android:id="@+id/IcEditHariJam"
                         android:layout_width="25dp"
                         android:layout_height="25dp"
-                        android:src="@drawable/list"
-                        android:onClick="updatejambuka"
+                        app:font="@string/font_icon"
+                        android:text="@string/icon_gear"
                         android:layout_weight="0.1"
+                        android:textSize="25sp"
                         android:layout_gravity="right|bottom" />
                 </LinearLayout>
             </LinearLayout>
@@ -253,13 +256,15 @@
                         android:layout_weight="0.9"
                         android:textStyle="bold"
                         android:textSize="16sp"/>
-                    <ImageView
+                    <bolalob.develops.stud11314025.availaballs.Widget.CustomFontTextView
                         android:id="@+id/btnEditHarga"
                         android:layout_width="25dp"
                         android:layout_height="25dp"
-                        android:src="@drawable/list"
+                        app:font="@string/font_icon"
+                        android:text="@string/icon_gear"
                         android:layout_weight="0.1"
                         android:layout_gravity="right|bottom"
+                        android:textSize="25sp"
                         />
                 </LinearLayout>
             </LinearLayout>

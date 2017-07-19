@@ -10,5 +10,6 @@
     <string name="icon_location">&#xe907;</string>
     <string name="icon_phone">&#xe908;</string>
     <string name="icon_remove">&#xe909;</string>
+    <string name="icon_gear">&#xe903;</string>
 
 </resources>

@@ -80,10 +80,6 @@
         "source": "C:\\Users\\Okta\\.android\\build-cache\\23eeae67d6a26c5b4698847ab9efcec400027273\\output\\res\\drawable\\abc_ratingbar_small_material.xml"
     },
     {
-        "merged": "D:\\Intern GVM\\master\\AvailaballsApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\password.png",
-        "source": "D:\\Intern GVM\\master\\AvailaballsApp\\app\\src\\main\\res\\drawable\\password.png"
-    },
-    {
         "merged": "D:\\Intern GVM\\master\\AvailaballsApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
         "source": "C:\\Users\\Okta\\.android\\build-cache\\23eeae67d6a26c5b4698847ab9efcec400027273\\output\\res\\drawable\\abc_edit_text_material.xml"
     },
@@ -208,6 +204,10 @@
         "source": "C:\\Users\\Okta\\.android\\build-cache\\b4021930c599dad7ea6c2d50f9ca0e89f7490048\\output\\res\\drawable\\common_google_signin_btn_text_light.xml"
     },
     {
+        "merged": "D:\\Intern GVM\\master\\AvailaballsApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\unchecked_box.xml",
+        "source": "D:\\Intern GVM\\master\\AvailaballsApp\\app\\src\\main\\res\\drawable\\unchecked_box.xml"
+    },
+    {
         "merged": "D:\\Intern GVM\\master\\AvailaballsApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
         "source": "C:\\Users\\Okta\\.android\\build-cache\\23eeae67d6a26c5b4698847ab9efcec400027273\\output\\res\\drawable\\abc_btn_colored_material.xml"
     },
@@ -240,6 +240,10 @@
         "source": "C:\\Users\\Okta\\.android\\build-cache\\b4021930c599dad7ea6c2d50f9ca0e89f7490048\\output\\res\\drawable\\common_google_signin_btn_text_dark_normal.xml"
     },
     {
+        "merged": "D:\\Intern GVM\\master\\AvailaballsApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\checkbox_checked.xml",
+        "source": "D:\\Intern GVM\\master\\AvailaballsApp\\app\\src\\main\\res\\drawable\\checkbox_checked.xml"
+    },
+    {
         "merged": "D:\\Intern GVM\\master\\AvailaballsApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_light_focused.xml",
         "source": "C:\\Users\\Okta\\.android\\build-cache\\b4021930c599dad7ea6c2d50f9ca0e89f7490048\\output\\res\\drawable\\common_google_signin_btn_icon_light_focused.xml"
     },
@@ -270,10 +274,6 @@
     {
         "merged": "D:\\Intern GVM\\master\\AvailaballsApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_disabled.xml",
         "source": "C:\\Users\\Okta\\.android\\build-cache\\b4021930c599dad7ea6c2d50f9ca0e89f7490048\\output\\res\\drawable\\common_google_signin_btn_text_disabled.xml"
-    },
-    {
-        "merged": "D:\\Intern GVM\\master\\AvailaballsApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\man.png",
-        "source": "D:\\Intern GVM\\master\\AvailaballsApp\\app\\src\\main\\res\\drawable\\man.png"
     },
     {
         "merged": "D:\\Intern GVM\\master\\AvailaballsApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\circlebutton.xml",

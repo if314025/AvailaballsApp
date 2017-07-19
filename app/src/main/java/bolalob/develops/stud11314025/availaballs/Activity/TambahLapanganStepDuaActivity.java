@@ -21,14 +21,14 @@ import java.util.ArrayList;
 import java.util.List;
 
 import bolalob.develops.stud11314025.availaballs.R;
-import butterknife.Bind;
+import butterknife.BindView;
 import butterknife.ButterKnife;
 
 public class TambahLapanganStepDuaActivity extends AppCompatActivity implements AdapterView.OnItemSelectedListener {
 
-    @Bind(R.id.eTLokasi)
+    @BindView(R.id.eTLokasi)
     EditText etLokasi;
-    @Bind(R.id.eTTelepon)
+    @BindView(R.id.eTTelepon)
     EditText etTelepon;
 
     @Override

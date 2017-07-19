@@ -14,14 +14,14 @@ import android.widget.EditText;
 import android.widget.TextView;
 
 import bolalob.develops.stud11314025.availaballs.R;
-import butterknife.Bind;
+import butterknife.BindView;
 import butterknife.ButterKnife;
 
 public class TambahLapanganActivity extends AppCompatActivity {
 
-    @Bind(R.id.eTNamaLapangan)
+    @BindView(R.id.eTNamaLapangan)
     EditText etNamaLapangan;
-    @Bind(R.id.eTTipeLapangan)
+    @BindView(R.id.eTTipeLapangan)
     EditText etTipeLapangan;
 
     @Override
